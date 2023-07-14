@@ -1,0 +1,20 @@
+@import "../../../styles/globals.scss";
+
+.DocumentPageViewComponent {
+    @extend .d-flex, .flex-column, .flex-grow-0, .align-items-center, .w-100;
+    background-color: transparent;
+    min-width: min-content;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    flex-shrink: 0;
+
+    &__content {
+        @extend .d-flex, .flex-column, .justify-content-center, .align-items-center, .position-relative;
+
+        box-shadow: 0 5px 10px 0 rgba(map-get($theme-colors, "dark"), 0.2);
+        flex-shrink: 0;
+    }
+}

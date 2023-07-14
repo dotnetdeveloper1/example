@@ -1,0 +1,1 @@
+# Invoice Capture Invoice Management & Document Aggregation Services Helper Scripts Documentation

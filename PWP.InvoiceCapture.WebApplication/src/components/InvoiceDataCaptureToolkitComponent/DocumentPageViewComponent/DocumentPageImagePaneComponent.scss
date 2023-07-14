@@ -1,0 +1,8 @@
+@import "../../../styles/globals.scss";
+
+.DocumentPageImagePaneComponent {
+    @extend .m-0, .p-0;
+
+    left: 0;
+    top: 0;
+}

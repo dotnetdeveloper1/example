@@ -1,0 +1,4 @@
+# Supported browsers, used by various build tools. See https://github.com/browserslist/browserslist
+>0.2%
+not dead
+not op_mini all

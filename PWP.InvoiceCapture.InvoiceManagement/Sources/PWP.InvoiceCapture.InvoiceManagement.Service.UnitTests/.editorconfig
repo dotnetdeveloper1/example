@@ -1,0 +1,8 @@
+# EditorConfig: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = false
+
+[*.cs]
+# Test methods should not be suffixed with "Async"
+dotnet_naming_rule.async_methods_must_be_suffixed_with_async.style = 

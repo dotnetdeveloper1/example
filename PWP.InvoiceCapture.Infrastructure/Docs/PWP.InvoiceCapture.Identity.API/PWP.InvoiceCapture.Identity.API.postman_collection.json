@@ -1,0 +1,459 @@
+{
+  "info": {
+    "_postman_id": "9b441894-7a9a-4461-9686-0410f99f4f80",
+    "name": "PWP.InvoiceCapture.Identity.API",
+    "description": "Identity Infrastructure API Endpoint definitions",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "tenants/{id}",
+      "item": [
+        {
+          "name": "Check existence of specific Tenant",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/tenants/:id",
+              "host": ["{{baseUrl}}"],
+              "path": ["tenants", ":id"],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "<string>",
+                  "description": "Tenant identifier"
+                }
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "Request is not authorized",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/tenants/:id",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["tenants", ":id"],
+                  "variable": [
+                    {
+                      "key": "id"
+                    }
+                  ]
+                }
+              },
+              "status": "Unauthorized",
+              "code": 401,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+            },
+            {
+              "name": "No Tenant found",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/tenants/:id",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["tenants", ":id"],
+                  "variable": [
+                    {
+                      "key": "id"
+                    }
+                  ]
+                }
+              },
+              "status": "Not Found",
+              "code": 404,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+            },
+            {
+              "name": "Access denied",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/tenants/:id",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["tenants", ":id"],
+                  "variable": [
+                    {
+                      "key": "id"
+                    }
+                  ]
+                }
+              },
+              "status": "Forbidden",
+              "code": 403,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+            },
+            {
+              "name": "OK (Tenant resources exist)",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/tenants/:id",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["tenants", ":id"],
+                  "variable": [
+                    {
+                      "key": "id"
+                    }
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+            },
+            {
+              "name": "Bad Request",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/tenants/:id",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["tenants", ":id"],
+                  "variable": [
+                    {
+                      "key": "id"
+                    }
+                  ]
+                }
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "Initiate setup process for specified Tenant",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/tenants/:id/rollout",
+              "host": ["{{baseUrl}}"],
+              "path": ["tenants", ":id", "rollout"],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "<string>",
+                  "description": "New Tenant identifier"
+                }
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "Accepted (Setup Initiated)",
+              "originalRequest": {
+                "method": "POST",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/tenants/:id/rollout",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["tenants", ":id", "rollout"],
+                  "variable": [
+                    {
+                      "key": "id"
+                    }
+                  ]
+                }
+              },
+              "status": "Accepted",
+              "code": 202,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+            },
+            {
+              "name": "Access denied",
+              "originalRequest": {
+                "method": "POST",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/tenants/:id/rollout",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["tenants", ":id", "rollout"],
+                  "variable": [
+                    {
+                      "key": "id"
+                    }
+                  ]
+                }
+              },
+              "status": "Forbidden",
+              "code": 403,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+            },
+            {
+              "name": "Request is not authorized",
+              "originalRequest": {
+                "method": "POST",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/tenants/:id/rollout",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["tenants", ":id", "rollout"],
+                  "variable": [
+                    {
+                      "key": "id"
+                    }
+                  ]
+                }
+              },
+              "status": "Unauthorized",
+              "code": 401,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+            },
+            {
+              "name": "Bad Request",
+              "originalRequest": {
+                "method": "POST",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/tenants/:id/rollout",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["tenants", ":id", "rollout"],
+                  "variable": [
+                    {
+                      "key": "id"
+                    }
+                  ]
+                }
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+            }
+          ]
+        }
+      ],
+      "protocolProfileBehavior": {}
+    },
+    {
+      "name": "Generate Access/Refresh tokens",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"grant_type\": \"<string>\",\n    \"refresh_token\": \"<string>\",\n    \"client_id\": \"<string>\",\n    \"client_secret\": \"<string>\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/token",
+          "host": ["{{baseUrl}}"],
+          "path": ["token"]
+        }
+      },
+      "response": [
+        {
+          "name": "Request is not authorized",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"grant_type\": \"<string>\",\n    \"refresh_token\": \"<string>\",\n    \"client_id\": \"<string>\",\n    \"client_secret\": \"<string>\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/token",
+              "host": ["{{baseUrl}}"],
+              "path": ["token"]
+            }
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+        },
+        {
+          "name": "Bad Request",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"grant_type\": \"<string>\",\n    \"refresh_token\": \"<string>\",\n    \"client_id\": \"<string>\",\n    \"client_secret\": \"<string>\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/token",
+              "host": ["{{baseUrl}}"],
+              "path": ["token"]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+        },
+        {
+          "name": "Access denied",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"grant_type\": \"<string>\",\n    \"refresh_token\": \"<string>\",\n    \"client_id\": \"<string>\",\n    \"client_secret\": \"<string>\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/token",
+              "host": ["{{baseUrl}}"],
+              "path": ["token"]
+            }
+          },
+          "status": "Forbidden",
+          "code": 403,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+        },
+        {
+          "name": "OK (Access/Refresh token)",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"grant_type\": \"<string>\",\n    \"refresh_token\": \"<string>\",\n    \"client_id\": \"<string>\",\n    \"client_secret\": \"<string>\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/token",
+              "host": ["{{baseUrl}}"],
+              "path": ["token"]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n \"access_token\": \"<string>\",\n \"expires_in\": \"<integer>\",\n \"id_token\": \"<string>\",\n \"refresh_token\": \"<string>\",\n \"token_type\": \"<string>\"\n}"
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "id": "baseUrl",
+      "key": "baseUrl",
+      "value": "https://localhost/v1",
+      "type": "string"
+    }
+  ],
+  "protocolProfileBehavior": {}
+}

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="01afc2b5-8791-4237-86b8-b2b113a806de" ChangeDateTime="02/20/2020 10:24:51">
+    <Property Name="ElementName" Value="[dbo].[DataProcessingResult].[DataProcessingTypeId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DataProcessingResult]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ProcessingTypeId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3e3b2cb6-9f0e-4787-9317-a90bfde4bf13" ChangeDateTime="06/03/2020 15:34:20">
+    <Property Name="ElementName" Value="[dbo].[InvoiceTemplates].[Name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[InvoiceTemplates]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FormRecognizerModelId" />
+  </Operation>
+</Operations>

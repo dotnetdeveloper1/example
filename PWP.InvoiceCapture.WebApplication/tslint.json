@@ -1,0 +1,69 @@
+{
+    "extends": ["tslint:recommended", "tslint-react", "tslint-eslint-rules", "tslint-config-prettier"],
+    "rules": {
+        // Declares which components of a JSDoc comment are required.
+        // Only applies to functions, function expressions, arrow function expressions, classes, and methods.
+        "valid-jsdoc": [
+            true,
+            {
+                "requireParamType": false,
+                "requireParamDescription": true,
+                "requireReturn": false,
+                "requireReturnType": false,
+                "requireReturnDescription": true
+            }
+        ],
+        "typedef": [true, "call-signature", "parameter", "property-declaration"],
+        "new-parens": true,
+        "no-var-requires": false,
+        "no-arg": true,
+        "no-conditional-assignment": true,
+        "no-console": [true, "debug", "info", "log", "time", "timeEnd", "trace"],
+        "object-literal-sort-keys": false,
+        "array-type": false,
+        "ordered-imports": true,
+        "quotemark": [true, "double", "jsx-double", "avoid-escape"],
+        "class-name": true,
+        "interface-name": false,
+        "no-namespace": false,
+        "no-default-export": true,
+        "object-literal-shorthand": [true, "never"],
+        "triple-equals": [true, "allow-null-check"],
+        "no-empty-interface": false,
+        "no-string-literal": false,
+        "jsdoc-format": true,
+        "member-ordering": false,
+        "forin": true,
+        "no-for-in-array": true,
+        "no-invalid-template-strings": true,
+        "jsx-no-multiline-js": false,
+        "jsx-no-lambda": false,
+        "no-non-null-assertion": false,
+        "max-classes-per-file": false,
+        "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore", "allow-pascal-case"],
+        // Working around this issue: https://github.com/palantir/tslint/issues/3021
+        "no-shadowed-variable": [
+            true,
+            {
+                "class": false,
+                "enum": false,
+                "function": false,
+                "interface": false,
+                "namespace": false,
+                "typeAlias": false,
+                "typeParameter": false,
+                "import": false
+            }
+        ]
+    },
+    "linterOptions": {
+        "exclude": [
+            // Prevent tslint from trying to process imported JSON modules
+            // https://github.com/google/ts-style/issues/172
+            "*.json",
+            "*.svg",
+            "**/*.json",
+            "./public/**"
+        ]
+    }
+}

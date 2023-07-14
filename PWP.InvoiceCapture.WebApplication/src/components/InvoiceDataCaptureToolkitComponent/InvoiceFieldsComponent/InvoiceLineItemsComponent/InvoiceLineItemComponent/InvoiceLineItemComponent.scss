@@ -1,0 +1,132 @@
+@import "../../../../../styles/globals.scss";
+
+.InvoiceLineItemComponent {
+    &__delete {
+        @extend .accent-button;
+        width: 39px;
+        height: 38px;
+        margin-top: 28px;
+        align-self: flex-end;
+        & > * {
+            @extend .mr-2;
+        }
+
+        &--disabled {
+            @extend .disabled-button;
+        }
+    }
+
+    &__error {
+        margin-top: 10px;
+        font-size: $font-size-base * 0.88;
+        color: map-get($theme-colors, "danger");
+        display: block;
+        white-space: pre-line;
+    }
+
+    &__center {
+        display: block;
+        margin-left: 8px;
+    }
+
+    &__input {
+        height: 38px;
+        border-radius: 4px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+        min-width: 0;
+        text-overflow: ellipsis;
+        @extend .form-control;
+        background-color: map-get($theme-colors, "light");
+        font-family: Lato;
+        &--invalid {
+            @extend .is-invalid;
+
+            background-size: $thumbnail-background-size;
+        }
+
+        &--in-focus {
+            @extend .form-control:focus;
+        }
+    }
+
+    &__big-input {
+        width: 100%;
+        @extend .form-control;
+        padding-left: 10px;
+        padding-right: 10px;
+        min-width: 0;
+        text-overflow: ellipsis;
+        background-color: map-get($theme-colors, "light");
+        font-family: Lato;
+        &--invalid {
+            @extend .is-invalid;
+            background-size: $thumbnail-background-size;
+        }
+
+        &--in-focus {
+            @extend .form-control:focus;
+        }
+    }
+
+    &__label {
+        white-space: nowrap;
+        font-size: 13px;
+        margin-top: 8px;
+        margin-bottom: 4px;
+    }
+
+    &__button {
+        width: 39px;
+        height: 38px;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+        border: solid 1px #3589e8;
+        background-color: #ffffff;
+        min-width: 38px;
+        align-self: flex-end;
+        color: #3589e8;
+        font-size: 15pt;
+    }
+
+    &__container {
+        border: solid 1px #ededed;
+        background-color: #f9f9f9;
+        padding: 12px;
+        margin-bottom: 16px;
+        min-width: 385px;
+    }
+
+    &__line-container {
+        display: flex;
+    }
+
+    &__last-line-container {
+        display: flex;
+        padding-bottom: 120px;
+    }
+
+    &__second-group-container {
+        flex: 1 2 85%;
+        display: flex;
+    }
+
+    &__first-group-container {
+        flex: 2 1 15%;
+        margin-right: 16px;
+        align-self: center;
+    }
+
+    &__regular-input {
+        margin-right: 16px;
+        flex: 1 1 30%;
+    }
+
+    &__id-label {
+        font-size: 15px;
+        margin-bottom: 0;
+        min-width: 4em;
+        white-space: nowrap;
+    }
+}

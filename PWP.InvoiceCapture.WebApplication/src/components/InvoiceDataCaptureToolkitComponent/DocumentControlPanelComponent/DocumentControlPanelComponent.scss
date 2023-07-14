@@ -1,0 +1,46 @@
+@import "../../../styles/globals.scss";
+
+.DocumentControlPanelComponent {
+    @extend .d-flex, .flex-row, .justify-content-between, .align-items-center, .w-100, .my-3, .p-0, .position-relative;
+
+    margin-left: $component-margin-left;
+
+    &__buttons {
+        @extend .d-flex;
+
+        @include media-breakpoint-down(md) {
+            & {
+                position: unset !important;
+                left: auto;
+            }
+        }
+    }
+
+    &__toggle_buttons {
+        @extend .d-flex, .pl-4;
+
+        &--disabled {
+            @extend .disabled-button;
+        }
+    }
+
+    &__show-annotations {
+        width: 235px;
+
+        & > * {
+            @extend .mr-2;
+        }
+
+        &--enabled {
+            @extend .primary-button;
+        }
+
+        &--disabled {
+            @extend .accent-button;
+        }
+    }
+
+    &__page-navigation-container {
+        @extend .d-flex, .flex-row, .pl-3;
+    }
+}

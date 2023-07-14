@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="15c9f39b-4330-4bd8-85f5-0f2415b5fc1b" ChangeDateTime="07/08/2020 08:37:28">
+    <Property Name="ElementName" Value="[dbo].[Client].[Secret]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Client]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SecretHash" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="93c51ab3-4b79-4c5a-a39d-324d17ed2325" ChangeDateTime="07/08/2020 08:37:41">
+    <Property Name="ElementName" Value="[dbo].[User].[Password]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PasswordHash" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="10e8ad13-90e1-4005-9461-e312440d43a5" ChangeDateTime="07/29/2020 11:22:28">
+    <Property Name="ElementName" Value="[dbo].[Plan].[Alowed]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Plan]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AllowedDocumentsCount" />
+  </Operation>
+</Operations>

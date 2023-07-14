@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Factories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PWP.InvoiceCapture.Document.API.Client" Version="1.0.0-CI-20201202-134917" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PWP.InvoiceCapture.OCR.Core.FormRecognizerClient\PWP.InvoiceCapture.OCR.Core.FormRecognizer.Client.csproj" />
+    <ProjectReference Include="..\PWP.InvoiceCapture.OCR.Core\PWP.InvoiceCapture.OCR.Core.csproj" />
+    <ProjectReference Include="..\PWP.InvoiceCapture.OCR.DataAnalysis.Business.Contract\PWP.InvoiceCapture.OCR.DataAnalysis.Business.Contract.csproj" />
+  </ItemGroup>
+
+</Project>

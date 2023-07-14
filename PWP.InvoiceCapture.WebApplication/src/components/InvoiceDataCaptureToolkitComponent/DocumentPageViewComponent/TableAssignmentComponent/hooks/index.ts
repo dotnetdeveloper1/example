@@ -1,0 +1,1 @@
+export { useTableAssignmentComponent } from "./useTableAssignmentComponent";

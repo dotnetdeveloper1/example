@@ -1,0 +1,131 @@
+{
+    "401_MESSAGE": "Sorry, an error has occurred. You haven't authorized to access this information.",
+    "401_TITLE": "401 Unauthorized",
+    "404_MESSAGE": "Sorry, an error has occurred. Requested page not found.",
+    "404_TITLE": "404 Not Found",
+    "ADD_NEW_ITEM_CAPS_TITLE": "ADD NEW ITEM",
+    "ADD_NEW_ITEM_TITLE": "Add new item",
+    "SWITCH_TO_EDIT_MODE": "SWITCH TO EDIT-MODE",
+    "ADD_TITLE": "add",
+    "APPLICATION_LOADING_MESSAGE": "Invoice Data Capture Toolkit is loading. Please, wait...",
+    "BUTTON_TITLE": {
+        "YES": "YES",
+        "NO": "NO",
+        "CANCEL": "Cancel",
+        "CLEAR": "Clear",
+        "CLOSE": "Close",
+        "CONFIRM": "Confirm",
+        "DOWNLOAD_FILE": "Download File",
+        "HIDE_COMPARE_BOXES": "Hide Compare Boxes",
+        "SAVE": "Save",
+        "SHOW_COMPARE_BOXES": "Show Compare Boxes",
+        "SUBMIT": "Submit",
+        "TABLE_SELECTION_MODE": "Table selection mode"
+    },
+    "CONTEXT_MENU_HEADER": {
+        "ASSIGN_DATA": "Assign Data To Invoice Field",
+        "COLUMN_TO_FIELD": "Invoice Line Fields",
+        "EXTRACTED_DATA_FROM": "Extracted Data From",
+        "ITEMS": "Item(s)"
+    },
+    "DEFAULT_LOADING_MESSAGE": "Loading In Progress. Please, Wait...",
+    "DELETE_TITLE": "Delete",
+    "DOCUMENT_CANNOT_BE_DISPLAYED_MESSAGE": "Document can not be displayed",
+    "DRAG_INVOICE_MESSAGE": {
+        "DRAG_PROMPT": "Please, drag invoice file here",
+        "INVALID_FILE_FORMAT": "File format must be either png, bmp, tif, tiff, jpeg, jpg or pdf",
+        "INVALID_FILE_SIZE": "File size exceeded the limit of 100MB"
+    },
+    "INVOICE_DATA_CAPTURE_REVIEW_HEADER_TITLE": "Invoice Data Capture Review",
+    "INVOICE_FIELDS_TITLE": {
+        "TRAINING_TITLE": "Training",
+        "TEMPLATE_ID": "Template ID",
+        "TRAININGS_COUNT": "Trained",
+        "DATA_EXTRACTION_GROUP_HEADER": "Data Extraction",
+        "DUE_DATE": "Due Date",
+        "EMAIL": "Email",
+        "FREIGHT_TOTAL": "Freight Total",
+        "INVOICE_DATA_HEADER": "Invoice Data",
+        "INVOICE_DATE": "Invoice Date",
+        "INVOICE_NUMBER": "Invoice Number",
+        "LINE_ITEMS_HEADER": "Line Items",
+        "PHONE_NUMBER": "Phone Number",
+        "PO_NUMBER": "PO Number",
+        "SUBTOTAL": "Subtotal",
+        "SUMMARY_DATA_HEADER": "Summary Data",
+        "TAX_AMOUNT": "Tax Amount",
+        "TAX_ID": "Tax ID",
+        "TOTAL": "Total",
+        "VENDOR_ADDRESS": "Vendor Address",
+        "VENDOR_DATA_HEADER": "Vendor Data",
+        "VENDOR_NAME": "Vendor Name",
+        "WEBSITE": "Website"
+    },
+    "INVOICE_LINES_TITLE": {
+        "NUMBER": "Number #",
+        "DESCRIPTION": "Description",
+        "QUANTITY": "Qty",
+        "UNIT_PRICE": "Unit Price",
+        "LINE_TOTAL": "Line Total"
+    },
+    "INVOICE_LOADING_ERROR": "Invoice Data Loading Error",
+    "INVOICES_TITLE": "Invoices",
+    "INVOICE_STATUS": {
+        "COMPLETED": "Completed",
+        "ERROR": "Error",
+        "IN_PROGRESS": "In progress",
+        "LIMIT_EXCEEDED": "Limit Exceeded",
+        "NOT_STARTED": "Not started",
+        "PENDING_REVIEW": "Pending review",
+        "QUEUED": "Queued",
+        "UNDEFINED": "Undefined"
+    },
+    "INVOICES_TABLE_TITLE": {
+        "CREATED_DATE": "Created Date",
+        "ID": "ID",
+        "INVOICE_NAME": "Invoice Name",
+        "INVOICE_STATUS": "Invoice Status",
+        "MODIFIED_DATE": "Modified Date"
+    },
+    "ITEM_CAPS_TITLE": "ITEM",
+    "ITEM_TITLE": "Item",
+    "ITEMS_LIST_TITLE": "Items List",
+    "LOADING_MESSAGE": "Loading",
+    "MODAL_MESSAGE": {
+        "CLEAR_ALL_FIELDS": "Clear All Invoice Fields",
+        "CLEAR_INVOICE_FIELDS_WARNING": "This action will clear Invoice Field values from Data Extraction form.",
+        "CONFIRMATION_MESSAGE": "Please, confirm to continue.",
+        "SWITCH_TO_EDIT_MODE": "Switch to edit mode",
+        "SWITCH_TO_EDIT_MODE_WARNING": "Switching to edit mode will reset current table assignments.",
+        "CONTINUE_QUESTION": "Continue?"
+    },
+    "OF_TITLE": "of",
+    "PAGE_TITLE": "Page",
+    "PWP_LOGO": "PWP Logo",
+    "SELECT_OR_ENTER_DATA_TITLE": "Please, enter or select data",
+    "VALIDATION_MESSAGE": {
+        "DEFAULT": "This field is invalid.",
+        "INVALID_DATE_FORMAT": "This field should be in date format.",
+        "INVALID_LINE_ITEM_TOTAL": "Total should be equal to product of quantity and price.",
+        "INVALID_NUMBER_FORMAT": "This field should be in number format.",
+        "INVALID_PRICE_FORMAT": "Price should be in number format.",
+        "INVALID_QUANTITY_FORMAT": "Quantity should be in number or hour format.",
+        "INVALID_TOTAL_FORMAT": "Total should be in number format.",
+        "INVALID_TOTAL_SUM": "Total should be equal to sum of Tax Amount, Subtotal and Freight Total.",
+        "REQUIRED": "This value is empty. Please fill in the field.",
+        "TOO_LONG": "This value is too long. It should be less than {{max}} characters.",
+        "TOO_SHORT": "This value is too short. It should be at least {{min}} characters.",
+        "MAX_VALUE": "This value is too big. It should be less than {{max}}.",
+        "MIN_VALUE": "This value is too small. It should be at least {{min}}.",
+        "TOTAL_REQUIRED": "Total value is empty. Please fill in the field.",
+        "CUSTOM_VALIDATION": "This field should be equal {{formula}}"
+    },
+    "TOOLTIP": {
+        "DIVIDER_CLICK": "· Click and drag to move line",
+        "DIVIDER_DOUBLE_CLICK": "· Double-click to remove it"
+    },
+    "DROPDOWNLIST": {
+        "SELECT_LANGUAGE": "Select language"
+    },
+    "HEADER": "Header"
+}

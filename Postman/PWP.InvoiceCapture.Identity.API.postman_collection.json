@@ -1,0 +1,870 @@
+{
+	"info": {
+		"_postman_id": "3ae89c3a-4d8d-4343-b8c0-02140d8c491a",
+		"name": "PWP.InvoiceCapture.Identity.API",
+		"description": "Identity Infrastructure API Endpoint definitions",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "tenants/{id}",
+			"item": [
+				{
+					"name": "Check existence of specific Tenant",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/tenants/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"tenants",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "<string>",
+									"description": "Tenant identifier"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Bad Request",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/tenants/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"tenants",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+						},
+						{
+							"name": "Access denied",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/tenants/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"tenants",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id"
+										}
+									]
+								}
+							},
+							"status": "Forbidden",
+							"code": 403,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+						},
+						{
+							"name": "No Tenant found",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/tenants/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"tenants",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id"
+										}
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+						},
+						{
+							"name": "Request is not authorized",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/tenants/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"tenants",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+						},
+						{
+							"name": "OK (Tenant resources exist)",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/tenants/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"tenants",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Initiate setup process for specified Tenant",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/tenants/:id/rollout",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"tenants",
+								":id",
+								"rollout"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "<string>",
+									"description": "New Tenant identifier"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Bad Request",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/tenants/:id/rollout",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"tenants",
+										":id",
+										"rollout"
+									],
+									"variable": [
+										{
+											"key": "id"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+						},
+						{
+							"name": "Request is not authorized",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/tenants/:id/rollout",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"tenants",
+										":id",
+										"rollout"
+									],
+									"variable": [
+										{
+											"key": "id"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+						},
+						{
+							"name": "Accepted (Setup Initiated)",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/tenants/:id/rollout",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"tenants",
+										":id",
+										"rollout"
+									],
+									"variable": [
+										{
+											"key": "id"
+										}
+									]
+								}
+							},
+							"status": "Accepted",
+							"code": 202,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+						},
+						{
+							"name": "Access denied",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/tenants/:id/rollout",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"tenants",
+										":id",
+										"rollout"
+									],
+									"variable": [
+										{
+											"key": "id"
+										}
+									]
+								}
+							},
+							"status": "Forbidden",
+							"code": 403,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Generate Access/Refresh tokens",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						},
+						{
+							"key": "scope",
+							"value": "TenantManagement InvoiceManagement",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "defaultClient",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "password",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/connect/token",
+					"protocol": "https",
+					"host": [
+						"invoicecapture-applicationgateway-dev",
+						"eastus",
+						"cloudapp",
+						"azure",
+						"com"
+					],
+					"path": [
+						"connect",
+						"token"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Bad Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"grant_type\": \"<string>\",\n    \"refresh_token\": \"<string>\",\n    \"client_id\": \"<string>\",\n    \"client_secret\": \"<string>\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/token",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"token"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+				},
+				{
+					"name": "Request is not authorized",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"grant_type\": \"<string>\",\n    \"refresh_token\": \"<string>\",\n    \"client_id\": \"<string>\",\n    \"client_secret\": \"<string>\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/token",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"token"
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+				},
+				{
+					"name": "Access denied",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"grant_type\": \"<string>\",\n    \"refresh_token\": \"<string>\",\n    \"client_id\": \"<string>\",\n    \"client_secret\": \"<string>\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/token",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"token"
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+				},
+				{
+					"name": "OK (Access/Refresh token)",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"grant_type\": \"<string>\",\n    \"refresh_token\": \"<string>\",\n    \"client_id\": \"<string>\",\n    \"client_secret\": \"<string>\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/token",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"token"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n \"access_token\": \"<string>\",\n \"expires_in\": \"<integer>\",\n \"id_token\": \"<string>\",\n \"refresh_token\": \"<string>\",\n \"token_type\": \"<string>\"\n}"
+				}
+			]
+		},
+		{
+			"name": "token",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"type": "text",
+						"value": "",
+						"disabled": true
+					},
+					{
+						"key": "",
+						"type": "text",
+						"value": "",
+						"disabled": true
+					},
+					{
+						"key": "",
+						"type": "text",
+						"value": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						},
+						{
+							"key": "scope",
+							"value": "TenantManagement InvoiceManagement",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "defaultClient",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/connect/token",
+					"protocol": "https",
+					"host": [
+						"invoicecapture-applicationgateway-dev",
+						"eastus",
+						"cloudapp",
+						"azure",
+						"com"
+					],
+					"path": [
+						"connect",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Default Tenant Token",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "scope",
+							"value": "InvoiceManagement offline_access",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "webApplication",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "refresh_token",
+							"value": "14CD6544FF16B572D6513C5BA90DACF3A3FB916C23096A7077D40480E2CB26BE",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "username",
+							"value": "tenantKey",
+							"type": "text"
+						},
+						{
+							"key": "tenantId",
+							"value": "1",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/connect/token",
+					"protocol": "https",
+					"host": [
+						"invoicecapture-applicationgateway-dev",
+						"eastus",
+						"cloudapp",
+						"azure",
+						"com"
+					],
+					"path": [
+						"connect",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "groups",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE2MDA2ODQyNDAsImV4cCI6MTYwMDY4Nzg0MCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDoxMDA4MiIsImF1ZCI6WyJJbnZvaWNlTWFuYWdlbWVudCIsIlRlbmFudE1hbmFnZW1lbnQiXSwiY2xpZW50X2lkIjoiZGVmYXVsdENsaWVudCIsImp0aSI6IjVDMDc2NDc2RTY1OEE2RUU0OTVDNUQ4MjIyRTk2NjA5IiwiaWF0IjoxNjAwNjg0MjQwLCJzY29wZSI6WyJJbnZvaWNlTWFuYWdlbWVudCIsIlRlbmFudE1hbmFnZW1lbnQiXX0.EIjSqvV3NmaLT2n_zM1Of4sYYELpeSM5Q9KU1cvis0e_e6IvIvD7cOCsVNLBcW2Cg0rsWmgPfys_EPBxVfB0ow",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE2MDE5MDkxMzUsImV4cCI6MTYwMTkxMjczNSwiaXNzIjoiaHR0cDovL2ludm9pY2VjYXB0dXJlLWFwcGxpY2F0aW9uZ2F0ZXdheS1kZXYuZWFzdHVzLmNsb3VkYXBwLmF6dXJlLmNvbSIsImF1ZCI6WyJJbnZvaWNlTWFuYWdlbWVudCIsIlRlbmFudE1hbmFnZW1lbnQiXSwiY2xpZW50X2lkIjoiZGVmYXVsdENsaWVudCIsImp0aSI6IjVENTA1MEY0MUZDMTRGQkU1NjQ2MDZEQ0VEQTIwOERCIiwiaWF0IjoxNjAxOTA5MTM1LCJzY29wZSI6WyJJbnZvaWNlTWFuYWdlbWVudCIsIlRlbmFudE1hbmFnZW1lbnQiXX0.dTGVf7vBxMlQU4_zM_pxHl0Mzm9utan09rv5gGj760SD6qKIcyz786Yp5GLyp2FfDslCqagvh-cbNSfNM9t_qA",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/groups",
+					"protocol": "https",
+					"host": [
+						"invoicecapture-applicationgateway-dev",
+						"eastus",
+						"cloudapp",
+						"azure",
+						"com"
+					],
+					"path": [
+						"groups"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE2MDA2ODQyNDAsImV4cCI6MTYwMDY4Nzg0MCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDoxMDA4MiIsImF1ZCI6WyJJbnZvaWNlTWFuYWdlbWVudCIsIlRlbmFudE1hbmFnZW1lbnQiXSwiY2xpZW50X2lkIjoiZGVmYXVsdENsaWVudCIsImp0aSI6IjVDMDc2NDc2RTY1OEE2RUU0OTVDNUQ4MjIyRTk2NjA5IiwiaWF0IjoxNjAwNjg0MjQwLCJzY29wZSI6WyJJbnZvaWNlTWFuYWdlbWVudCIsIlRlbmFudE1hbmFnZW1lbnQiXX0.EIjSqvV3NmaLT2n_zM1Of4sYYELpeSM5Q9KU1cvis0e_e6IvIvD7cOCsVNLBcW2Cg0rsWmgPfys_EPBxVfB0ow",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE2MDE5MDkxMzUsImV4cCI6MTYwMTkxMjczNSwiaXNzIjoiaHR0cDovL2ludm9pY2VjYXB0dXJlLWFwcGxpY2F0aW9uZ2F0ZXdheS1kZXYuZWFzdHVzLmNsb3VkYXBwLmF6dXJlLmNvbSIsImF1ZCI6WyJJbnZvaWNlTWFuYWdlbWVudCIsIlRlbmFudE1hbmFnZW1lbnQiXSwiY2xpZW50X2lkIjoiZGVmYXVsdENsaWVudCIsImp0aSI6IjVENTA1MEY0MUZDMTRGQkU1NjQ2MDZEQ0VEQTIwOERCIiwiaWF0IjoxNjAxOTA5MTM1LCJzY29wZSI6WyJJbnZvaWNlTWFuYWdlbWVudCIsIlRlbmFudE1hbmFnZW1lbnQiXX0.dTGVf7vBxMlQU4_zM_pxHl0Mzm9utan09rv5gGj760SD6qKIcyz786Yp5GLyp2FfDslCqagvh-cbNSfNM9t_qA",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/users/groups/1",
+					"protocol": "https",
+					"host": [
+						"invoicecapture-applicationgateway-dev",
+						"eastus",
+						"cloudapp",
+						"azure",
+						"com"
+					],
+					"path": [
+						"users",
+						"groups",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "tenants",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE2MDA2ODQyNDAsImV4cCI6MTYwMDY4Nzg0MCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDoxMDA4MiIsImF1ZCI6WyJJbnZvaWNlTWFuYWdlbWVudCIsIlRlbmFudE1hbmFnZW1lbnQiXSwiY2xpZW50X2lkIjoiZGVmYXVsdENsaWVudCIsImp0aSI6IjVDMDc2NDc2RTY1OEE2RUU0OTVDNUQ4MjIyRTk2NjA5IiwiaWF0IjoxNjAwNjg0MjQwLCJzY29wZSI6WyJJbnZvaWNlTWFuYWdlbWVudCIsIlRlbmFudE1hbmFnZW1lbnQiXX0.EIjSqvV3NmaLT2n_zM1Of4sYYELpeSM5Q9KU1cvis0e_e6IvIvD7cOCsVNLBcW2Cg0rsWmgPfys_EPBxVfB0ow",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE2MDE5MDkxMzUsImV4cCI6MTYwMTkxMjczNSwiaXNzIjoiaHR0cDovL2ludm9pY2VjYXB0dXJlLWFwcGxpY2F0aW9uZ2F0ZXdheS1kZXYuZWFzdHVzLmNsb3VkYXBwLmF6dXJlLmNvbSIsImF1ZCI6WyJJbnZvaWNlTWFuYWdlbWVudCIsIlRlbmFudE1hbmFnZW1lbnQiXSwiY2xpZW50X2lkIjoiZGVmYXVsdENsaWVudCIsImp0aSI6IjVENTA1MEY0MUZDMTRGQkU1NjQ2MDZEQ0VEQTIwOERCIiwiaWF0IjoxNjAxOTA5MTM1LCJzY29wZSI6WyJJbnZvaWNlTWFuYWdlbWVudCIsIlRlbmFudE1hbmFnZW1lbnQiXX0.dTGVf7vBxMlQU4_zM_pxHl0Mzm9utan09rv5gGj760SD6qKIcyz786Yp5GLyp2FfDslCqagvh-cbNSfNM9t_qA",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/users/groups/1",
+					"protocol": "https",
+					"host": [
+						"invoicecapture-applicationgateway-dev",
+						"eastus",
+						"cloudapp",
+						"azure",
+						"com"
+					],
+					"path": [
+						"users",
+						"groups",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://localhost/v1",
+			"type": "string"
+		}
+	]
+}

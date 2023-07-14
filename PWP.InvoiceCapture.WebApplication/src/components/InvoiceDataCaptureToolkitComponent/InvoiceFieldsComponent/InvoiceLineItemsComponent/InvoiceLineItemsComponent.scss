@@ -1,0 +1,41 @@
+@import "../../../../styles/globals.scss";
+
+.InvoiceLineItemsComponent {
+    @extend .d-flex, .flex-column, .flex-fill, .h-100, .border-secondary;
+    color: map-get($theme-colors, "secondary-accent");
+
+    &__add {
+        @extend .accent-button;
+        width: 170px;
+        height: 32px;
+        margin-bottom: 16px;
+        white-space: nowrap;
+        & > * {
+            @extend .mr-2;
+        }
+
+        &--disabled {
+            @extend .disabled-button;
+        }
+    }
+
+    &__group-header {
+        @extend .group-header, .justify-content-center;
+        padding-top: 3px;
+    }
+
+    &__invoice-line-items-container {
+        @extend .d-flex, .flex-column, .flex-fill, .flex-grow-1, .container-fluid;
+
+        background-color: map-get($theme-colors, "light");
+    }
+
+    &__invoice-line-items-group {
+        @extend .d-flex, .flex-column, .p-0, .m-0;
+    }
+
+    &__invoice-line-items-group-header {
+        @extend .group-header, .flex-row;
+        margin-bottom: 12px;
+    }
+}

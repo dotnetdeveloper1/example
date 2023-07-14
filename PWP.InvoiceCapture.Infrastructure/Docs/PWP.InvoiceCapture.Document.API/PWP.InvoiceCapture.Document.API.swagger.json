@@ -1,0 +1,257 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "Document API Infrastructure Endpoint definitions",
+    "version": "1.0.0",
+    "title": "PWP.InvoiceCapture.Document.API"
+  },
+  "host": "localhost",
+  "basePath": "/v1",
+  "tags": [
+    {
+      "name": "file",
+      "description": "File Entity"
+    }
+  ],
+  "schemes": ["https", "http"],
+  "paths": {
+    "/files": {
+      "post": {
+        "tags": ["file"],
+        "summary": "Create File",
+        "consumes": ["multipart/form-data"],
+        "parameters": [
+          {
+            "name": "file",
+            "in": "formData",
+            "description": "File",
+            "required": true,
+            "type": "file"
+          },
+          {
+            "name": "collectionId",
+            "in": "query",
+            "description": "File Collection identifier",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "OK (File identifier)",
+            "schema": {
+              "type": "string"
+            }
+          },
+          "400": {
+            "description": "Bad Request (Validation errors)",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "401": {
+            "description": "Request is not authorized",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "403": {
+            "description": "Access denied",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "404": {
+            "description": "File Not Found",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          }
+        }
+      }
+    },
+    "/files/{id}": {
+      "get": {
+        "tags": ["file"],
+        "summary": "Get File by specified identifier",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "File Id",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "collectionId",
+            "in": "query",
+            "description": "File Collection identifier",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "produces": [
+          "application/json",
+          "image/png",
+          "application/pdf",
+          "application/octet-stream"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK (File binary stream)",
+            "schema": {
+              "type": "file"
+            }
+          },
+          "400": {
+            "description": "Bad Request (Validation errors)",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "401": {
+            "description": "Request is not authorized",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "403": {
+            "description": "Access denied",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "404": {
+            "description": "File Not Found",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": ["file"],
+        "summary": "Delete File by specified identifier",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "File Id",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "collectionId",
+            "in": "query",
+            "description": "File Collection identifier",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "OK (File deleted)",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "400": {
+            "description": "Bad Request (Validation errors)",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "401": {
+            "description": "Request is not authorized",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "403": {
+            "description": "Access denied",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "404": {
+            "description": "File Not Found",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          }
+        }
+      }
+    },
+    "/files/{id}/temporarylink": {
+      "get": {
+        "tags": ["file"],
+        "summary": "Get Temporary link for specified File",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "File Id",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "collectionId",
+            "in": "query",
+            "description": "File Collection identifier",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "OK (Temporary link)",
+            "schema": {
+              "type": "string"
+            }
+          },
+          "400": {
+            "description": "Bad Request (Validation errors)",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "401": {
+            "description": "Request is not authorized",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "403": {
+            "description": "Access denied",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "404": {
+            "description": "File Not Found",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "ApiResponse": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "message": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

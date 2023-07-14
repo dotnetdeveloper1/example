@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <IsServiceFabricServiceProject>True</IsServiceFabricServiceProject>
+    <ServerGarbageCollection>True</ServerGarbageCollection>
+    <RuntimeIdentifier>win7-x64</RuntimeIdentifier>
+    <TargetLatestRuntimePatch>False</TargetLatestRuntimePatch>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+    <PackageReference Include="Microsoft.ServiceFabric.AspNetCore.Kestrel" Version="4.0.470" />
+    <PackageReference Include="PWP.InvoiceCapture.Core" Version="1.0.0-CI-20201201-152127" />
+    <PackageReference Include="PWP.InvoiceCapture.Core.API" Version="1.0.0-CI-20210301-105728" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PWP.InvoiceCapture.InvoiceManagement.Business.Contract\PWP.InvoiceCapture.InvoiceManagement.Business.Contract.csproj" />
+    <ProjectReference Include="..\PWP.InvoiceCapture.InvoiceManagement.Business\PWP.InvoiceCapture.InvoiceManagement.Business.csproj" />
+    <ProjectReference Include="..\PWP.InvoiceCapture.InvoiceManagement.DataAccess\PWP.InvoiceCapture.InvoiceManagement.DataAccess.csproj" />
+  </ItemGroup>
+
+
+</Project>

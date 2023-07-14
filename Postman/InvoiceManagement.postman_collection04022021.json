@@ -1,0 +1,2582 @@
+{
+	"info": {
+		"_postman_id": "b31468aa-1211-4f95-b14e-6bd001738414",
+		"name": "InvoiceManagement Copy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Invoices",
+			"item": [
+				{
+					"name": "GetInovoiceList",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE1OTY4MDEyMTAsImV4cCI6MTYwNzE2OTIxMCwiaXNzIjoiaHR0cDovL2VrYXJhcGV0YXU6MTAwODIiLCJhdWQiOiJJbnZvaWNlTWFuYWdlbWVudCIsImNsaWVudF9pZCI6IndlYkFwcGxpY2F0aW9uIiwic3ViIjoiRGVmYXVsdCIsImF1dGhfdGltZSI6MTU5NjgwMTIxMCwiaWRwIjoibG9jYWwiLCJUZW5hbnRJZCI6IkRlZmF1bHQiLCJqdGkiOiJCRTYwNThBNjk0RTdBNjQ5ODc4OEU2NzM0RjNGMzcwNCIsImlhdCI6MTU5NjgwMTIxMCwic2NvcGUiOlsiSW52b2ljZU1hbmFnZW1lbnQiXSwiYW1yIjpbInBhc3N3b3JkIl19.Dowk9ktOa0Cims8Y3VxEHGUQ2O8zJoApIhk29Q1unk20DlfuyuZLZlD1Yh3XGxTmdRO3uP2hceFyveIqwLOxNQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/invoices",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"invoices"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetInvoiceByIdAsync",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE1OTY4MDEyMTAsImV4cCI6MTYwNzE2OTIxMCwiaXNzIjoiaHR0cDovL2VrYXJhcGV0YXU6MTAwODIiLCJhdWQiOiJJbnZvaWNlTWFuYWdlbWVudCIsImNsaWVudF9pZCI6IndlYkFwcGxpY2F0aW9uIiwic3ViIjoiRGVmYXVsdCIsImF1dGhfdGltZSI6MTU5NjgwMTIxMCwiaWRwIjoibG9jYWwiLCJUZW5hbnRJZCI6IkRlZmF1bHQiLCJqdGkiOiJCRTYwNThBNjk0RTdBNjQ5ODc4OEU2NzM0RjNGMzcwNCIsImlhdCI6MTU5NjgwMTIxMCwic2NvcGUiOlsiSW52b2ljZU1hbmFnZW1lbnQiXSwiYW1yIjpbInBhc3N3b3JkIl19.Dowk9ktOa0Cims8Y3VxEHGUQ2O8zJoApIhk29Q1unk20DlfuyuZLZlD1Yh3XGxTmdRO3uP2hceFyveIqwLOxNQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/invoices/1",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"invoices",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetInvoiceByDocumentIdAsync",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE1OTY4MDEyMTAsImV4cCI6MTYwNzE2OTIxMCwiaXNzIjoiaHR0cDovL2VrYXJhcGV0YXU6MTAwODIiLCJhdWQiOiJJbnZvaWNlTWFuYWdlbWVudCIsImNsaWVudF9pZCI6IndlYkFwcGxpY2F0aW9uIiwic3ViIjoiRGVmYXVsdCIsImF1dGhfdGltZSI6MTU5NjgwMTIxMCwiaWRwIjoibG9jYWwiLCJUZW5hbnRJZCI6IkRlZmF1bHQiLCJqdGkiOiJCRTYwNThBNjk0RTdBNjQ5ODc4OEU2NzM0RjNGMzcwNCIsImlhdCI6MTU5NjgwMTIxMCwic2NvcGUiOlsiSW52b2ljZU1hbmFnZW1lbnQiXSwiYW1yIjpbInBhc3N3b3JkIl19.Dowk9ktOa0Cims8Y3VxEHGUQ2O8zJoApIhk29Q1unk20DlfuyuZLZlD1Yh3XGxTmdRO3uP2hceFyveIqwLOxNQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/invoices/documents/0f1fc27c-ec75-4b07-805c-04d626c61774.pdf",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"invoices",
+								"documents",
+								"0f1fc27c-ec75-4b07-805c-04d626c61774.pdf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetInvoice",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE1OTY4MDEyMTAsImV4cCI6MTYwNzE2OTIxMCwiaXNzIjoiaHR0cDovL2VrYXJhcGV0YXU6MTAwODIiLCJhdWQiOiJJbnZvaWNlTWFuYWdlbWVudCIsImNsaWVudF9pZCI6IndlYkFwcGxpY2F0aW9uIiwic3ViIjoiRGVmYXVsdCIsImF1dGhfdGltZSI6MTU5NjgwMTIxMCwiaWRwIjoibG9jYWwiLCJUZW5hbnRJZCI6IkRlZmF1bHQiLCJqdGkiOiJCRTYwNThBNjk0RTdBNjQ5ODc4OEU2NzM0RjNGMzcwNCIsImlhdCI6MTU5NjgwMTIxMCwic2NvcGUiOlsiSW52b2ljZU1hbmFnZW1lbnQiXSwiYW1yIjpbInBhc3N3b3JkIl19.Dowk9ktOa0Cims8Y3VxEHGUQ2O8zJoApIhk29Q1unk20DlfuyuZLZlD1Yh3XGxTmdRO3uP2hceFyveIqwLOxNQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/invoices/69",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"invoices",
+								"69"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetTemporaryLink",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE1OTY4MDEyMTAsImV4cCI6MTYwNzE2OTIxMCwiaXNzIjoiaHR0cDovL2VrYXJhcGV0YXU6MTAwODIiLCJhdWQiOiJJbnZvaWNlTWFuYWdlbWVudCIsImNsaWVudF9pZCI6IndlYkFwcGxpY2F0aW9uIiwic3ViIjoiRGVmYXVsdCIsImF1dGhfdGltZSI6MTU5NjgwMTIxMCwiaWRwIjoibG9jYWwiLCJUZW5hbnRJZCI6IkRlZmF1bHQiLCJqdGkiOiJCRTYwNThBNjk0RTdBNjQ5ODc4OEU2NzM0RjNGMzcwNCIsImlhdCI6MTU5NjgwMTIxMCwic2NvcGUiOlsiSW52b2ljZU1hbmFnZW1lbnQiXSwiYW1yIjpbInBhc3N3b3JkIl19.Dowk9ktOa0Cims8Y3VxEHGUQ2O8zJoApIhk29Q1unk20DlfuyuZLZlD1Yh3XGxTmdRO3uP2hceFyveIqwLOxNQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/invoices/67/document",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"invoices",
+								"67",
+								"document"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetActiveInoviceList",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE1OTY4MDEyMTAsImV4cCI6MTYwNzE2OTIxMCwiaXNzIjoiaHR0cDovL2VrYXJhcGV0YXU6MTAwODIiLCJhdWQiOiJJbnZvaWNlTWFuYWdlbWVudCIsImNsaWVudF9pZCI6IndlYkFwcGxpY2F0aW9uIiwic3ViIjoiRGVmYXVsdCIsImF1dGhfdGltZSI6MTU5NjgwMTIxMCwiaWRwIjoibG9jYWwiLCJUZW5hbnRJZCI6IkRlZmF1bHQiLCJqdGkiOiJCRTYwNThBNjk0RTdBNjQ5ODc4OEU2NzM0RjNGMzcwNCIsImlhdCI6MTU5NjgwMTIxMCwic2NvcGUiOlsiSW52b2ljZU1hbmFnZW1lbnQiXSwiYW1yIjpbInBhc3N3b3JkIl19.Dowk9ktOa0Cims8Y3VxEHGUQ2O8zJoApIhk29Q1unk20DlfuyuZLZlD1Yh3XGxTmdRO3uP2hceFyveIqwLOxNQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/invoices/active",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"invoices",
+								"active"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Archive",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE1OTY4MDEyMTAsImV4cCI6MTYwNzE2OTIxMCwiaXNzIjoiaHR0cDovL2VrYXJhcGV0YXU6MTAwODIiLCJhdWQiOiJJbnZvaWNlTWFuYWdlbWVudCIsImNsaWVudF9pZCI6IndlYkFwcGxpY2F0aW9uIiwic3ViIjoiRGVmYXVsdCIsImF1dGhfdGltZSI6MTU5NjgwMTIxMCwiaWRwIjoibG9jYWwiLCJUZW5hbnRJZCI6IkRlZmF1bHQiLCJqdGkiOiJCRTYwNThBNjk0RTdBNjQ5ODc4OEU2NzM0RjNGMzcwNCIsImlhdCI6MTU5NjgwMTIxMCwic2NvcGUiOlsiSW52b2ljZU1hbmFnZW1lbnQiXSwiYW1yIjpbInBhc3N3b3JkIl19.Dowk9ktOa0Cims8Y3VxEHGUQ2O8zJoApIhk29Q1unk20DlfuyuZLZlD1Yh3XGxTmdRO3uP2hceFyveIqwLOxNQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/invoices/2/archive",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"invoices",
+								"2",
+								"archive"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Redo",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE1OTY4MDEyMTAsImV4cCI6MTYwNzE2OTIxMCwiaXNzIjoiaHR0cDovL2VrYXJhcGV0YXU6MTAwODIiLCJhdWQiOiJJbnZvaWNlTWFuYWdlbWVudCIsImNsaWVudF9pZCI6IndlYkFwcGxpY2F0aW9uIiwic3ViIjoiRGVmYXVsdCIsImF1dGhfdGltZSI6MTU5NjgwMTIxMCwiaWRwIjoibG9jYWwiLCJUZW5hbnRJZCI6IkRlZmF1bHQiLCJqdGkiOiJCRTYwNThBNjk0RTdBNjQ5ODc4OEU2NzM0RjNGMzcwNCIsImlhdCI6MTU5NjgwMTIxMCwic2NvcGUiOlsiSW52b2ljZU1hbmFnZW1lbnQiXSwiYW1yIjpbInBhc3N3b3JkIl19.Dowk9ktOa0Cims8Y3VxEHGUQ2O8zJoApIhk29Q1unk20DlfuyuZLZlD1Yh3XGxTmdRO3uP2hceFyveIqwLOxNQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/invoices/157/redo",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"invoices",
+								"157",
+								"redo"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "FieldGroups",
+			"item": [
+				{
+					"name": "{fieldGroupId}",
+					"item": [
+						{
+							"name": "Get Field Group by Id",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/fieldGroups/:fieldGroupId",
+									"protocol": "https",
+									"host": [
+										"invoicecapture-applicationgateway-dev",
+										"eastus",
+										"cloudapp",
+										"azure",
+										"com"
+									],
+									"path": [
+										"fieldGroups",
+										":fieldGroupId"
+									],
+									"variable": [
+										{
+											"key": "fieldGroupId",
+											"value": "4"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Access denied",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices/:invoiceId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices",
+												":invoiceId"
+											],
+											"variable": [
+												{
+													"key": "invoiceId"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "Bad Request (Validation errors)",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices/:invoiceId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices",
+												":invoiceId"
+											],
+											"variable": [
+												{
+													"key": "invoiceId"
+												}
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "Request is not authorized",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices/:invoiceId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices",
+												":invoiceId"
+											],
+											"variable": [
+												{
+													"key": "invoiceId"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "Invoice Entity",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices/:invoiceId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices",
+												":invoiceId"
+											],
+											"variable": [
+												{
+													"key": "invoiceId"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"id\": \"<integer>\",\n \"name\": \"<string>\",\n \"statusId\": \"<integer>\",\n \"createdDate\": \"<dateTime>\",\n \"modifiedDate\": \"<dateTime>\",\n \"invoiceNumber\": \"<string>\",\n \"invoiceDate\": \"<dateTime>\",\n \"dueDate\": \"<dateTime>\",\n \"poNumber\": \"<string>\",\n \"taxNumber\": \"<string>\",\n \"taxAmount\": \"<double>\",\n \"freightAmount\": \"<double>\",\n \"subTotal\": \"<double>\",\n \"total\": \"<double>\",\n \"currencyId\": \"<integer>\",\n \"fileName\": \"<string>\",\n \"fileId\": \"<string>\",\n \"fileSourceTypeId\": \"<integer>\",\n \"contacts\": [\n  {\n   \"id\": \"<integer>\",\n   \"invoiceId\": \"<integer>\",\n   \"contactTypeId\": \"<integer>\",\n   \"name\": \"<string>\",\n   \"address\": \"<string>\",\n   \"phone\": \"<string>\",\n   \"website\": \"<string>\",\n   \"email\": \"<string>\",\n   \"createdDate\": \"<dateTime>\",\n   \"modifiedDate\": \"<dateTime>\"\n  },\n  {\n   \"id\": \"<integer>\",\n   \"invoiceId\": \"<integer>\",\n   \"contactTypeId\": \"<integer>\",\n   \"name\": \"<string>\",\n   \"address\": \"<string>\",\n   \"phone\": \"<string>\",\n   \"website\": \"<string>\",\n   \"email\": \"<string>\",\n   \"createdDate\": \"<dateTime>\",\n   \"modifiedDate\": \"<dateTime>\"\n  }\n ],\n \"lines\": [\n  {\n   \"id\": \"<integer>\",\n   \"invoiceId\": \"<integer>\",\n   \"recipientContactId\": \"<integer>\",\n   \"lineNumber\": \"<string>\",\n   \"orderNumber\": \"<integer>\",\n   \"description\": \"<string>\",\n   \"subTotal\": \"<double>\",\n   \"total\": \"<double>\",\n   \"createdDate\": \"<dateTime>\",\n   \"modifiedDate\": \"<dateTime>\",\n   \"recipientContact\": {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   }\n  },\n  {\n   \"id\": \"<integer>\",\n   \"invoiceId\": \"<integer>\",\n   \"recipientContactId\": \"<integer>\",\n   \"lineNumber\": \"<string>\",\n   \"orderNumber\": \"<integer>\",\n   \"description\": \"<string>\",\n   \"subTotal\": \"<double>\",\n   \"total\": \"<double>\",\n   \"createdDate\": \"<dateTime>\",\n   \"modifiedDate\": \"<dateTime>\",\n   \"recipientContact\": {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   }\n  }\n ]\n}"
+								}
+							]
+						},
+						{
+							"name": "Delete Field Group by Id",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/fieldgroups/:fieldGroupId",
+									"protocol": "https",
+									"host": [
+										"invoicecapture-applicationgateway-dev",
+										"eastus",
+										"cloudapp",
+										"azure",
+										"com"
+									],
+									"path": [
+										"fieldgroups",
+										":fieldGroupId"
+									],
+									"variable": [
+										{
+											"key": "fieldGroupId",
+											"value": "5"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Invoice Entity",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices/:invoiceId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices",
+												":invoiceId"
+											],
+											"variable": [
+												{
+													"key": "invoiceId"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"id\": \"<integer>\",\n \"name\": \"<string>\",\n \"statusId\": \"<integer>\",\n \"createdDate\": \"<dateTime>\",\n \"modifiedDate\": \"<dateTime>\",\n \"invoiceNumber\": \"<string>\",\n \"invoiceDate\": \"<dateTime>\",\n \"dueDate\": \"<dateTime>\",\n \"poNumber\": \"<string>\",\n \"taxNumber\": \"<string>\",\n \"taxAmount\": \"<double>\",\n \"freightAmount\": \"<double>\",\n \"subTotal\": \"<double>\",\n \"total\": \"<double>\",\n \"currencyId\": \"<integer>\",\n \"fileName\": \"<string>\",\n \"fileId\": \"<string>\",\n \"fileSourceTypeId\": \"<integer>\",\n \"contacts\": [\n  {\n   \"id\": \"<integer>\",\n   \"invoiceId\": \"<integer>\",\n   \"contactTypeId\": \"<integer>\",\n   \"name\": \"<string>\",\n   \"address\": \"<string>\",\n   \"phone\": \"<string>\",\n   \"website\": \"<string>\",\n   \"email\": \"<string>\",\n   \"createdDate\": \"<dateTime>\",\n   \"modifiedDate\": \"<dateTime>\"\n  },\n  {\n   \"id\": \"<integer>\",\n   \"invoiceId\": \"<integer>\",\n   \"contactTypeId\": \"<integer>\",\n   \"name\": \"<string>\",\n   \"address\": \"<string>\",\n   \"phone\": \"<string>\",\n   \"website\": \"<string>\",\n   \"email\": \"<string>\",\n   \"createdDate\": \"<dateTime>\",\n   \"modifiedDate\": \"<dateTime>\"\n  }\n ],\n \"lines\": [\n  {\n   \"id\": \"<integer>\",\n   \"invoiceId\": \"<integer>\",\n   \"recipientContactId\": \"<integer>\",\n   \"lineNumber\": \"<string>\",\n   \"orderNumber\": \"<integer>\",\n   \"description\": \"<string>\",\n   \"subTotal\": \"<double>\",\n   \"total\": \"<double>\",\n   \"createdDate\": \"<dateTime>\",\n   \"modifiedDate\": \"<dateTime>\",\n   \"recipientContact\": {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   }\n  },\n  {\n   \"id\": \"<integer>\",\n   \"invoiceId\": \"<integer>\",\n   \"recipientContactId\": \"<integer>\",\n   \"lineNumber\": \"<string>\",\n   \"orderNumber\": \"<integer>\",\n   \"description\": \"<string>\",\n   \"subTotal\": \"<double>\",\n   \"total\": \"<double>\",\n   \"createdDate\": \"<dateTime>\",\n   \"modifiedDate\": \"<dateTime>\",\n   \"recipientContact\": {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   }\n  }\n ]\n}"
+								},
+								{
+									"name": "Request is not authorized",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices/:invoiceId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices",
+												":invoiceId"
+											],
+											"variable": [
+												{
+													"key": "invoiceId"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "Bad Request (Validation errors)",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices/:invoiceId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices",
+												":invoiceId"
+											],
+											"variable": [
+												{
+													"key": "invoiceId"
+												}
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "Access denied",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices/:invoiceId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices",
+												":invoiceId"
+											],
+											"variable": [
+												{
+													"key": "invoiceId"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Put Field Group",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"DisplayName\": \"DisplayName2\",\n    \"OrderNumber\": 2\n}"
+								},
+								"url": {
+									"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/fieldgroups/:fieldgroupid",
+									"protocol": "https",
+									"host": [
+										"invoicecapture-applicationgateway-dev",
+										"eastus",
+										"cloudapp",
+										"azure",
+										"com"
+									],
+									"path": [
+										"fieldgroups",
+										":fieldgroupid"
+									],
+									"variable": [
+										{
+											"key": "fieldgroupid",
+											"value": "5"
+										}
+									]
+								},
+								"description": "The action should support filter and paging functionality"
+							},
+							"response": [
+								{
+									"name": "Bad Request (Validation errors)",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices"
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "Invoice Collection",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "[\n {\n  \"id\": \"<integer>\",\n  \"name\": \"<string>\",\n  \"statusId\": \"<integer>\",\n  \"createdDate\": \"<dateTime>\",\n  \"modifiedDate\": \"<dateTime>\",\n  \"invoiceNumber\": \"<string>\",\n  \"invoiceDate\": \"<dateTime>\",\n  \"dueDate\": \"<dateTime>\",\n  \"poNumber\": \"<string>\",\n  \"taxNumber\": \"<string>\",\n  \"taxAmount\": \"<double>\",\n  \"freightAmount\": \"<double>\",\n  \"subTotal\": \"<double>\",\n  \"total\": \"<double>\",\n  \"currencyId\": \"<integer>\",\n  \"fileName\": \"<string>\",\n  \"fileId\": \"<string>\",\n  \"fileSourceTypeId\": \"<integer>\",\n  \"contacts\": [\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   },\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   }\n  ],\n  \"lines\": [\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"recipientContactId\": \"<integer>\",\n    \"lineNumber\": \"<string>\",\n    \"orderNumber\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"subTotal\": \"<double>\",\n    \"total\": \"<double>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\",\n    \"recipientContact\": {\n     \"id\": \"<integer>\",\n     \"invoiceId\": \"<integer>\",\n     \"contactTypeId\": \"<integer>\",\n     \"name\": \"<string>\",\n     \"address\": \"<string>\",\n     \"phone\": \"<string>\",\n     \"website\": \"<string>\",\n     \"email\": \"<string>\",\n     \"createdDate\": \"<dateTime>\",\n     \"modifiedDate\": \"<dateTime>\"\n    }\n   },\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"recipientContactId\": \"<integer>\",\n    \"lineNumber\": \"<string>\",\n    \"orderNumber\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"subTotal\": \"<double>\",\n    \"total\": \"<double>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\",\n    \"recipientContact\": {\n     \"id\": \"<integer>\",\n     \"invoiceId\": \"<integer>\",\n     \"contactTypeId\": \"<integer>\",\n     \"name\": \"<string>\",\n     \"address\": \"<string>\",\n     \"phone\": \"<string>\",\n     \"website\": \"<string>\",\n     \"email\": \"<string>\",\n     \"createdDate\": \"<dateTime>\",\n     \"modifiedDate\": \"<dateTime>\"\n    }\n   }\n  ]\n },\n {\n  \"id\": \"<integer>\",\n  \"name\": \"<string>\",\n  \"statusId\": \"<integer>\",\n  \"createdDate\": \"<dateTime>\",\n  \"modifiedDate\": \"<dateTime>\",\n  \"invoiceNumber\": \"<string>\",\n  \"invoiceDate\": \"<dateTime>\",\n  \"dueDate\": \"<dateTime>\",\n  \"poNumber\": \"<string>\",\n  \"taxNumber\": \"<string>\",\n  \"taxAmount\": \"<double>\",\n  \"freightAmount\": \"<double>\",\n  \"subTotal\": \"<double>\",\n  \"total\": \"<double>\",\n  \"currencyId\": \"<integer>\",\n  \"fileName\": \"<string>\",\n  \"fileId\": \"<string>\",\n  \"fileSourceTypeId\": \"<integer>\",\n  \"contacts\": [\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   },\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   }\n  ],\n  \"lines\": [\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"recipientContactId\": \"<integer>\",\n    \"lineNumber\": \"<string>\",\n    \"orderNumber\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"subTotal\": \"<double>\",\n    \"total\": \"<double>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\",\n    \"recipientContact\": {\n     \"id\": \"<integer>\",\n     \"invoiceId\": \"<integer>\",\n     \"contactTypeId\": \"<integer>\",\n     \"name\": \"<string>\",\n     \"address\": \"<string>\",\n     \"phone\": \"<string>\",\n     \"website\": \"<string>\",\n     \"email\": \"<string>\",\n     \"createdDate\": \"<dateTime>\",\n     \"modifiedDate\": \"<dateTime>\"\n    }\n   },\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"recipientContactId\": \"<integer>\",\n    \"lineNumber\": \"<string>\",\n    \"orderNumber\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"subTotal\": \"<double>\",\n    \"total\": \"<double>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\",\n    \"recipientContact\": {\n     \"id\": \"<integer>\",\n     \"invoiceId\": \"<integer>\",\n     \"contactTypeId\": \"<integer>\",\n     \"name\": \"<string>\",\n     \"address\": \"<string>\",\n     \"phone\": \"<string>\",\n     \"website\": \"<string>\",\n     \"email\": \"<string>\",\n     \"createdDate\": \"<dateTime>\",\n     \"modifiedDate\": \"<dateTime>\"\n    }\n   }\n  ]\n }\n]"
+								},
+								{
+									"name": "Request is not authorized",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices"
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "Access denied",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices"
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								}
+							]
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Get Field Groups",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/fieldgroups",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"fieldgroups"
+							]
+						},
+						"description": "The action should support filter and paging functionality"
+					},
+					"response": [
+						{
+							"name": "Invoice Collection",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "{{baseUrl}}/invoices",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"invoices"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "[\n {\n  \"id\": \"<integer>\",\n  \"name\": \"<string>\",\n  \"statusId\": \"<integer>\",\n  \"createdDate\": \"<dateTime>\",\n  \"modifiedDate\": \"<dateTime>\",\n  \"invoiceNumber\": \"<string>\",\n  \"invoiceDate\": \"<dateTime>\",\n  \"dueDate\": \"<dateTime>\",\n  \"poNumber\": \"<string>\",\n  \"taxNumber\": \"<string>\",\n  \"taxAmount\": \"<double>\",\n  \"freightAmount\": \"<double>\",\n  \"subTotal\": \"<double>\",\n  \"total\": \"<double>\",\n  \"currencyId\": \"<integer>\",\n  \"fileName\": \"<string>\",\n  \"fileId\": \"<string>\",\n  \"fileSourceTypeId\": \"<integer>\",\n  \"contacts\": [\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   },\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   }\n  ],\n  \"lines\": [\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"recipientContactId\": \"<integer>\",\n    \"lineNumber\": \"<string>\",\n    \"orderNumber\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"subTotal\": \"<double>\",\n    \"total\": \"<double>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\",\n    \"recipientContact\": {\n     \"id\": \"<integer>\",\n     \"invoiceId\": \"<integer>\",\n     \"contactTypeId\": \"<integer>\",\n     \"name\": \"<string>\",\n     \"address\": \"<string>\",\n     \"phone\": \"<string>\",\n     \"website\": \"<string>\",\n     \"email\": \"<string>\",\n     \"createdDate\": \"<dateTime>\",\n     \"modifiedDate\": \"<dateTime>\"\n    }\n   },\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"recipientContactId\": \"<integer>\",\n    \"lineNumber\": \"<string>\",\n    \"orderNumber\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"subTotal\": \"<double>\",\n    \"total\": \"<double>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\",\n    \"recipientContact\": {\n     \"id\": \"<integer>\",\n     \"invoiceId\": \"<integer>\",\n     \"contactTypeId\": \"<integer>\",\n     \"name\": \"<string>\",\n     \"address\": \"<string>\",\n     \"phone\": \"<string>\",\n     \"website\": \"<string>\",\n     \"email\": \"<string>\",\n     \"createdDate\": \"<dateTime>\",\n     \"modifiedDate\": \"<dateTime>\"\n    }\n   }\n  ]\n },\n {\n  \"id\": \"<integer>\",\n  \"name\": \"<string>\",\n  \"statusId\": \"<integer>\",\n  \"createdDate\": \"<dateTime>\",\n  \"modifiedDate\": \"<dateTime>\",\n  \"invoiceNumber\": \"<string>\",\n  \"invoiceDate\": \"<dateTime>\",\n  \"dueDate\": \"<dateTime>\",\n  \"poNumber\": \"<string>\",\n  \"taxNumber\": \"<string>\",\n  \"taxAmount\": \"<double>\",\n  \"freightAmount\": \"<double>\",\n  \"subTotal\": \"<double>\",\n  \"total\": \"<double>\",\n  \"currencyId\": \"<integer>\",\n  \"fileName\": \"<string>\",\n  \"fileId\": \"<string>\",\n  \"fileSourceTypeId\": \"<integer>\",\n  \"contacts\": [\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   },\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   }\n  ],\n  \"lines\": [\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"recipientContactId\": \"<integer>\",\n    \"lineNumber\": \"<string>\",\n    \"orderNumber\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"subTotal\": \"<double>\",\n    \"total\": \"<double>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\",\n    \"recipientContact\": {\n     \"id\": \"<integer>\",\n     \"invoiceId\": \"<integer>\",\n     \"contactTypeId\": \"<integer>\",\n     \"name\": \"<string>\",\n     \"address\": \"<string>\",\n     \"phone\": \"<string>\",\n     \"website\": \"<string>\",\n     \"email\": \"<string>\",\n     \"createdDate\": \"<dateTime>\",\n     \"modifiedDate\": \"<dateTime>\"\n    }\n   },\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"recipientContactId\": \"<integer>\",\n    \"lineNumber\": \"<string>\",\n    \"orderNumber\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"subTotal\": \"<double>\",\n    \"total\": \"<double>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\",\n    \"recipientContact\": {\n     \"id\": \"<integer>\",\n     \"invoiceId\": \"<integer>\",\n     \"contactTypeId\": \"<integer>\",\n     \"name\": \"<string>\",\n     \"address\": \"<string>\",\n     \"phone\": \"<string>\",\n     \"website\": \"<string>\",\n     \"email\": \"<string>\",\n     \"createdDate\": \"<dateTime>\",\n     \"modifiedDate\": \"<dateTime>\"\n    }\n   }\n  ]\n }\n]"
+						},
+						{
+							"name": "Bad Request (Validation errors)",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "{{baseUrl}}/invoices",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"invoices"
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+						},
+						{
+							"name": "Request is not authorized",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "{{baseUrl}}/invoices",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"invoices"
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+						},
+						{
+							"name": "Access denied",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "{{baseUrl}}/invoices",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"invoices"
+									]
+								}
+							},
+							"status": "Forbidden",
+							"code": 403,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Post Field Group",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE2MTE2Njc0ODcsImV4cCI6MTYxMTY3MTA4NywiaXNzIjoiaHR0cDovL2ludm9pY2VjYXB0dXJlLWFwcGxpY2F0aW9uZ2F0ZXdheS1kZXYuZWFzdHVzLmNsb3VkYXBwLmF6dXJlLmNvbSIsImF1ZCI6WyJJbnZvaWNlTWFuYWdlbWVudCIsIlRlbmFudE1hbmFnZW1lbnQiXSwiY2xpZW50X2lkIjoiZGVmYXVsdENsaWVudCIsImp0aSI6IjE0QUUwRUUwQzVBMEM5QjQzMkYzMEMzOUZDNTFGNTk2IiwiaWF0IjoxNjExNjY3NDg3LCJzY29wZSI6WyJJbnZvaWNlTWFuYWdlbWVudCIsIlRlbmFudE1hbmFnZW1lbnQiXX0.sqAYshrpQMIQfingYZf32vFtrN4bhTtPDEU5r3RnC64xOgMVokzAdxvJTusV2-UK_6m8fnUarPer1FxZ3MHk9g",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"DisplayName\": \"DisplayName\",\n    \"OrderNumber\": 1\n}"
+						},
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/fieldgroups",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"fieldgroups"
+							]
+						},
+						"description": "The action should support filter and paging functionality"
+					},
+					"response": [
+						{
+							"name": "Request is not authorized",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "{{baseUrl}}/invoices",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"invoices"
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+						},
+						{
+							"name": "Invoice Collection",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "{{baseUrl}}/invoices",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"invoices"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "[\n {\n  \"id\": \"<integer>\",\n  \"name\": \"<string>\",\n  \"statusId\": \"<integer>\",\n  \"createdDate\": \"<dateTime>\",\n  \"modifiedDate\": \"<dateTime>\",\n  \"invoiceNumber\": \"<string>\",\n  \"invoiceDate\": \"<dateTime>\",\n  \"dueDate\": \"<dateTime>\",\n  \"poNumber\": \"<string>\",\n  \"taxNumber\": \"<string>\",\n  \"taxAmount\": \"<double>\",\n  \"freightAmount\": \"<double>\",\n  \"subTotal\": \"<double>\",\n  \"total\": \"<double>\",\n  \"currencyId\": \"<integer>\",\n  \"fileName\": \"<string>\",\n  \"fileId\": \"<string>\",\n  \"fileSourceTypeId\": \"<integer>\",\n  \"contacts\": [\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   },\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   }\n  ],\n  \"lines\": [\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"recipientContactId\": \"<integer>\",\n    \"lineNumber\": \"<string>\",\n    \"orderNumber\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"subTotal\": \"<double>\",\n    \"total\": \"<double>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\",\n    \"recipientContact\": {\n     \"id\": \"<integer>\",\n     \"invoiceId\": \"<integer>\",\n     \"contactTypeId\": \"<integer>\",\n     \"name\": \"<string>\",\n     \"address\": \"<string>\",\n     \"phone\": \"<string>\",\n     \"website\": \"<string>\",\n     \"email\": \"<string>\",\n     \"createdDate\": \"<dateTime>\",\n     \"modifiedDate\": \"<dateTime>\"\n    }\n   },\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"recipientContactId\": \"<integer>\",\n    \"lineNumber\": \"<string>\",\n    \"orderNumber\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"subTotal\": \"<double>\",\n    \"total\": \"<double>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\",\n    \"recipientContact\": {\n     \"id\": \"<integer>\",\n     \"invoiceId\": \"<integer>\",\n     \"contactTypeId\": \"<integer>\",\n     \"name\": \"<string>\",\n     \"address\": \"<string>\",\n     \"phone\": \"<string>\",\n     \"website\": \"<string>\",\n     \"email\": \"<string>\",\n     \"createdDate\": \"<dateTime>\",\n     \"modifiedDate\": \"<dateTime>\"\n    }\n   }\n  ]\n },\n {\n  \"id\": \"<integer>\",\n  \"name\": \"<string>\",\n  \"statusId\": \"<integer>\",\n  \"createdDate\": \"<dateTime>\",\n  \"modifiedDate\": \"<dateTime>\",\n  \"invoiceNumber\": \"<string>\",\n  \"invoiceDate\": \"<dateTime>\",\n  \"dueDate\": \"<dateTime>\",\n  \"poNumber\": \"<string>\",\n  \"taxNumber\": \"<string>\",\n  \"taxAmount\": \"<double>\",\n  \"freightAmount\": \"<double>\",\n  \"subTotal\": \"<double>\",\n  \"total\": \"<double>\",\n  \"currencyId\": \"<integer>\",\n  \"fileName\": \"<string>\",\n  \"fileId\": \"<string>\",\n  \"fileSourceTypeId\": \"<integer>\",\n  \"contacts\": [\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   },\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   }\n  ],\n  \"lines\": [\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"recipientContactId\": \"<integer>\",\n    \"lineNumber\": \"<string>\",\n    \"orderNumber\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"subTotal\": \"<double>\",\n    \"total\": \"<double>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\",\n    \"recipientContact\": {\n     \"id\": \"<integer>\",\n     \"invoiceId\": \"<integer>\",\n     \"contactTypeId\": \"<integer>\",\n     \"name\": \"<string>\",\n     \"address\": \"<string>\",\n     \"phone\": \"<string>\",\n     \"website\": \"<string>\",\n     \"email\": \"<string>\",\n     \"createdDate\": \"<dateTime>\",\n     \"modifiedDate\": \"<dateTime>\"\n    }\n   },\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"recipientContactId\": \"<integer>\",\n    \"lineNumber\": \"<string>\",\n    \"orderNumber\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"subTotal\": \"<double>\",\n    \"total\": \"<double>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\",\n    \"recipientContact\": {\n     \"id\": \"<integer>\",\n     \"invoiceId\": \"<integer>\",\n     \"contactTypeId\": \"<integer>\",\n     \"name\": \"<string>\",\n     \"address\": \"<string>\",\n     \"phone\": \"<string>\",\n     \"website\": \"<string>\",\n     \"email\": \"<string>\",\n     \"createdDate\": \"<dateTime>\",\n     \"modifiedDate\": \"<dateTime>\"\n    }\n   }\n  ]\n }\n]"
+						},
+						{
+							"name": "Access denied",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "{{baseUrl}}/invoices",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"invoices"
+									]
+								}
+							},
+							"status": "Forbidden",
+							"code": 403,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+						},
+						{
+							"name": "Bad Request (Validation errors)",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "{{baseUrl}}/invoices",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"invoices"
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Invoicefields",
+			"item": [
+				{
+					"name": "{invoiceFieldId}",
+					"item": [
+						{
+							"name": "Get Invoice Field by Invoice Id",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/invoicefields/:invoiceId/invoice",
+									"protocol": "https",
+									"host": [
+										"invoicecapture-applicationgateway-dev",
+										"eastus",
+										"cloudapp",
+										"azure",
+										"com"
+									],
+									"path": [
+										"invoicefields",
+										":invoiceId",
+										"invoice"
+									],
+									"variable": [
+										{
+											"key": "invoiceId",
+											"value": "1430"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Bad Request (Validation errors)",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices/:invoiceId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices",
+												":invoiceId"
+											],
+											"variable": [
+												{
+													"key": "invoiceId"
+												}
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "Access denied",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices/:invoiceId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices",
+												":invoiceId"
+											],
+											"variable": [
+												{
+													"key": "invoiceId"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "Invoice Entity",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices/:invoiceId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices",
+												":invoiceId"
+											],
+											"variable": [
+												{
+													"key": "invoiceId"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"id\": \"<integer>\",\n \"name\": \"<string>\",\n \"statusId\": \"<integer>\",\n \"createdDate\": \"<dateTime>\",\n \"modifiedDate\": \"<dateTime>\",\n \"invoiceNumber\": \"<string>\",\n \"invoiceDate\": \"<dateTime>\",\n \"dueDate\": \"<dateTime>\",\n \"poNumber\": \"<string>\",\n \"taxNumber\": \"<string>\",\n \"taxAmount\": \"<double>\",\n \"freightAmount\": \"<double>\",\n \"subTotal\": \"<double>\",\n \"total\": \"<double>\",\n \"currencyId\": \"<integer>\",\n \"fileName\": \"<string>\",\n \"fileId\": \"<string>\",\n \"fileSourceTypeId\": \"<integer>\",\n \"contacts\": [\n  {\n   \"id\": \"<integer>\",\n   \"invoiceId\": \"<integer>\",\n   \"contactTypeId\": \"<integer>\",\n   \"name\": \"<string>\",\n   \"address\": \"<string>\",\n   \"phone\": \"<string>\",\n   \"website\": \"<string>\",\n   \"email\": \"<string>\",\n   \"createdDate\": \"<dateTime>\",\n   \"modifiedDate\": \"<dateTime>\"\n  },\n  {\n   \"id\": \"<integer>\",\n   \"invoiceId\": \"<integer>\",\n   \"contactTypeId\": \"<integer>\",\n   \"name\": \"<string>\",\n   \"address\": \"<string>\",\n   \"phone\": \"<string>\",\n   \"website\": \"<string>\",\n   \"email\": \"<string>\",\n   \"createdDate\": \"<dateTime>\",\n   \"modifiedDate\": \"<dateTime>\"\n  }\n ],\n \"lines\": [\n  {\n   \"id\": \"<integer>\",\n   \"invoiceId\": \"<integer>\",\n   \"recipientContactId\": \"<integer>\",\n   \"lineNumber\": \"<string>\",\n   \"orderNumber\": \"<integer>\",\n   \"description\": \"<string>\",\n   \"subTotal\": \"<double>\",\n   \"total\": \"<double>\",\n   \"createdDate\": \"<dateTime>\",\n   \"modifiedDate\": \"<dateTime>\",\n   \"recipientContact\": {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   }\n  },\n  {\n   \"id\": \"<integer>\",\n   \"invoiceId\": \"<integer>\",\n   \"recipientContactId\": \"<integer>\",\n   \"lineNumber\": \"<string>\",\n   \"orderNumber\": \"<integer>\",\n   \"description\": \"<string>\",\n   \"subTotal\": \"<double>\",\n   \"total\": \"<double>\",\n   \"createdDate\": \"<dateTime>\",\n   \"modifiedDate\": \"<dateTime>\",\n   \"recipientContact\": {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   }\n  }\n ]\n}"
+								},
+								{
+									"name": "Request is not authorized",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices/:invoiceId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices",
+												":invoiceId"
+											],
+											"variable": [
+												{
+													"key": "invoiceId"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								}
+							]
+						}
+					],
+					"_postman_isSubFolder": true
+				}
+			]
+		},
+		{
+			"name": "Fields",
+			"item": [
+				{
+					"name": "{fieldId}",
+					"item": [
+						{
+							"name": "Get Field by Id",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/fields/:fieldId",
+									"protocol": "https",
+									"host": [
+										"invoicecapture-applicationgateway-dev",
+										"eastus",
+										"cloudapp",
+										"azure",
+										"com"
+									],
+									"path": [
+										"fields",
+										":fieldId"
+									],
+									"variable": [
+										{
+											"key": "fieldId",
+											"value": "15"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Invoice Entity",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices/:invoiceId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices",
+												":invoiceId"
+											],
+											"variable": [
+												{
+													"key": "invoiceId"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"id\": \"<integer>\",\n \"name\": \"<string>\",\n \"statusId\": \"<integer>\",\n \"createdDate\": \"<dateTime>\",\n \"modifiedDate\": \"<dateTime>\",\n \"invoiceNumber\": \"<string>\",\n \"invoiceDate\": \"<dateTime>\",\n \"dueDate\": \"<dateTime>\",\n \"poNumber\": \"<string>\",\n \"taxNumber\": \"<string>\",\n \"taxAmount\": \"<double>\",\n \"freightAmount\": \"<double>\",\n \"subTotal\": \"<double>\",\n \"total\": \"<double>\",\n \"currencyId\": \"<integer>\",\n \"fileName\": \"<string>\",\n \"fileId\": \"<string>\",\n \"fileSourceTypeId\": \"<integer>\",\n \"contacts\": [\n  {\n   \"id\": \"<integer>\",\n   \"invoiceId\": \"<integer>\",\n   \"contactTypeId\": \"<integer>\",\n   \"name\": \"<string>\",\n   \"address\": \"<string>\",\n   \"phone\": \"<string>\",\n   \"website\": \"<string>\",\n   \"email\": \"<string>\",\n   \"createdDate\": \"<dateTime>\",\n   \"modifiedDate\": \"<dateTime>\"\n  },\n  {\n   \"id\": \"<integer>\",\n   \"invoiceId\": \"<integer>\",\n   \"contactTypeId\": \"<integer>\",\n   \"name\": \"<string>\",\n   \"address\": \"<string>\",\n   \"phone\": \"<string>\",\n   \"website\": \"<string>\",\n   \"email\": \"<string>\",\n   \"createdDate\": \"<dateTime>\",\n   \"modifiedDate\": \"<dateTime>\"\n  }\n ],\n \"lines\": [\n  {\n   \"id\": \"<integer>\",\n   \"invoiceId\": \"<integer>\",\n   \"recipientContactId\": \"<integer>\",\n   \"lineNumber\": \"<string>\",\n   \"orderNumber\": \"<integer>\",\n   \"description\": \"<string>\",\n   \"subTotal\": \"<double>\",\n   \"total\": \"<double>\",\n   \"createdDate\": \"<dateTime>\",\n   \"modifiedDate\": \"<dateTime>\",\n   \"recipientContact\": {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   }\n  },\n  {\n   \"id\": \"<integer>\",\n   \"invoiceId\": \"<integer>\",\n   \"recipientContactId\": \"<integer>\",\n   \"lineNumber\": \"<string>\",\n   \"orderNumber\": \"<integer>\",\n   \"description\": \"<string>\",\n   \"subTotal\": \"<double>\",\n   \"total\": \"<double>\",\n   \"createdDate\": \"<dateTime>\",\n   \"modifiedDate\": \"<dateTime>\",\n   \"recipientContact\": {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   }\n  }\n ]\n}"
+								},
+								{
+									"name": "Request is not authorized",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices/:invoiceId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices",
+												":invoiceId"
+											],
+											"variable": [
+												{
+													"key": "invoiceId"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "Access denied",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices/:invoiceId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices",
+												":invoiceId"
+											],
+											"variable": [
+												{
+													"key": "invoiceId"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "Bad Request (Validation errors)",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices/:invoiceId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices",
+												":invoiceId"
+											],
+											"variable": [
+												{
+													"key": "invoiceId"
+												}
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Delete Field by Id",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/fields/:fieldId",
+									"protocol": "https",
+									"host": [
+										"invoicecapture-applicationgateway-dev",
+										"eastus",
+										"cloudapp",
+										"azure",
+										"com"
+									],
+									"path": [
+										"fields",
+										":fieldId"
+									],
+									"variable": [
+										{
+											"key": "fieldId",
+											"value": "15"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Access denied",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices/:invoiceId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices",
+												":invoiceId"
+											],
+											"variable": [
+												{
+													"key": "invoiceId"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "Invoice Entity",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices/:invoiceId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices",
+												":invoiceId"
+											],
+											"variable": [
+												{
+													"key": "invoiceId"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"id\": \"<integer>\",\n \"name\": \"<string>\",\n \"statusId\": \"<integer>\",\n \"createdDate\": \"<dateTime>\",\n \"modifiedDate\": \"<dateTime>\",\n \"invoiceNumber\": \"<string>\",\n \"invoiceDate\": \"<dateTime>\",\n \"dueDate\": \"<dateTime>\",\n \"poNumber\": \"<string>\",\n \"taxNumber\": \"<string>\",\n \"taxAmount\": \"<double>\",\n \"freightAmount\": \"<double>\",\n \"subTotal\": \"<double>\",\n \"total\": \"<double>\",\n \"currencyId\": \"<integer>\",\n \"fileName\": \"<string>\",\n \"fileId\": \"<string>\",\n \"fileSourceTypeId\": \"<integer>\",\n \"contacts\": [\n  {\n   \"id\": \"<integer>\",\n   \"invoiceId\": \"<integer>\",\n   \"contactTypeId\": \"<integer>\",\n   \"name\": \"<string>\",\n   \"address\": \"<string>\",\n   \"phone\": \"<string>\",\n   \"website\": \"<string>\",\n   \"email\": \"<string>\",\n   \"createdDate\": \"<dateTime>\",\n   \"modifiedDate\": \"<dateTime>\"\n  },\n  {\n   \"id\": \"<integer>\",\n   \"invoiceId\": \"<integer>\",\n   \"contactTypeId\": \"<integer>\",\n   \"name\": \"<string>\",\n   \"address\": \"<string>\",\n   \"phone\": \"<string>\",\n   \"website\": \"<string>\",\n   \"email\": \"<string>\",\n   \"createdDate\": \"<dateTime>\",\n   \"modifiedDate\": \"<dateTime>\"\n  }\n ],\n \"lines\": [\n  {\n   \"id\": \"<integer>\",\n   \"invoiceId\": \"<integer>\",\n   \"recipientContactId\": \"<integer>\",\n   \"lineNumber\": \"<string>\",\n   \"orderNumber\": \"<integer>\",\n   \"description\": \"<string>\",\n   \"subTotal\": \"<double>\",\n   \"total\": \"<double>\",\n   \"createdDate\": \"<dateTime>\",\n   \"modifiedDate\": \"<dateTime>\",\n   \"recipientContact\": {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   }\n  },\n  {\n   \"id\": \"<integer>\",\n   \"invoiceId\": \"<integer>\",\n   \"recipientContactId\": \"<integer>\",\n   \"lineNumber\": \"<string>\",\n   \"orderNumber\": \"<integer>\",\n   \"description\": \"<string>\",\n   \"subTotal\": \"<double>\",\n   \"total\": \"<double>\",\n   \"createdDate\": \"<dateTime>\",\n   \"modifiedDate\": \"<dateTime>\",\n   \"recipientContact\": {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   }\n  }\n ]\n}"
+								},
+								{
+									"name": "Bad Request (Validation errors)",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices/:invoiceId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices",
+												":invoiceId"
+											],
+											"variable": [
+												{
+													"key": "invoiceId"
+												}
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "Request is not authorized",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices/:invoiceId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices",
+												":invoiceId"
+											],
+											"variable": [
+												{
+													"key": "invoiceId"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Put Field",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"type\": 1,\n  \"displayName\": \"displayName 2\",\n  \"groupId\": 1,\n  \"orderNumber\": 1,\n  \"defaultValue\": null,\n  \"isRequired\": false,\n  \"minValue\": null,\n  \"maxValue\": null,\n  \"minLength\": null,\n  \"maxLength\": null\n}"
+								},
+								"url": {
+									"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/fields/:fieldId",
+									"protocol": "https",
+									"host": [
+										"invoicecapture-applicationgateway-dev",
+										"eastus",
+										"cloudapp",
+										"azure",
+										"com"
+									],
+									"path": [
+										"fields",
+										":fieldId"
+									],
+									"variable": [
+										{
+											"key": "fieldId",
+											"value": "16"
+										}
+									]
+								},
+								"description": "The action should support filter and paging functionality"
+							},
+							"response": [
+								{
+									"name": "Invoice Collection",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "[\n {\n  \"id\": \"<integer>\",\n  \"name\": \"<string>\",\n  \"statusId\": \"<integer>\",\n  \"createdDate\": \"<dateTime>\",\n  \"modifiedDate\": \"<dateTime>\",\n  \"invoiceNumber\": \"<string>\",\n  \"invoiceDate\": \"<dateTime>\",\n  \"dueDate\": \"<dateTime>\",\n  \"poNumber\": \"<string>\",\n  \"taxNumber\": \"<string>\",\n  \"taxAmount\": \"<double>\",\n  \"freightAmount\": \"<double>\",\n  \"subTotal\": \"<double>\",\n  \"total\": \"<double>\",\n  \"currencyId\": \"<integer>\",\n  \"fileName\": \"<string>\",\n  \"fileId\": \"<string>\",\n  \"fileSourceTypeId\": \"<integer>\",\n  \"contacts\": [\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   },\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   }\n  ],\n  \"lines\": [\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"recipientContactId\": \"<integer>\",\n    \"lineNumber\": \"<string>\",\n    \"orderNumber\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"subTotal\": \"<double>\",\n    \"total\": \"<double>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\",\n    \"recipientContact\": {\n     \"id\": \"<integer>\",\n     \"invoiceId\": \"<integer>\",\n     \"contactTypeId\": \"<integer>\",\n     \"name\": \"<string>\",\n     \"address\": \"<string>\",\n     \"phone\": \"<string>\",\n     \"website\": \"<string>\",\n     \"email\": \"<string>\",\n     \"createdDate\": \"<dateTime>\",\n     \"modifiedDate\": \"<dateTime>\"\n    }\n   },\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"recipientContactId\": \"<integer>\",\n    \"lineNumber\": \"<string>\",\n    \"orderNumber\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"subTotal\": \"<double>\",\n    \"total\": \"<double>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\",\n    \"recipientContact\": {\n     \"id\": \"<integer>\",\n     \"invoiceId\": \"<integer>\",\n     \"contactTypeId\": \"<integer>\",\n     \"name\": \"<string>\",\n     \"address\": \"<string>\",\n     \"phone\": \"<string>\",\n     \"website\": \"<string>\",\n     \"email\": \"<string>\",\n     \"createdDate\": \"<dateTime>\",\n     \"modifiedDate\": \"<dateTime>\"\n    }\n   }\n  ]\n },\n {\n  \"id\": \"<integer>\",\n  \"name\": \"<string>\",\n  \"statusId\": \"<integer>\",\n  \"createdDate\": \"<dateTime>\",\n  \"modifiedDate\": \"<dateTime>\",\n  \"invoiceNumber\": \"<string>\",\n  \"invoiceDate\": \"<dateTime>\",\n  \"dueDate\": \"<dateTime>\",\n  \"poNumber\": \"<string>\",\n  \"taxNumber\": \"<string>\",\n  \"taxAmount\": \"<double>\",\n  \"freightAmount\": \"<double>\",\n  \"subTotal\": \"<double>\",\n  \"total\": \"<double>\",\n  \"currencyId\": \"<integer>\",\n  \"fileName\": \"<string>\",\n  \"fileId\": \"<string>\",\n  \"fileSourceTypeId\": \"<integer>\",\n  \"contacts\": [\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   },\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   }\n  ],\n  \"lines\": [\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"recipientContactId\": \"<integer>\",\n    \"lineNumber\": \"<string>\",\n    \"orderNumber\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"subTotal\": \"<double>\",\n    \"total\": \"<double>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\",\n    \"recipientContact\": {\n     \"id\": \"<integer>\",\n     \"invoiceId\": \"<integer>\",\n     \"contactTypeId\": \"<integer>\",\n     \"name\": \"<string>\",\n     \"address\": \"<string>\",\n     \"phone\": \"<string>\",\n     \"website\": \"<string>\",\n     \"email\": \"<string>\",\n     \"createdDate\": \"<dateTime>\",\n     \"modifiedDate\": \"<dateTime>\"\n    }\n   },\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"recipientContactId\": \"<integer>\",\n    \"lineNumber\": \"<string>\",\n    \"orderNumber\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"subTotal\": \"<double>\",\n    \"total\": \"<double>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\",\n    \"recipientContact\": {\n     \"id\": \"<integer>\",\n     \"invoiceId\": \"<integer>\",\n     \"contactTypeId\": \"<integer>\",\n     \"name\": \"<string>\",\n     \"address\": \"<string>\",\n     \"phone\": \"<string>\",\n     \"website\": \"<string>\",\n     \"email\": \"<string>\",\n     \"createdDate\": \"<dateTime>\",\n     \"modifiedDate\": \"<dateTime>\"\n    }\n   }\n  ]\n }\n]"
+								},
+								{
+									"name": "Access denied",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices"
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "Request is not authorized",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices"
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "Bad Request (Validation errors)",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{baseUrl}}/invoices",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices"
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								}
+							]
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Get Fields",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/fields",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"fields"
+							]
+						},
+						"description": "The action should support filter and paging functionality"
+					},
+					"response": [
+						{
+							"name": "Request is not authorized",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "{{baseUrl}}/invoices",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"invoices"
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+						},
+						{
+							"name": "Bad Request (Validation errors)",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "{{baseUrl}}/invoices",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"invoices"
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+						},
+						{
+							"name": "Access denied",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "{{baseUrl}}/invoices",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"invoices"
+									]
+								}
+							},
+							"status": "Forbidden",
+							"code": 403,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+						},
+						{
+							"name": "Invoice Collection",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "{{baseUrl}}/invoices",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"invoices"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "[\n {\n  \"id\": \"<integer>\",\n  \"name\": \"<string>\",\n  \"statusId\": \"<integer>\",\n  \"createdDate\": \"<dateTime>\",\n  \"modifiedDate\": \"<dateTime>\",\n  \"invoiceNumber\": \"<string>\",\n  \"invoiceDate\": \"<dateTime>\",\n  \"dueDate\": \"<dateTime>\",\n  \"poNumber\": \"<string>\",\n  \"taxNumber\": \"<string>\",\n  \"taxAmount\": \"<double>\",\n  \"freightAmount\": \"<double>\",\n  \"subTotal\": \"<double>\",\n  \"total\": \"<double>\",\n  \"currencyId\": \"<integer>\",\n  \"fileName\": \"<string>\",\n  \"fileId\": \"<string>\",\n  \"fileSourceTypeId\": \"<integer>\",\n  \"contacts\": [\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   },\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   }\n  ],\n  \"lines\": [\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"recipientContactId\": \"<integer>\",\n    \"lineNumber\": \"<string>\",\n    \"orderNumber\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"subTotal\": \"<double>\",\n    \"total\": \"<double>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\",\n    \"recipientContact\": {\n     \"id\": \"<integer>\",\n     \"invoiceId\": \"<integer>\",\n     \"contactTypeId\": \"<integer>\",\n     \"name\": \"<string>\",\n     \"address\": \"<string>\",\n     \"phone\": \"<string>\",\n     \"website\": \"<string>\",\n     \"email\": \"<string>\",\n     \"createdDate\": \"<dateTime>\",\n     \"modifiedDate\": \"<dateTime>\"\n    }\n   },\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"recipientContactId\": \"<integer>\",\n    \"lineNumber\": \"<string>\",\n    \"orderNumber\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"subTotal\": \"<double>\",\n    \"total\": \"<double>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\",\n    \"recipientContact\": {\n     \"id\": \"<integer>\",\n     \"invoiceId\": \"<integer>\",\n     \"contactTypeId\": \"<integer>\",\n     \"name\": \"<string>\",\n     \"address\": \"<string>\",\n     \"phone\": \"<string>\",\n     \"website\": \"<string>\",\n     \"email\": \"<string>\",\n     \"createdDate\": \"<dateTime>\",\n     \"modifiedDate\": \"<dateTime>\"\n    }\n   }\n  ]\n },\n {\n  \"id\": \"<integer>\",\n  \"name\": \"<string>\",\n  \"statusId\": \"<integer>\",\n  \"createdDate\": \"<dateTime>\",\n  \"modifiedDate\": \"<dateTime>\",\n  \"invoiceNumber\": \"<string>\",\n  \"invoiceDate\": \"<dateTime>\",\n  \"dueDate\": \"<dateTime>\",\n  \"poNumber\": \"<string>\",\n  \"taxNumber\": \"<string>\",\n  \"taxAmount\": \"<double>\",\n  \"freightAmount\": \"<double>\",\n  \"subTotal\": \"<double>\",\n  \"total\": \"<double>\",\n  \"currencyId\": \"<integer>\",\n  \"fileName\": \"<string>\",\n  \"fileId\": \"<string>\",\n  \"fileSourceTypeId\": \"<integer>\",\n  \"contacts\": [\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   },\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   }\n  ],\n  \"lines\": [\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"recipientContactId\": \"<integer>\",\n    \"lineNumber\": \"<string>\",\n    \"orderNumber\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"subTotal\": \"<double>\",\n    \"total\": \"<double>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\",\n    \"recipientContact\": {\n     \"id\": \"<integer>\",\n     \"invoiceId\": \"<integer>\",\n     \"contactTypeId\": \"<integer>\",\n     \"name\": \"<string>\",\n     \"address\": \"<string>\",\n     \"phone\": \"<string>\",\n     \"website\": \"<string>\",\n     \"email\": \"<string>\",\n     \"createdDate\": \"<dateTime>\",\n     \"modifiedDate\": \"<dateTime>\"\n    }\n   },\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"recipientContactId\": \"<integer>\",\n    \"lineNumber\": \"<string>\",\n    \"orderNumber\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"subTotal\": \"<double>\",\n    \"total\": \"<double>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\",\n    \"recipientContact\": {\n     \"id\": \"<integer>\",\n     \"invoiceId\": \"<integer>\",\n     \"contactTypeId\": \"<integer>\",\n     \"name\": \"<string>\",\n     \"address\": \"<string>\",\n     \"phone\": \"<string>\",\n     \"website\": \"<string>\",\n     \"email\": \"<string>\",\n     \"createdDate\": \"<dateTime>\",\n     \"modifiedDate\": \"<dateTime>\"\n    }\n   }\n  ]\n }\n]"
+						}
+					]
+				},
+				{
+					"name": "Post Field",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"type\": 0,\n  \"displayName\": \"displayName\",\n  \"groupId\": 1,\n  \"orderNumber\": 1,\n  \"defaultValue\": null,\n  \"isRequired\": false,\n  \"minValue\": null,\n  \"maxValue\": null,\n  \"minLength\": null,\n  \"maxLength\": null\n}"
+						},
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/fields",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"fields"
+							]
+						},
+						"description": "The action should support filter and paging functionality"
+					},
+					"response": [
+						{
+							"name": "Bad Request (Validation errors)",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "{{baseUrl}}/invoices",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"invoices"
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+						},
+						{
+							"name": "Request is not authorized",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "{{baseUrl}}/invoices",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"invoices"
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+						},
+						{
+							"name": "Invoice Collection",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "{{baseUrl}}/invoices",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"invoices"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "[\n {\n  \"id\": \"<integer>\",\n  \"name\": \"<string>\",\n  \"statusId\": \"<integer>\",\n  \"createdDate\": \"<dateTime>\",\n  \"modifiedDate\": \"<dateTime>\",\n  \"invoiceNumber\": \"<string>\",\n  \"invoiceDate\": \"<dateTime>\",\n  \"dueDate\": \"<dateTime>\",\n  \"poNumber\": \"<string>\",\n  \"taxNumber\": \"<string>\",\n  \"taxAmount\": \"<double>\",\n  \"freightAmount\": \"<double>\",\n  \"subTotal\": \"<double>\",\n  \"total\": \"<double>\",\n  \"currencyId\": \"<integer>\",\n  \"fileName\": \"<string>\",\n  \"fileId\": \"<string>\",\n  \"fileSourceTypeId\": \"<integer>\",\n  \"contacts\": [\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   },\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   }\n  ],\n  \"lines\": [\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"recipientContactId\": \"<integer>\",\n    \"lineNumber\": \"<string>\",\n    \"orderNumber\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"subTotal\": \"<double>\",\n    \"total\": \"<double>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\",\n    \"recipientContact\": {\n     \"id\": \"<integer>\",\n     \"invoiceId\": \"<integer>\",\n     \"contactTypeId\": \"<integer>\",\n     \"name\": \"<string>\",\n     \"address\": \"<string>\",\n     \"phone\": \"<string>\",\n     \"website\": \"<string>\",\n     \"email\": \"<string>\",\n     \"createdDate\": \"<dateTime>\",\n     \"modifiedDate\": \"<dateTime>\"\n    }\n   },\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"recipientContactId\": \"<integer>\",\n    \"lineNumber\": \"<string>\",\n    \"orderNumber\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"subTotal\": \"<double>\",\n    \"total\": \"<double>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\",\n    \"recipientContact\": {\n     \"id\": \"<integer>\",\n     \"invoiceId\": \"<integer>\",\n     \"contactTypeId\": \"<integer>\",\n     \"name\": \"<string>\",\n     \"address\": \"<string>\",\n     \"phone\": \"<string>\",\n     \"website\": \"<string>\",\n     \"email\": \"<string>\",\n     \"createdDate\": \"<dateTime>\",\n     \"modifiedDate\": \"<dateTime>\"\n    }\n   }\n  ]\n },\n {\n  \"id\": \"<integer>\",\n  \"name\": \"<string>\",\n  \"statusId\": \"<integer>\",\n  \"createdDate\": \"<dateTime>\",\n  \"modifiedDate\": \"<dateTime>\",\n  \"invoiceNumber\": \"<string>\",\n  \"invoiceDate\": \"<dateTime>\",\n  \"dueDate\": \"<dateTime>\",\n  \"poNumber\": \"<string>\",\n  \"taxNumber\": \"<string>\",\n  \"taxAmount\": \"<double>\",\n  \"freightAmount\": \"<double>\",\n  \"subTotal\": \"<double>\",\n  \"total\": \"<double>\",\n  \"currencyId\": \"<integer>\",\n  \"fileName\": \"<string>\",\n  \"fileId\": \"<string>\",\n  \"fileSourceTypeId\": \"<integer>\",\n  \"contacts\": [\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   },\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   }\n  ],\n  \"lines\": [\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"recipientContactId\": \"<integer>\",\n    \"lineNumber\": \"<string>\",\n    \"orderNumber\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"subTotal\": \"<double>\",\n    \"total\": \"<double>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\",\n    \"recipientContact\": {\n     \"id\": \"<integer>\",\n     \"invoiceId\": \"<integer>\",\n     \"contactTypeId\": \"<integer>\",\n     \"name\": \"<string>\",\n     \"address\": \"<string>\",\n     \"phone\": \"<string>\",\n     \"website\": \"<string>\",\n     \"email\": \"<string>\",\n     \"createdDate\": \"<dateTime>\",\n     \"modifiedDate\": \"<dateTime>\"\n    }\n   },\n   {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"recipientContactId\": \"<integer>\",\n    \"lineNumber\": \"<string>\",\n    \"orderNumber\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"subTotal\": \"<double>\",\n    \"total\": \"<double>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\",\n    \"recipientContact\": {\n     \"id\": \"<integer>\",\n     \"invoiceId\": \"<integer>\",\n     \"contactTypeId\": \"<integer>\",\n     \"name\": \"<string>\",\n     \"address\": \"<string>\",\n     \"phone\": \"<string>\",\n     \"website\": \"<string>\",\n     \"email\": \"<string>\",\n     \"createdDate\": \"<dateTime>\",\n     \"modifiedDate\": \"<dateTime>\"\n    }\n   }\n  ]\n }\n]"
+						},
+						{
+							"name": "Access denied",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "{{baseUrl}}/invoices",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"invoices"
+									]
+								}
+							},
+							"status": "Forbidden",
+							"code": 403,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Pages",
+			"item": [
+				{
+					"name": "GetPagesByInvoiceID",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE1OTY4MDEyMTAsImV4cCI6MTYwNzE2OTIxMCwiaXNzIjoiaHR0cDovL2VrYXJhcGV0YXU6MTAwODIiLCJhdWQiOiJJbnZvaWNlTWFuYWdlbWVudCIsImNsaWVudF9pZCI6IndlYkFwcGxpY2F0aW9uIiwic3ViIjoiRGVmYXVsdCIsImF1dGhfdGltZSI6MTU5NjgwMTIxMCwiaWRwIjoibG9jYWwiLCJUZW5hbnRJZCI6IkRlZmF1bHQiLCJqdGkiOiJCRTYwNThBNjk0RTdBNjQ5ODc4OEU2NzM0RjNGMzcwNCIsImlhdCI6MTU5NjgwMTIxMCwic2NvcGUiOlsiSW52b2ljZU1hbmFnZW1lbnQiXSwiYW1yIjpbInBhc3N3b3JkIl19.Dowk9ktOa0Cims8Y3VxEHGUQ2O8zJoApIhk29Q1unk20DlfuyuZLZlD1Yh3XGxTmdRO3uP2hceFyveIqwLOxNQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/pages/invoices/69",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"pages",
+								"invoices",
+								"69"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetTemporaryImageLink",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE1OTY4MDEyMTAsImV4cCI6MTYwNzE2OTIxMCwiaXNzIjoiaHR0cDovL2VrYXJhcGV0YXU6MTAwODIiLCJhdWQiOiJJbnZvaWNlTWFuYWdlbWVudCIsImNsaWVudF9pZCI6IndlYkFwcGxpY2F0aW9uIiwic3ViIjoiRGVmYXVsdCIsImF1dGhfdGltZSI6MTU5NjgwMTIxMCwiaWRwIjoibG9jYWwiLCJUZW5hbnRJZCI6IkRlZmF1bHQiLCJqdGkiOiJCRTYwNThBNjk0RTdBNjQ5ODc4OEU2NzM0RjNGMzcwNCIsImlhdCI6MTU5NjgwMTIxMCwic2NvcGUiOlsiSW52b2ljZU1hbmFnZW1lbnQiXSwiYW1yIjpbInBhc3N3b3JkIl19.Dowk9ktOa0Cims8Y3VxEHGUQ2O8zJoApIhk29Q1unk20DlfuyuZLZlD1Yh3XGxTmdRO3uP2hceFyveIqwLOxNQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/pages/1/imageLink",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"pages",
+								"1",
+								"imageLink"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ProcessingResults",
+			"item": [
+				{
+					"name": "GetById",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE1OTY4MDEyMTAsImV4cCI6MTYwNzE2OTIxMCwiaXNzIjoiaHR0cDovL2VrYXJhcGV0YXU6MTAwODIiLCJhdWQiOiJJbnZvaWNlTWFuYWdlbWVudCIsImNsaWVudF9pZCI6IndlYkFwcGxpY2F0aW9uIiwic3ViIjoiRGVmYXVsdCIsImF1dGhfdGltZSI6MTU5NjgwMTIxMCwiaWRwIjoibG9jYWwiLCJUZW5hbnRJZCI6IkRlZmF1bHQiLCJqdGkiOiJCRTYwNThBNjk0RTdBNjQ5ODc4OEU2NzM0RjNGMzcwNCIsImlhdCI6MTU5NjgwMTIxMCwic2NvcGUiOlsiSW52b2ljZU1hbmFnZW1lbnQiXSwiYW1yIjpbInBhc3N3b3JkIl19.Dowk9ktOa0Cims8Y3VxEHGUQ2O8zJoApIhk29Q1unk20DlfuyuZLZlD1Yh3XGxTmdRO3uP2hceFyveIqwLOxNQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/processingresults/1/",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"processingresults",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetByInvoiceId",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE1OTY4MDEyMTAsImV4cCI6MTYwNzE2OTIxMCwiaXNzIjoiaHR0cDovL2VrYXJhcGV0YXU6MTAwODIiLCJhdWQiOiJJbnZvaWNlTWFuYWdlbWVudCIsImNsaWVudF9pZCI6IndlYkFwcGxpY2F0aW9uIiwic3ViIjoiRGVmYXVsdCIsImF1dGhfdGltZSI6MTU5NjgwMTIxMCwiaWRwIjoibG9jYWwiLCJUZW5hbnRJZCI6IkRlZmF1bHQiLCJqdGkiOiJCRTYwNThBNjk0RTdBNjQ5ODc4OEU2NzM0RjNGMzcwNCIsImlhdCI6MTU5NjgwMTIxMCwic2NvcGUiOlsiSW52b2ljZU1hbmFnZW1lbnQiXSwiYW1yIjpbInBhc3N3b3JkIl19.Dowk9ktOa0Cims8Y3VxEHGUQ2O8zJoApIhk29Q1unk20DlfuyuZLZlD1Yh3XGxTmdRO3uP2hceFyveIqwLOxNQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/processingresults/invoices/69/",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"processingresults",
+								"invoices",
+								"69",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetLatestByInvoiceId",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE1OTY4MDEyMTAsImV4cCI6MTYwNzE2OTIxMCwiaXNzIjoiaHR0cDovL2VrYXJhcGV0YXU6MTAwODIiLCJhdWQiOiJJbnZvaWNlTWFuYWdlbWVudCIsImNsaWVudF9pZCI6IndlYkFwcGxpY2F0aW9uIiwic3ViIjoiRGVmYXVsdCIsImF1dGhfdGltZSI6MTU5NjgwMTIxMCwiaWRwIjoibG9jYWwiLCJUZW5hbnRJZCI6IkRlZmF1bHQiLCJqdGkiOiJCRTYwNThBNjk0RTdBNjQ5ODc4OEU2NzM0RjNGMzcwNCIsImlhdCI6MTU5NjgwMTIxMCwic2NvcGUiOlsiSW52b2ljZU1hbmFnZW1lbnQiXSwiYW1yIjpbInBhc3N3b3JkIl19.Dowk9ktOa0Cims8Y3VxEHGUQ2O8zJoApIhk29Q1unk20DlfuyuZLZlD1Yh3XGxTmdRO3uP2hceFyveIqwLOxNQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/processingresults/invoices/69/latest",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"processingresults",
+								"invoices",
+								"69",
+								"latest"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

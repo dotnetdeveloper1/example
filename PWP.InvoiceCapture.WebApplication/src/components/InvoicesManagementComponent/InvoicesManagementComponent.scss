@@ -1,0 +1,28 @@
+@import "../../styles/globals.scss";
+
+.InvoicesManagementComponent {
+    @extend .d-flex, .flex-column, .flex-fill, .h-100;
+
+    &__body {
+        @extend .d-flex, .flex-column, .flex-fill, .position-relative;
+        padding-left: $component-padding-left;
+        padding-right: $component-padding-right;
+        overflow: hidden;
+    }
+
+    &__table_container {
+        overflow-y: auto;
+    }
+
+    &__table {
+        @extend .table;
+        tbody {
+            tr {
+                cursor: pointer;
+                &:hover {
+                    background-color: $gray-100;
+                }
+            }
+        }
+    }
+}

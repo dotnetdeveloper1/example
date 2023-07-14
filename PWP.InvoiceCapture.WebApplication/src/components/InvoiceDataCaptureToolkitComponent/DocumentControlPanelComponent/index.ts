@@ -1,0 +1,1 @@
+export { DocumentControlPanelComponent } from "./DocumentControlPanelComponent";

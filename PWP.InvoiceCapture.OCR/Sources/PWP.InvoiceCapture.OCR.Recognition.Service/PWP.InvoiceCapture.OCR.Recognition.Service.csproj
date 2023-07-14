@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <IsServiceFabricServiceProject>True</IsServiceFabricServiceProject>
+    <ServerGarbageCollection>True</ServerGarbageCollection>
+    <RuntimeIdentifier>win7-x64</RuntimeIdentifier>
+    <TargetLatestRuntimePatch>False</TargetLatestRuntimePatch>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="appsettings.Development.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>appsettings.json</DependentUpon>
+    </Content>
+    <Content Include="appsettings.Production.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>appsettings.json</DependentUpon>
+    </Content>
+    <Content Include="appsettings.Secrets.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>appsettings.json</DependentUpon>
+    </Content>
+    <Content Include="appsettings.Staging.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>appsettings.json</DependentUpon>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ServiceFabric.Services" Version="4.0.470" />
+    <PackageReference Include="PWP.InvoiceCapture.Core" Version="1.0.0-CI-20201201-152127" />
+    <PackageReference Include="PWP.InvoiceCapture.Core.ServiceBus" Version="1.0.0-CI-20201201-154335" />
+    <PackageReference Include="PWP.InvoiceCapture.Document.API.Client" Version="1.0.0-CI-20201202-134917" />
+    <PackageReference Include="PWP.InvoiceCapture.InvoiceManagement.Business.Contract" Version="1.0.0-CI-20210209-112639" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PWP.InvoiceCapture.OCR.Core.FormRecognizerClient\PWP.InvoiceCapture.OCR.Core.FormRecognizer.Client.csproj" />
+    <ProjectReference Include="..\PWP.InvoiceCapture.OCR.Core\PWP.InvoiceCapture.OCR.Core.csproj" />
+    <ProjectReference Include="..\PWP.InvoiceCapture.OCR.Recognition.Business\PWP.InvoiceCapture.OCR.Recognition.Business.csproj" />
+    <ProjectReference Include="..\PWP.InvoiceCapture.OCR.Recognition.DataAccess\PWP.InvoiceCapture.OCR.Recognition.DataAccess.csproj" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>

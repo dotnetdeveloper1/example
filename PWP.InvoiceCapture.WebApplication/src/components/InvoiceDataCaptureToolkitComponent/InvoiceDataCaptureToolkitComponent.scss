@@ -1,0 +1,56 @@
+@import "../../styles/globals.scss";
+
+.InvoiceDataCaptureToolkitComponent {
+    @extend .d-flex, .flex-column, .flex-fill, .h-100;
+
+    &__header {
+        @extend .d-flex, .flex-column, .flex-fill, .flex-grow-0;
+        min-height: min-content;
+    }
+
+    &__body {
+        @extend .d-flex, .flex-row, .flex-fill, .h-75, .position-relative;
+        padding-left: $component-padding-left;
+        padding-right: $component-padding-right;
+    }
+
+    &__document-view-container {
+        @extend .d-flex, .flex-column, .flex-fill, .mr-3;
+        width: 65%;
+    }
+
+    &__invoice-fields-container {
+        @extend .d-flex, .flex-column, .flex-fill, .pr-3;
+        width: 35%;
+        overflow-y: scroll;
+    }
+
+    &__footer {
+        @extend .d-flex, .flex-row, .flex-shrink-0, .position-relative;
+    }
+
+    &__document-control-panel-container {
+        @extend .d-flex, .flex-column, .flex-fill, .pr-5, .mr-5;
+        width: 65%;
+    }
+
+    &__toolkit-control-panel-container {
+        @extend .d-flex, .flex-column, .flex-fill, .h-100;
+        width: 35%;
+    }
+
+    &__info-table {
+        @extend .pt-3, .pb-2;
+        color: map-get($theme-colors, "secondary-accent");
+        &__data-row {
+            @extend .d-flex, .flex-row, .row, .p-0;
+            line-height: 1.5rem;
+            &__label {
+                @extend .col-sm-7, .col-md-6, .col-lg-4, .text-nowrap, .justify-content-start, .align-items-center;
+            }
+            &__value {
+                @extend .col-sm-5, .col-md-6, .col-lg-8, .text-nowrap, .justify-content-start, .align-items-center;
+            }
+        }
+    }
+}

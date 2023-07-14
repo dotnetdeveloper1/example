@@ -1,0 +1,8 @@
+﻿{
+  "id": 1,
+  "text": "Serialization unit test",
+  "innerObject": {
+    "x": 555,
+    "y": 99
+  }
+}

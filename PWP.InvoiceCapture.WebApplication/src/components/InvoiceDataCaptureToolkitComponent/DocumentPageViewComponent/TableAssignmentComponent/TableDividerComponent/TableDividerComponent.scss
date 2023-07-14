@@ -1,0 +1,104 @@
+@import "../../../../../styles/globals.scss";
+
+.TableDividerComponent {
+    @extend .position-absolute;
+    z-index: 300;
+    pointer-events: all;
+    //background-color: rgba(#555555, $alpha: 0.4);
+    background-color: rgba(#ffffff, $alpha: 0);
+
+    &__custom-tooltip-theme {
+        color: map-get($theme-colors, "light") !important;
+    }
+
+    &--inner-tooltip {
+        @extend .border, .border-secondary;
+        font-family: $font-family-lato;
+        font-size: $font-size-very-sm;
+        border-radius: $border-radius * 1.5;
+        background-color: map-get($theme-colors, "light");
+        color: rgba(map-get($theme-colors, "dark-accent"), $alpha: 1);
+        border-color: rgba(map-get($colors, "gray-light"), $alpha: 1);
+        border-width: $input-btn-border-width;
+        padding: $list-inline-padding;
+        z-index: 0;
+    }
+
+    &--tooltip-div {
+        @extend .d-flex, .flex-column, .flex-fill, .justify-content-start, .align-items-start;
+    }
+
+    &--horizontal {
+        width: 100%;
+        height: 3px;
+    }
+
+    &--vertical {
+        height: 100%;
+        width: 3px;
+    }
+
+    &__inner {
+        @extend .position-absolute;
+        z-index: 250;
+
+        &--horizontal {
+            height: 3px;
+            left: 0;
+        }
+
+        &--vertical {
+            top: 0;
+            width: 3px;
+        }
+
+        &--invalid {
+            background-color: rgba(map-get($theme-colors, "danger"), $alpha: 1) !important;
+        }
+    }
+
+    &__hover {
+        background-color: rgba(map-get($theme-colors, "primary"), $alpha: 1);
+        z-index: 400;
+        @extend .position-absolute;
+
+        &--horizontal {
+            height: 3px;
+            width: 100%;
+        }
+
+        &--vertical {
+            top: 0;
+            width: 3px;
+            height: 100%;
+        }
+
+        &--invalid {
+            background-color: rgba(map-get($theme-colors, "danger"), $alpha: 1) !important;
+        }
+    }
+
+    &__dashed {
+        &--horizontal {
+            @extend .position-absolute;
+            width: 100%;
+            height: 1px;
+            top: 50%;
+            margin-top: -1px;
+            background-color: rgba(#ffffff, $alpha: 0);
+            border-bottom: 1px dashed map-get($theme-colors, "primary");
+        }
+
+        &--vertical {
+            height: 100%;
+            width: 1px;
+            margin: 0 auto;
+            background-color: rgba(#ffffff, $alpha: 0);
+            border-right: 1px dashed map-get($theme-colors, "primary");
+        }
+
+        &--invalid {
+            border-color: rgba(map-get($theme-colors, "danger"), $alpha: 1) !important;
+        }
+    }
+}

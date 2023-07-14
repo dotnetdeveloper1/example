@@ -1,0 +1,43 @@
+@import "../../../styles/globals.scss";
+
+$disabled-button-color: rgba(map-get($theme-colors, "secondary-accent"), 0.45);
+$control-font-color: map-get($theme-colors, "secondary-accent");
+
+.DocumentPageNavigationComponent {
+    @extend .d-flex, .flex-row, .justify-content-center, .align-items-center, .p-0;
+
+    &__previous-button {
+        @extend .d-flex, .flex-row, .btn;
+        color: $control-font-color;
+        padding-right: $btn-padding-x-sm;
+        margin-top: 1px;
+
+        &--disabled {
+            pointer-events: none;
+            color: $disabled-button-color;
+        }
+    }
+
+    &__page-navigation-view {
+        @extend .d-flex, .flex-row, .flex-fill, .justify-content-center, .align-items-center;
+
+        & > input {
+            @extend .common-input;
+
+            height: 32px;
+            width: $spacer * 3;
+        }
+
+        & > * {
+            @extend .m-0, .px-2;
+            color: $control-font-color;
+        }
+    }
+
+    &__next-button {
+        @extend .d-flex, .flex-row, .btn;
+        color: $control-font-color;
+        padding-left: $btn-padding-x-sm;
+        margin-top: 1px;
+    }
+}

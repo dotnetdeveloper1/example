@@ -1,0 +1,187 @@
+﻿{
+  "InvoiceGroups": [
+    {
+      "Folder": "Fisher",
+      "Results": [
+        {
+          "FileName": "Invoice1.pdf",
+          "OcrTemplateId": 251,
+          "TotalFieldsCount": 12,
+          "CorrectlyAssignedFieldsCount": "CorrectlyAssignedFieldsPercent",
+          "CorrectlyAssignedFieldsPercent": "1",
+          "IncorrectlyAssignedFieldsCount": 1,
+          "IncorrectlyAssignedFieldsPercent": 1,
+          "LineItemsCount": 1,
+          "FullyAssignedLineItemsCount": 1,
+          "FullyAssignedLineItemsPercent": 1,
+          "PartiallyAssignedLineItemsCount": 1,
+          "PartiallyAssignedLineItemsPercent": 1
+        },
+        {
+          "FileName": "Invoice2.pdf",
+          "OcrTemplateId": 251,
+          "TotalFieldsCount": 12,
+          "CorrectlyAssignedFieldsCount": "CorrectlyAssignedFieldsPercent",
+          "CorrectlyAssignedFieldsPercent": "1",
+          "IncorrectlyAssignedFieldsCount": 1,
+          "IncorrectlyAssignedFieldsPercent": 1,
+          "LineItemsCount": 1,
+          "FullyAssignedLineItemsCount": 1,
+          "FullyAssignedLineItemsPercent": 1,
+          "PartiallyAssignedLineItemsCount": 1,
+          "PartiallyAssignedLineItemsPercent": 1
+        },
+        {
+          "FileName": "Invoice3.pdf",
+          "OcrTemplateId": 251,
+          "TotalFieldsCount": 12,
+          "CorrectlyAssignedFieldsCount": "CorrectlyAssignedFieldsPercent",
+          "CorrectlyAssignedFieldsPercent": "1",
+          "IncorrectlyAssignedFieldsCount": 1,
+          "IncorrectlyAssignedFieldsPercent": 1,
+          "LineItemsCount": 1,
+          "FullyAssignedLineItemsCount": 1,
+          "FullyAssignedLineItemsPercent": 1,
+          "PartiallyAssignedLineItemsCount": 1,
+          "PartiallyAssignedLineItemsPercent": 1
+        },
+        {
+          "FileName": "Invoice4.pdf",
+          "OcrTemplateId": 251,
+          "TotalFieldsCount": 12,
+          "CorrectlyAssignedFieldsCount": "CorrectlyAssignedFieldsPercent",
+          "CorrectlyAssignedFieldsPercent": "1",
+          "IncorrectlyAssignedFieldsCount": 1,
+          "IncorrectlyAssignedFieldsPercent": 1,
+          "LineItemsCount": 1,
+          "FullyAssignedLineItemsCount": 1,
+          "FullyAssignedLineItemsPercent": 1,
+          "PartiallyAssignedLineItemsCount": 1,
+          "PartiallyAssignedLineItemsPercent": 1
+        }
+      ]
+    },
+    {
+      "Folder": "Fisher 2",
+      "Results": [
+        {
+          "FileName": "Invoice1.pdf",
+          "OcrTemplateId": 251,
+          "TotalFieldsCount": 12,
+          "CorrectlyAssignedFieldsCount": "CorrectlyAssignedFieldsPercent",
+          "CorrectlyAssignedFieldsPercent": "1",
+          "IncorrectlyAssignedFieldsCount": 1,
+          "IncorrectlyAssignedFieldsPercent": 1,
+          "LineItemsCount": 1,
+          "FullyAssignedLineItemsCount": 1,
+          "FullyAssignedLineItemsPercent": 1,
+          "PartiallyAssignedLineItemsCount": 1,
+          "PartiallyAssignedLineItemsPercent": 1
+        },
+        {
+          "FileName": "Invoice2.pdf",
+          "OcrTemplateId": 251,
+          "TotalFieldsCount": 12,
+          "CorrectlyAssignedFieldsCount": "CorrectlyAssignedFieldsPercent",
+          "CorrectlyAssignedFieldsPercent": "1",
+          "IncorrectlyAssignedFieldsCount": 1,
+          "IncorrectlyAssignedFieldsPercent": 1,
+          "LineItemsCount": 1,
+          "FullyAssignedLineItemsCount": 1,
+          "FullyAssignedLineItemsPercent": 1,
+          "PartiallyAssignedLineItemsCount": 1,
+          "PartiallyAssignedLineItemsPercent": 1
+        },
+        {
+          "FileName": "Invoice3.pdf",
+          "OcrTemplateId": 251,
+          "TotalFieldsCount": 12,
+          "CorrectlyAssignedFieldsCount": "CorrectlyAssignedFieldsPercent",
+          "CorrectlyAssignedFieldsPercent": "1",
+          "IncorrectlyAssignedFieldsCount": 1,
+          "IncorrectlyAssignedFieldsPercent": 1,
+          "LineItemsCount": 1,
+          "FullyAssignedLineItemsCount": 1,
+          "FullyAssignedLineItemsPercent": 1,
+          "PartiallyAssignedLineItemsCount": 1,
+          "PartiallyAssignedLineItemsPercent": 1
+        },
+        {
+          "FileName": "Invoice4.pdf",
+          "OcrTemplateId": 251,
+          "TotalFieldsCount": 12,
+          "CorrectlyAssignedFieldsCount": "CorrectlyAssignedFieldsPercent",
+          "CorrectlyAssignedFieldsPercent": "1",
+          "IncorrectlyAssignedFieldsCount": 1,
+          "IncorrectlyAssignedFieldsPercent": 1,
+          "LineItemsCount": 1,
+          "FullyAssignedLineItemsCount": 1,
+          "FullyAssignedLineItemsPercent": 1,
+          "PartiallyAssignedLineItemsCount": 1,
+          "PartiallyAssignedLineItemsPercent": 1
+        }
+      ]
+    },
+    {
+      "Folder": "Fisher 3",
+      "Results": [
+        {
+          "FileName": "Invoice1.pdf",
+          "OcrTemplateId": 251,
+          "TotalFieldsCount": 12,
+          "CorrectlyAssignedFieldsCount": "CorrectlyAssignedFieldsPercent",
+          "CorrectlyAssignedFieldsPercent": "1",
+          "IncorrectlyAssignedFieldsCount": 1,
+          "IncorrectlyAssignedFieldsPercent": 1,
+          "LineItemsCount": 1,
+          "FullyAssignedLineItemsCount": 1,
+          "FullyAssignedLineItemsPercent": 1,
+          "PartiallyAssignedLineItemsCount": 1,
+          "PartiallyAssignedLineItemsPercent": 1
+        },
+        {
+          "FileName": "Invoice2.pdf",
+          "OcrTemplateId": 251,
+          "TotalFieldsCount": 12,
+          "CorrectlyAssignedFieldsCount": "CorrectlyAssignedFieldsPercent",
+          "CorrectlyAssignedFieldsPercent": "1",
+          "IncorrectlyAssignedFieldsCount": 1,
+          "IncorrectlyAssignedFieldsPercent": 1,
+          "LineItemsCount": 1,
+          "FullyAssignedLineItemsCount": 1,
+          "FullyAssignedLineItemsPercent": 1,
+          "PartiallyAssignedLineItemsCount": 1,
+          "PartiallyAssignedLineItemsPercent": 1
+        },
+        {
+          "FileName": "Invoice3.pdf",
+          "OcrTemplateId": 251,
+          "TotalFieldsCount": 12,
+          "CorrectlyAssignedFieldsCount": "CorrectlyAssignedFieldsPercent",
+          "CorrectlyAssignedFieldsPercent": "1",
+          "IncorrectlyAssignedFieldsCount": 1,
+          "IncorrectlyAssignedFieldsPercent": 1,
+          "LineItemsCount": 1,
+          "FullyAssignedLineItemsCount": 1,
+          "FullyAssignedLineItemsPercent": 1,
+          "PartiallyAssignedLineItemsCount": 1,
+          "PartiallyAssignedLineItemsPercent": 1
+        },
+        {
+          "FileName": "Invoice4.pdf",
+          "OcrTemplateId": 251,
+          "TotalFieldsCount": 12,
+          "CorrectlyAssignedFieldsCount": "CorrectlyAssignedFieldsPercent",
+          "CorrectlyAssignedFieldsPercent": "1",
+          "IncorrectlyAssignedFieldsCount": 1,
+          "IncorrectlyAssignedFieldsPercent": 1,
+          "LineItemsCount": 1,
+          "FullyAssignedLineItemsCount": 1,
+          "FullyAssignedLineItemsPercent": 1,
+          "PartiallyAssignedLineItemsCount": 1,
+          "PartiallyAssignedLineItemsPercent": 1
+        }
+      ]
+    }
+  ]
+}

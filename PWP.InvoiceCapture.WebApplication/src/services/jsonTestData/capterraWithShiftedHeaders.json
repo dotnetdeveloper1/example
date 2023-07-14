@@ -1,0 +1,799 @@
+{
+    "pageLayoutItems": [
+        {
+            "id": "0",
+            "text": "Capterra",
+            "value": "Capterra",
+            "topLeft": {
+                "x": 111,
+                "y": 77
+            },
+            "bottomRight": {
+                "x": 376,
+                "y": 134
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "1",
+            "text": "INVOICE",
+            "value": "INVOICE",
+            "topLeft": {
+                "x": 816,
+                "y": 105
+            },
+            "bottomRight": {
+                "x": 951,
+                "y": 135
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "2",
+            "text": "901",
+            "value": "901",
+            "topLeft": {
+                "x": 52,
+                "y": 176
+            },
+            "bottomRight": {
+                "x": 92,
+                "y": 195
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "3",
+            "text": "North",
+            "value": "North",
+            "topLeft": {
+                "x": 96,
+                "y": 176
+            },
+            "bottomRight": {
+                "x": 152,
+                "y": 195
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "4",
+            "text": "Glebe",
+            "value": "Glebe",
+            "topLeft": {
+                "x": 159,
+                "y": 174
+            },
+            "bottomRight": {
+                "x": 219,
+                "y": 196
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "5",
+            "text": "Road",
+            "value": "Road",
+            "topLeft": {
+                "x": 225,
+                "y": 174
+            },
+            "bottomRight": {
+                "x": 280,
+                "y": 196
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "6",
+            "text": "Invoice",
+            "value": "Invoice",
+            "topLeft": {
+                "x": 816,
+                "y": 164
+            },
+            "bottomRight": {
+                "x": 885,
+                "y": 183
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "7",
+            "text": "Number:",
+            "value": "Number:",
+            "topLeft": {
+                "x": 892,
+                "y": 164
+            },
+            "bottomRight": {
+                "x": 983,
+                "y": 183
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "8",
+            "text": "162431",
+            "value": "162431",
+            "topLeft": {
+                "x": 989,
+                "y": 163
+            },
+            "bottomRight": {
+                "x": 1060,
+                "y": 183
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "9",
+            "text": "Suite",
+            "value": "Suite",
+            "topLeft": {
+                "x": 53,
+                "y": 213
+            },
+            "bottomRight": {
+                "x": 104,
+                "y": 234
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "10",
+            "text": "1010",
+            "value": "1010",
+            "topLeft": {
+                "x": 112,
+                "y": 213
+            },
+            "bottomRight": {
+                "x": 161,
+                "y": 234
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "11",
+            "text": "Date",
+            "value": "Date",
+            "topLeft": {
+                "x": 813,
+                "y": 202
+            },
+            "bottomRight": {
+                "x": 861,
+                "y": 221
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "12",
+            "text": "of",
+            "value": "of",
+            "topLeft": {
+                "x": 868,
+                "y": 202
+            },
+            "bottomRight": {
+                "x": 888,
+                "y": 221
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "13",
+            "text": "Invoice:",
+            "value": "Invoice:",
+            "topLeft": {
+                "x": 892,
+                "y": 202
+            },
+            "bottomRight": {
+                "x": 974,
+                "y": 221
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "14",
+            "text": "12/01/2015",
+            "value": "12/01/2015",
+            "topLeft": {
+                "x": 980,
+                "y": 202
+            },
+            "bottomRight": {
+                "x": 1090,
+                "y": 221
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "15",
+            "text": "Arlington,",
+            "value": "Arlington,",
+            "topLeft": {
+                "x": 52,
+                "y": 252
+            },
+            "bottomRight": {
+                "x": 148,
+                "y": 277
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "16",
+            "text": "VA",
+            "value": "VA",
+            "topLeft": {
+                "x": 153,
+                "y": 252
+            },
+            "bottomRight": {
+                "x": 185,
+                "y": 277
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "17",
+            "text": "22203",
+            "value": "22203",
+            "topLeft": {
+                "x": 190,
+                "y": 252
+            },
+            "bottomRight": {
+                "x": 256,
+                "y": 277
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "18",
+            "text": "Time",
+            "value": "Time",
+            "topLeft": {
+                "x": 816,
+                "y": 241
+            },
+            "bottomRight": {
+                "x": 864,
+                "y": 263
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "19",
+            "text": "Period:",
+            "value": "Period:",
+            "topLeft": {
+                "x": 869,
+                "y": 242
+            },
+            "bottomRight": {
+                "x": 943,
+                "y": 263
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "20",
+            "text": "November",
+            "value": "November",
+            "topLeft": {
+                "x": 948,
+                "y": 242
+            },
+            "bottomRight": {
+                "x": 1055,
+                "y": 263
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "21",
+            "text": "2015",
+            "value": "2015",
+            "topLeft": {
+                "x": 1059,
+                "y": 241
+            },
+            "bottomRight": {
+                "x": 1110,
+                "y": 262
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "22",
+            "text": "Bill",
+            "value": "Bill",
+            "topLeft": {
+                "x": 52,
+                "y": 353
+            },
+            "bottomRight": {
+                "x": 90,
+                "y": 375
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "23",
+            "text": "to:",
+            "value": "to:",
+            "topLeft": {
+                "x": 94,
+                "y": 354
+            },
+            "bottomRight": {
+                "x": 124,
+                "y": 376
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "24",
+            "text": "Company",
+            "value": "Company",
+            "topLeft": {
+                "x": 52,
+                "y": 402
+            },
+            "bottomRight": {
+                "x": 251,
+                "y": 439
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "25",
+            "text": "Technologies",
+            "value": "Technologies",
+            "topLeft": {
+                "x": 258,
+                "y": 401
+            },
+            "bottomRight": {
+                "x": 485,
+                "y": 444
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "26",
+            "text": "Item",
+            "value": "Item",
+            "topLeft": {
+                "x": 61,
+                "y": 470
+            },
+            "bottomRight": {
+                "x": 108,
+                "y": 492
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "27",
+            "text": "Rate",
+            "value": "Rate",
+            "topLeft": {
+                "x": 355,
+                "y": 470
+            },
+            "bottomRight": {
+                "x": 412,
+                "y": 492
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "28",
+            "text": "Quantity",
+            "value": "Quantity",
+            "topLeft": {
+                "x": 596,
+                "y": 466
+            },
+            "bottomRight": {
+                "x": 700,
+                "y": 500
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "29",
+            "text": "Amount",
+            "value": "Amount",
+            "topLeft": {
+                "x": 911,
+                "y": 468
+            },
+            "bottomRight": {
+                "x": 1009,
+                "y": 493
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "30",
+            "text": "Clicks",
+            "value": "Clicks",
+            "topLeft": {
+                "x": 64,
+                "y": 517
+            },
+            "bottomRight": {
+                "x": 133,
+                "y": 541
+            },
+            "assigned": true,
+            "selected": true
+        },
+        {
+            "id": "31",
+            "text": "$2.00",
+            "value": "2.00",
+            "topLeft": {
+                "x": 418,
+                "y": 514
+            },
+            "bottomRight": {
+                "x": 483,
+                "y": 537
+            },
+            "assigned": true,
+            "selected": true
+        },
+        {
+            "id": "32",
+            "text": "154",
+            "value": "154",
+            "topLeft": {
+                "x": 761,
+                "y": 513
+            },
+            "bottomRight": {
+                "x": 800,
+                "y": 541
+            },
+            "assigned": true,
+            "selected": true
+        },
+        {
+            "id": "33",
+            "text": "$308.00",
+            "value": "308.00",
+            "topLeft": {
+                "x": 1004,
+                "y": 515
+            },
+            "bottomRight": {
+                "x": 1099,
+                "y": 540
+            },
+            "assigned": true,
+            "selected": true
+        },
+        {
+            "id": "34",
+            "text": "Total",
+            "value": "Total",
+            "topLeft": {
+                "x": 66,
+                "y": 561
+            },
+            "bottomRight": {
+                "x": 125,
+                "y": 584
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "35",
+            "text": "$308.00",
+            "value": "308.00",
+            "topLeft": {
+                "x": 911,
+                "y": 562
+            },
+            "bottomRight": {
+                "x": 1007,
+                "y": 584
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "36",
+            "text": "Thank",
+            "value": "Thank",
+            "topLeft": {
+                "x": 55,
+                "y": 655
+            },
+            "bottomRight": {
+                "x": 143,
+                "y": 688
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "37",
+            "text": "you",
+            "value": "you",
+            "topLeft": {
+                "x": 148,
+                "y": 655
+            },
+            "bottomRight": {
+                "x": 206,
+                "y": 688
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "38",
+            "text": "for",
+            "value": "for",
+            "topLeft": {
+                "x": 212,
+                "y": 655
+            },
+            "bottomRight": {
+                "x": 255,
+                "y": 688
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "39",
+            "text": "your",
+            "value": "your",
+            "topLeft": {
+                "x": 261,
+                "y": 655
+            },
+            "bottomRight": {
+                "x": 329,
+                "y": 687
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "40",
+            "text": "business!",
+            "value": "business!",
+            "topLeft": {
+                "x": 336,
+                "y": 655
+            },
+            "bottomRight": {
+                "x": 479,
+                "y": 686
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "41",
+            "text": "Questions?",
+            "value": "Questions?",
+            "topLeft": {
+                "x": 52,
+                "y": 709
+            },
+            "bottomRight": {
+                "x": 185,
+                "y": 735
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "42",
+            "text": "Please",
+            "value": "Please",
+            "topLeft": {
+                "x": 191,
+                "y": 709
+            },
+            "bottomRight": {
+                "x": 272,
+                "y": 735
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "43",
+            "text": "contact",
+            "value": "contact",
+            "topLeft": {
+                "x": 278,
+                "y": 709
+            },
+            "bottomRight": {
+                "x": 363,
+                "y": 735
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "44",
+            "text": "Nadia",
+            "value": "Nadia",
+            "topLeft": {
+                "x": 368,
+                "y": 708
+            },
+            "bottomRight": {
+                "x": 437,
+                "y": 737
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "45",
+            "text": "Podurushina",
+            "value": "Podurushina",
+            "topLeft": {
+                "x": 444,
+                "y": 708
+            },
+            "bottomRight": {
+                "x": 592,
+                "y": 737
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "46",
+            "text": "at",
+            "value": "at",
+            "topLeft": {
+                "x": 598,
+                "y": 708
+            },
+            "bottomRight": {
+                "x": 622,
+                "y": 737
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "47",
+            "text": "703-994-4059",
+            "value": "703-994-4059",
+            "topLeft": {
+                "x": 628,
+                "y": 708
+            },
+            "bottomRight": {
+                "x": 790,
+                "y": 738
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "48",
+            "text": "or",
+            "value": "or",
+            "topLeft": {
+                "x": 796,
+                "y": 709
+            },
+            "bottomRight": {
+                "x": 818,
+                "y": 738
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "49",
+            "text": "billing@capterra.com.",
+            "value": "billing@capterra.com.",
+            "topLeft": {
+                "x": 825,
+                "y": 709
+            },
+            "bottomRight": {
+                "x": 1077,
+                "y": 739
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "50",
+            "text": "Print",
+            "value": "Print",
+            "topLeft": {
+                "x": 74,
+                "y": 824
+            },
+            "bottomRight": {
+                "x": 129,
+                "y": 847
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "51",
+            "text": "this",
+            "value": "this",
+            "topLeft": {
+                "x": 134,
+                "y": 826
+            },
+            "bottomRight": {
+                "x": 177,
+                "y": 847
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "52",
+            "text": "page",
+            "value": "page",
+            "topLeft": {
+                "x": 181,
+                "y": 826
+            },
+            "bottomRight": {
+                "x": 234,
+                "y": 850
+            },
+            "assigned": false,
+            "selected": false
+        }
+    ]
+}

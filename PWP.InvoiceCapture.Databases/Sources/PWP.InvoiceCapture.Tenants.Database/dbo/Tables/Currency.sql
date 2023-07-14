@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Currency]
+(
+	[Id] INT NOT NULL IDENTITY(1,1),
+	[Code] NVARCHAR(3) NOT NULL,
+	[Name] NVARCHAR(MAX) NULL,
+	CONSTRAINT [PK_Currency] PRIMARY KEY ([Id])
+)

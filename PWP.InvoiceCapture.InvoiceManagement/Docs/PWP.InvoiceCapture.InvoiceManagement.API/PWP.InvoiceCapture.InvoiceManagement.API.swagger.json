@@ -1,0 +1,875 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "Invoice Management API Endpoint definitions",
+    "version": "1.0.0",
+    "title": "PWP.InvoiceCapture.InvoiceManagement.API"
+  },
+  "host": "localhost",
+  "basePath": "/v1",
+  "tags": [
+    {
+      "name": "invoice",
+      "description": "Invoice Entity"
+    },
+    {
+      "name": "page",
+      "description": "Invoice Page Entity"
+    },
+    {
+      "name": "contact",
+      "description": "Invoice Contact Entity"
+    },
+    {
+      "name": "processing-result",
+      "description": "Invoice Processing Result Entity"
+    }
+  ],
+  "schemes": ["https", "http"],
+  "paths": {
+    "/invoices": {
+      "get": {
+        "tags": ["invoice"],
+        "summary": "Get Invoices",
+        "description": "The action should support filter and paging functionality",
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Invoice Collection",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Invoice"
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request (Validation errors)",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "401": {
+            "description": "Request is not authorized",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "403": {
+            "description": "Access denied",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          }
+        }
+      }
+    },
+    "/pages/invoices/{invoiceId}": {
+      "get": {
+        "tags": ["page"],
+        "summary": "Get Invoice Pages for specified Invoice Id",
+        "parameters": [
+          {
+            "name": "invoiceId",
+            "in": "path",
+            "description": "Invoice Entity Id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Invoice Entity",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/InvoicePage"
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request (Validation errors)",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "401": {
+            "description": "Request is not authorized",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "403": {
+            "description": "Access denied",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          }
+        }
+      }
+    },
+    "/pages/{pageId}/image": {
+      "get": {
+        "tags": ["page"],
+        "summary": "Get Invoice Page Image representation (file)",
+        "parameters": [
+          {
+            "name": "pageId",
+            "in": "path",
+            "description": "Invoice Page Entity Id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "produces": ["image/png"],
+        "responses": {
+          "200": {
+            "description": "Invoice Page PNG Image",
+            "schema": {
+              "type": "file"
+            }
+          },
+          "400": {
+            "description": "Bad Request (Validation errors)",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "401": {
+            "description": "Request is not authorized",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "403": {
+            "description": "Access denied",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "404": {
+            "description": "Document Not Found",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          }
+        }
+      }
+    },
+    "/invoices/{invoiceId}/document": {
+      "get": {
+        "tags": ["invoice"],
+        "summary": "Get Source Invoice Document by Id",
+        "parameters": [
+          {
+            "name": "invoiceId",
+            "in": "path",
+            "description": "Invoice Entity Id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "produces": ["application/pdf", "image/png"],
+        "responses": {
+          "200": {
+            "description": "Invoice PDF File or PNG Image",
+            "schema": {
+              "type": "file"
+            }
+          },
+          "400": {
+            "description": "Bad Request (Validation errors)",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "401": {
+            "description": "Request is not authorized",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "403": {
+            "description": "Access denied",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "404": {
+            "description": "Document Not Found",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          }
+        }
+      }
+    },
+    "/invoices/{invoiceId}": {
+      "get": {
+        "tags": ["invoice"],
+        "summary": "Get Invoice by Id",
+        "parameters": [
+          {
+            "name": "invoiceId",
+            "in": "path",
+            "description": "Invoice Entity Id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Invoice Entity",
+            "schema": {
+              "$ref": "#/definitions/Invoice"
+            }
+          },
+          "400": {
+            "description": "Bad Request (Validation errors)",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "401": {
+            "description": "Request is not authorized",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "403": {
+            "description": "Access denied",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          }
+        }
+      }
+    },
+    "/contacts": {
+      "get": {
+        "tags": ["contact"],
+        "summary": "Get Contacts",
+        "description": "The action should support filter and paging functionality",
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Contact Collection",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Contact"
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request (Validation errors)",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "401": {
+            "description": "Request is not authorized",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "403": {
+            "description": "Access denied",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          }
+        }
+      }
+    },
+    "/contacts/invoices/{invoiceId}": {
+      "get": {
+        "tags": ["contact"],
+        "summary": "Get Contacts by Invoice Entity Id",
+        "parameters": [
+          {
+            "name": "invoiceId",
+            "in": "path",
+            "description": "Invoice Entity Id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Contact Collection",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Contact"
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request (Validation errors)",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "401": {
+            "description": "Request is not authorized",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "403": {
+            "description": "Access denied",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          }
+        }
+      }
+    },
+    "/contacts/{contactId}": {
+      "get": {
+        "tags": ["contact"],
+        "summary": "Get Contact by Id",
+        "parameters": [
+          {
+            "name": "contactId",
+            "in": "path",
+            "description": "Contact Entity Id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Contact Entity",
+            "schema": {
+              "$ref": "#/definitions/Contact"
+            }
+          },
+          "400": {
+            "description": "Bad Request (Validation errors)",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "401": {
+            "description": "Request is not authorized",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "403": {
+            "description": "Access denied",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          }
+        }
+      }
+    },
+    "/processingresults/{processingresultId}/annotations": {
+      "get": {
+        "tags": ["processing-result"],
+        "summary": "Get Invoice Data Annotations for specified Invoice Processing Result",
+        "parameters": [
+          {
+            "name": "processingresultId",
+            "in": "path",
+            "description": "Invoice Processing Result Entity Id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Invoice Data Annotation",
+            "schema": {
+              "$ref": "#/definitions/InvoiceDataAnnotation"
+            }
+          },
+          "400": {
+            "description": "Bad Request (Validation errors)",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "401": {
+            "description": "Request is not authorized",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "403": {
+            "description": "Access denied",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          }
+        }
+      }
+    },
+    "/processingresults/{processingresultId}": {
+      "get": {
+        "tags": ["processing-result"],
+        "summary": "Get Invoice Processing Result by Id",
+        "parameters": [
+          {
+            "name": "processingresultId",
+            "in": "path",
+            "description": "Invoice Processing Result Entity Id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Invoice Processing Result Entity",
+            "schema": {
+              "$ref": "#/definitions/InvoiceProcessingResult"
+            }
+          },
+          "400": {
+            "description": "Bad Request (Validation errors)",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "401": {
+            "description": "Request is not authorized",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "403": {
+            "description": "Access denied",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": ["processing-result"],
+        "summary": "Put/Update Invoice Processing Result",
+        "consumes": ["application/json"],
+        "parameters": [
+          {
+            "name": "processingresultId",
+            "in": "path",
+            "description": "Invoice Processing Result Entity Id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "processingresult",
+            "in": "body",
+            "description": "Updated Invoice Processing Result data",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/InvoiceProcessingResult"
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "OK (Invoice Processing Result Saved)",
+            "schema": {
+              "$ref": "#/definitions/InvoiceProcessingResult"
+            }
+          },
+          "400": {
+            "description": "Bad Request (Validation errors)",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "401": {
+            "description": "Request is not authorized",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "403": {
+            "description": "Access denied",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          }
+        }
+      }
+    },
+    "/processingresults/invoices/{invoiceId}": {
+      "get": {
+        "tags": ["processing-result"],
+        "summary": "Get Invoice Processing Results by Invoice Entity Id",
+        "parameters": [
+          {
+            "name": "invoiceId",
+            "in": "path",
+            "description": "Invoice Entity Id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Invoice Processing Results",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/InvoiceProcessingResult"
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request (Validation errors)",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "401": {
+            "description": "Request is not authorized",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "403": {
+            "description": "Access denied",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Invoice": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "name": {
+          "type": "string"
+        },
+        "statusId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "createdDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "modifiedDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "invoiceNumber": {
+          "type": "string"
+        },
+        "invoiceDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "dueDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "poNumber": {
+          "type": "string"
+        },
+        "taxNumber": {
+          "type": "string"
+        },
+        "taxAmount": {
+          "type": "number",
+          "format": "double"
+        },
+        "freightAmount": {
+          "type": "number",
+          "format": "double"
+        },
+        "subTotal": {
+          "type": "number",
+          "format": "double"
+        },
+        "total": {
+          "type": "number",
+          "format": "double"
+        },
+        "currencyId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "fileName": {
+          "type": "string"
+        },
+        "fileId": {
+          "type": "string"
+        },
+        "fileSourceTypeId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "contacts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Contact"
+          }
+        },
+        "lines": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/InvoiceLine"
+          }
+        }
+      }
+    },
+    "InvoicePage": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "invoiceId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "number": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "imageFileId": {
+          "type": "string"
+        }
+      }
+    },
+    "InvoiceLine": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "invoiceId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "recipientContactId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "lineNumber": {
+          "type": "string"
+        },
+        "orderNumber": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "description": {
+          "type": "string"
+        },
+        "subTotal": {
+          "type": "number",
+          "format": "double"
+        },
+        "total": {
+          "type": "number",
+          "format": "double"
+        },
+        "createdDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "modifiedDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "recipientContact": {
+          "$ref": "#/definitions/Contact"
+        }
+      }
+    },
+    "Contact": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "invoiceId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "contactTypeId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "name": {
+          "type": "string"
+        },
+        "address": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "website": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "createdDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "modifiedDate": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "InvoiceProcessingResult": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "invoiceId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "createdDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "modifiedDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "templateId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "processingTypeId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "dataAnnotationFileId": {
+          "type": "string"
+        },
+        "invoice": {
+          "$ref": "#/definitions/Invoice"
+        },
+        "dataAnnotations": {
+          "$ref": "#/definitions/InvoiceDataAnnotation"
+        }
+      }
+    },
+    "InvoiceDataAnnotation": {
+      "type": "object",
+      "properties": {
+        "plainDocumentText": {
+          "type": "string"
+        },
+        "documentLayoutItems": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/DocumentLayoutItem"
+          }
+        },
+        "invoiceAnnotations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/InvoiceAnnotation"
+          }
+        }
+      }
+    },
+    "DocumentLayoutItem": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        },
+        "topLeft": {
+          "$ref": "#/definitions/Point"
+        },
+        "bottomRight": {
+          "$ref": "#/definitions/Point"
+        }
+      }
+    },
+    "InvoiceAnnotation": {
+      "type": "object",
+      "properties": {
+        "fieldType": {
+          "type": "string"
+        },
+        "fieldValue": {
+          "type": "string"
+        },
+        "userCreated": {
+          "type": "boolean"
+        },
+        "documentLayoutItemIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "Point": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "y": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
+    "ApiResponse": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "message": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

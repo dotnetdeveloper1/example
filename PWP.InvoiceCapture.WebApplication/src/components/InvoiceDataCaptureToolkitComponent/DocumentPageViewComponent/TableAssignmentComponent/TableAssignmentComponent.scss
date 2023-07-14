@@ -1,0 +1,67 @@
+@import "../../../../styles/globals.scss";
+
+.TableAssignmentComponent {
+    @extend .position-absolute;
+    background-color: rgba(map-get($theme-colors, "primary"), $alpha: 0.1);
+    border: 3px solid #0c3769;
+    z-index: 200;
+    cursor: default;
+    pointer-events: all;
+
+    &__dividers-control-area {
+        @extend .position-absolute;
+        //background-color: rgba($color: #cccccc, $alpha: 0.5) !important;
+        z-index: 100;
+        pointer-events: none;
+    }
+
+    &__draft-divider--horizontal {
+        @extend .position-absolute;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: rgba(#ffffff, $alpha: 0);
+        border-top: 1px dashed map-get($theme-colors, "primary");
+        z-index: 1;
+    }
+    &__draft-divider--vertical {
+        @extend .position-absolute;
+        top: 0;
+        height: 100%;
+        width: 1px;
+        background-color: rgba(#ffffff, $alpha: 0);
+        border-left: 1px dashed map-get($theme-colors, "primary");
+        z-index: 1;
+    }
+
+    &__side-control-area {
+        @extend .position-absolute;
+        //background-color: $blue;
+        z-index: 150;
+        pointer-events: all;
+    }
+
+    &__button-area {
+        @extend .position-absolute;
+        z-index: 200;
+        &__container {
+            @extend .d-flex, .justify-content-between, .align-items-center;
+            > div:not(:last-child) {
+                padding-right: 10px;
+            }
+        }
+    }
+
+    &__plus-tooltip {
+        color: map-get($theme-colors, "primary");
+        background-color: #ffffff;
+        border-radius: 50%;
+        width: 18px !important;
+        height: 18px !important;
+    }
+
+    &__auto-recognized-header {
+        background-color: #55bc6190;
+        z-index: 400;
+    }
+}

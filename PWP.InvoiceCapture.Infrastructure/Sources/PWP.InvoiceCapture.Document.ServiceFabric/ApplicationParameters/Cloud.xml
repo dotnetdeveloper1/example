@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/PWP.InvoiceCapture.Document.ServiceFabric" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="PWP.InvoiceCapture.Document.API_ASPNETCORE_ENVIRONMENT" Value="" />
+    <Parameter Name="PWP.InvoiceCapture.Document.API_InstanceCount" Value="-1" />
+    <Parameter Name="PWP.InvoiceCapture.Document.API_PlacementConstraints" Value="(NodeTypeName==backend)" />
+  </Parameters>
+</Application>

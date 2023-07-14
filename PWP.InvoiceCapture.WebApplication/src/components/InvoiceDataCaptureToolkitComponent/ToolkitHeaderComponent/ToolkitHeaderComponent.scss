@@ -1,0 +1,62 @@
+@import "../../../styles/globals.scss";
+
+.ToolkitHeaderComponent {
+    @extend .d-flex, .justify-content-between, .align-items-center, .mb-3, .px-5;
+
+    background-color: map-get($theme-colors, "primary-accent");
+    height: 4rem;
+    box-shadow: $component-shadow;
+
+    &__company-logo {
+        @extend .pr-4;
+        margin-left: -16px;
+        margin-right: -24px;
+    }
+
+    &__title-container {
+        @extend .d-flex, .justify-content-start, .align-items-center, .h-100;
+    }
+
+    &__title-label {
+        @extend .h4;
+        color: map-get($theme-colors, "secondary-accent");
+        width: 203px;
+        height: 19px;
+        font-family: $headings-font-family;
+        font-size: 16px;
+        font-weight: $font-weight-normal;
+        font-stretch: $font-stretch-normal;
+        font-style: $font-style-normal;
+        line-height: $line-height-normal;
+        letter-spacing: $letter-spacing-normal;
+        color: $headings-color;
+        margin-right: 16px;
+    }
+
+    &__title-badge {
+        @extend .badge;
+        @include badge-variant($yellow-100);
+        color: map-get($theme-colors, "black");
+        font-weight: $headings-font-weight;
+        font-size: $font-size-base * 0.865;
+        width: 111px;
+        height: 24px;
+    }
+
+    &__buttons {
+        @extend .d-flex, .justify-content-end;
+    }
+
+    &__download {
+        @extend .primary-button, .ml-1;
+        width: 184px;
+
+        & > * {
+            @extend .pr-1;
+        }
+
+        &--disabled {
+            @extend .disabled-button;
+        }
+    }
+}

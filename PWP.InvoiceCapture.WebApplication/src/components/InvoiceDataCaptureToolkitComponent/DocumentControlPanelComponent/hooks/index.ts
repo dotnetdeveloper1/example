@@ -1,0 +1,1 @@
+export { usePageNavigationView } from "./usePageNavigationView";

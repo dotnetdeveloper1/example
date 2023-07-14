@@ -1,0 +1,818 @@
+[
+  {
+    "Id": 1,
+    "Text": "invoiceNumber",
+    "Synonyms": [
+      {
+        "Id": 1,
+        "LabelOfInterestId": 1,
+        "Text": "Invoice Number"
+      },
+      {
+        "Id": 2,
+        "LabelOfInterestId": 1,
+        "Text": "Invoice No."
+      },
+      {
+        "Id": 3,
+        "LabelOfInterestId": 1,
+        "Text": "Invoice No#"
+      },
+      {
+        "Id": 4,
+        "LabelOfInterestId": 1,
+        "Text": "Invoice Id"
+      },
+      {
+        "Id": 5,
+        "LabelOfInterestId": 1,
+        "Text": "Invoice #:"
+      },
+      {
+        "Id": 6,
+        "LabelOfInterestId": 1,
+        "Text": "Invoice No"
+      },
+      {
+        "Id": 7,
+        "LabelOfInterestId": 1,
+        "Text": "Invoice #"
+      },
+      {
+        "Id": 8,
+        "LabelOfInterestId": 1,
+        "Text": "INV #"
+      }
+    ],
+    "FallBackLabels": null,
+    "MockedErrors": [],
+    "ExpectedType": 4,
+    "UseAbsoluteComparison": true,
+    "Keywords": []
+  },
+  {
+    "Id": 2,
+    "Text": "Account Number",
+    "Synonyms": [
+      {
+        "Id": 9,
+        "LabelOfInterestId": 2,
+        "Text": "Account Number"
+      },
+      {
+        "Id": 11,
+        "LabelOfInterestId": 2,
+        "Text": "Account No."
+      },
+      {
+        "Id": 12,
+        "LabelOfInterestId": 2,
+        "Text": "Account #:"
+      },
+      {
+        "Id": 13,
+        "LabelOfInterestId": 2,
+        "Text": "Account #"
+      },
+      {
+        "Id": 14,
+        "LabelOfInterestId": 2,
+        "Text": "Acc No."
+      },
+      {
+        "Id": 15,
+        "LabelOfInterestId": 2,
+        "Text": "Acc #"
+      }
+    ],
+    "FallBackLabels": null,
+    "MockedErrors": [],
+    "ExpectedType": 1,
+    "UseAbsoluteComparison": true,
+    "Keywords": []
+  },
+  {
+    "Id": 3,
+    "Text": "invoiceDate",
+    "Synonyms": [
+      {
+        "Id": 16,
+        "LabelOfInterestId": 3,
+        "Text": "Invoice Date"
+      },
+      {
+        "Id": 17,
+        "LabelOfInterestId": 3,
+        "Text": "Date Of Issue"
+      },
+      {
+        "Id": 18,
+        "LabelOfInterestId": 3,
+        "Text": "INV. DATE"
+      },
+      {
+        "Id": 19,
+        "LabelOfInterestId": 3,
+        "Text": "nvc date"
+      }
+    ],
+    "FallBackLabels": null,
+    "MockedErrors": [],
+    "ExpectedType": 3,
+    "UseAbsoluteComparison": false,
+    "Keywords": [
+      {
+        "Id": 1,
+        "LabelOfInterestId": 3,
+        "Text": "Invoice"
+      },
+      {
+        "Id": 2,
+        "LabelOfInterestId": 3,
+        "Text": "Date"
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "Text": "Order Date",
+    "Synonyms": [],
+    "FallBackLabels": null,
+    "MockedErrors": [],
+    "ExpectedType": 3,
+    "UseAbsoluteComparison": false,
+    "Keywords": []
+  },
+  {
+    "Id": 5,
+    "Text": "Shipping Date",
+    "Synonyms": [
+      {
+        "Id": 20,
+        "LabelOfInterestId": 5,
+        "Text": "Shipped Date"
+      },
+      {
+        "Id": 21,
+        "LabelOfInterestId": 5,
+        "Text": "Shipping Date"
+      },
+      {
+        "Id": 22,
+        "LabelOfInterestId": 5,
+        "Text": "Ship Date"
+      }
+    ],
+    "FallBackLabels": null,
+    "MockedErrors": [],
+    "ExpectedType": 3,
+    "UseAbsoluteComparison": false,
+    "Keywords": []
+  },
+  {
+    "Id": 6,
+    "Text": "dueDate",
+    "Synonyms": [
+      {
+        "Id": 23,
+        "LabelOfInterestId": 6,
+        "Text": "due date"
+      },
+      {
+        "Id": 24,
+        "LabelOfInterestId": 6,
+        "Text": "payment due"
+      },
+      {
+        "Id": 25,
+        "LabelOfInterestId": 6,
+        "Text": "date due"
+      },
+      {
+        "Id": 26,
+        "LabelOfInterestId": 6,
+        "Text": "due on"
+      },
+      {
+        "Id": 27,
+        "LabelOfInterestId": 6,
+        "Text": "due"
+      }
+    ],
+    "FallBackLabels": null,
+    "MockedErrors": [],
+    "ExpectedType": 3,
+    "UseAbsoluteComparison": false,
+    "Keywords": [
+      {
+        "Id": 3,
+        "LabelOfInterestId": 6,
+        "Text": "due"
+      }
+    ]
+  },
+  {
+    "Id": 7,
+    "Text": "vendorAddress",
+    "Synonyms": [
+      {
+        "Id": 28,
+        "LabelOfInterestId": 7,
+        "Text": "Invoice Address"
+      },
+      {
+        "Id": 29,
+        "LabelOfInterestId": 7,
+        "Text": "Bill to"
+      }
+    ],
+    "FallBackLabels": null,
+    "MockedErrors": [],
+    "ExpectedType": 1,
+    "UseAbsoluteComparison": false,
+    "Keywords": []
+  },
+  {
+    "Id": 8,
+    "Text": "vendorPhone",
+    "Synonyms": [
+      {
+        "Id": 30,
+        "LabelOfInterestId": 8,
+        "Text": "Phone number"
+      },
+      {
+        "Id": 31,
+        "LabelOfInterestId": 8,
+        "Text": "Phone No"
+      }
+    ],
+    "FallBackLabels": null,
+    "MockedErrors": [],
+    "ExpectedType": 1,
+    "UseAbsoluteComparison": false,
+    "Keywords": []
+  },
+  {
+    "Id": 9,
+    "Text": "vendorEmail",
+    "Synonyms": [
+      {
+        "Id": 32,
+        "LabelOfInterestId": 9,
+        "Text": "Mail"
+      }
+    ],
+    "FallBackLabels": null,
+    "MockedErrors": [],
+    "ExpectedType": 1,
+    "UseAbsoluteComparison": false,
+    "Keywords": []
+  },
+  {
+    "Id": 10,
+    "Text": "taxNumber",
+    "Synonyms": [
+      {
+        "Id": 33,
+        "LabelOfInterestId": 10,
+        "Text": "TAX ID"
+      },
+      {
+        "Id": 34,
+        "LabelOfInterestId": 10,
+        "Text": "Tax Registration Number"
+      },
+      {
+        "Id": 35,
+        "LabelOfInterestId": 10,
+        "Text": "Registration number"
+      },
+      {
+        "Id": 36,
+        "LabelOfInterestId": 10,
+        "Text": "Tax Registration #"
+      },
+      {
+        "Id": 37,
+        "LabelOfInterestId": 10,
+        "Text": "Registration No"
+      },
+      {
+        "Id": 38,
+        "LabelOfInterestId": 10,
+        "Text": "Registration #"
+      },
+      {
+        "Id": 39,
+        "LabelOfInterestId": 10,
+        "Text": "Federal Tax ID"
+      },
+      {
+        "Id": 40,
+        "LabelOfInterestId": 10,
+        "Text": "Federal ID#"
+      },
+      {
+        "Id": 41,
+        "LabelOfInterestId": 10,
+        "Text": "Tax Number"
+      },
+      {
+        "Id": 42,
+        "LabelOfInterestId": 10,
+        "Text": "HST number"
+      },
+      {
+        "Id": 43,
+        "LabelOfInterestId": 10,
+        "Text": "Federal No"
+      },
+      {
+        "Id": 44,
+        "LabelOfInterestId": 10,
+        "Text": "Tax No"
+      }
+    ],
+    "FallBackLabels": null,
+    "MockedErrors": [],
+    "ExpectedType": 1,
+    "UseAbsoluteComparison": false,
+    "Keywords": []
+  },
+  {
+    "Id": 11,
+    "Text": "Amount Paid",
+    "Synonyms": [
+      {
+        "Id": 45,
+        "LabelOfInterestId": 11,
+        "Text": "Already Paid"
+      },
+      {
+        "Id": 46,
+        "LabelOfInterestId": 11,
+        "Text": "Paid Amount"
+      }
+    ],
+    "FallBackLabels": null,
+    "MockedErrors": [],
+    "ExpectedType": 2,
+    "UseAbsoluteComparison": false,
+    "Keywords": []
+  },
+  {
+    "Id": 12,
+    "Text": "taxAmount",
+    "Synonyms": [
+      {
+        "Id": 47,
+        "LabelOfInterestId": 12,
+        "Text": "Tax Amount"
+      },
+      {
+        "Id": 48,
+        "LabelOfInterestId": 12,
+        "Text": "Total Taxes"
+      },
+      {
+        "Id": 49,
+        "LabelOfInterestId": 12,
+        "Text": "Total Tax"
+      },
+      {
+        "Id": 50,
+        "LabelOfInterestId": 12,
+        "Text": "Sales Tax"
+      },
+      {
+        "Id": 51,
+        "LabelOfInterestId": 12,
+        "Text": "GST/HST"
+      },
+      {
+        "Id": 52,
+        "LabelOfInterestId": 12,
+        "Text": "Taxes"
+      },
+      {
+        "Id": 53,
+        "LabelOfInterestId": 12,
+        "Text": "HST"
+      },
+      {
+        "Id": 54,
+        "LabelOfInterestId": 12,
+        "Text": "GST"
+      },
+      {
+        "Id": 55,
+        "LabelOfInterestId": 12,
+        "Text": "Tax"
+      }
+    ],
+    "FallBackLabels": null,
+    "MockedErrors": [],
+    "ExpectedType": 2,
+    "UseAbsoluteComparison": false,
+    "Keywords": []
+  },
+  {
+    "Id": 13,
+    "Text": "Balance",
+    "Synonyms": [
+      {
+        "Id": 56,
+        "LabelOfInterestId": 13,
+        "Text": "Balance Due"
+      }
+    ],
+    "FallBackLabels": null,
+    "MockedErrors": [],
+    "ExpectedType": 2,
+    "UseAbsoluteComparison": false,
+    "Keywords": []
+  },
+  {
+    "Id": 14,
+    "Text": "Description",
+    "Synonyms": [],
+    "FallBackLabels": null,
+    "MockedErrors": [],
+    "ExpectedType": 1,
+    "UseAbsoluteComparison": false,
+    "Keywords": []
+  },
+  {
+    "Id": 15,
+    "Text": "freightAmount",
+    "Synonyms": [
+      {
+        "Id": 57,
+        "LabelOfInterestId": 15,
+        "Text": "Freight"
+      },
+      {
+        "Id": 58,
+        "LabelOfInterestId": 15,
+        "Text": "Freight Amount"
+      },
+      {
+        "Id": 59,
+        "LabelOfInterestId": 15,
+        "Text": "Freight Header"
+      }
+    ],
+    "FallBackLabels": null,
+    "MockedErrors": [],
+    "ExpectedType": 2,
+    "UseAbsoluteComparison": false,
+    "Keywords": [
+      {
+        "Id": 4,
+        "LabelOfInterestId": 15,
+        "Text": "Freight"
+      }
+    ]
+  },
+  {
+    "Id": 16,
+    "Text": "Ordered By",
+    "Synonyms": [],
+    "FallBackLabels": null,
+    "MockedErrors": [],
+    "ExpectedType": 1,
+    "UseAbsoluteComparison": false,
+    "Keywords": []
+  },
+  {
+    "Id": 17,
+    "Text": "total",
+    "Synonyms": [
+      {
+        "Id": 60,
+        "LabelOfInterestId": 17,
+        "Text": "Please Pay This Amount"
+      },
+      {
+        "Id": 61,
+        "LabelOfInterestId": 17,
+        "Text": "Payment Amount Due"
+      },
+      {
+        "Id": 62,
+        "LabelOfInterestId": 17,
+        "Text": "Total Amount Due"
+      },
+      {
+        "Id": 63,
+        "LabelOfInterestId": 17,
+        "Text": "Amount Due (USD)"
+      },
+      {
+        "Id": 64,
+        "LabelOfInterestId": 17,
+        "Text": "Amount Payable"
+      },
+      {
+        "Id": 65,
+        "LabelOfInterestId": 17,
+        "Text": "Invoice Total"
+      },
+      {
+        "Id": 66,
+        "LabelOfInterestId": 17,
+        "Text": "Total Invoice"
+      },
+      {
+        "Id": 67,
+        "LabelOfInterestId": 17,
+        "Text": "Total Amount"
+      },
+      {
+        "Id": 68,
+        "LabelOfInterestId": 17,
+        "Text": "Grand Total"
+      },
+      {
+        "Id": 69,
+        "LabelOfInterestId": 17,
+        "Text": "Amount Due"
+      },
+      {
+        "Id": 70,
+        "LabelOfInterestId": 17,
+        "Text": "Total Due"
+      },
+      {
+        "Id": 71,
+        "LabelOfInterestId": 17,
+        "Text": "Total No"
+      }
+    ],
+    "FallBackLabels": null,
+    "MockedErrors": [],
+    "ExpectedType": 2,
+    "UseAbsoluteComparison": false,
+    "Keywords": []
+  },
+  {
+    "Id": 18,
+    "Text": "subTotal",
+    "Synonyms": [
+      {
+        "Id": 72,
+        "LabelOfInterestId": 18,
+        "Text": "Sub Total Amount"
+      },
+      {
+        "Id": 73,
+        "LabelOfInterestId": 18,
+        "Text": "ltem(s) Subtotal"
+      },
+      {
+        "Id": 74,
+        "LabelOfInterestId": 18,
+        "Text": "Invoice SubTotal"
+      },
+      {
+        "Id": 75,
+        "LabelOfInterestId": 18,
+        "Text": "Net Invoice"
+      },
+      {
+        "Id": 76,
+        "LabelOfInterestId": 18,
+        "Text": "Su btotal"
+      },
+      {
+        "Id": 77,
+        "LabelOfInterestId": 18,
+        "Text": "Sub Total"
+      },
+      {
+        "Id": 78,
+        "LabelOfInterestId": 18,
+        "Text": "SubTotal"
+      }
+    ],
+    "FallBackLabels": null,
+    "MockedErrors": [],
+    "ExpectedType": 2,
+    "UseAbsoluteComparison": false,
+    "Keywords": []
+  },
+  {
+    "Id": 19,
+    "Text": "Customer",
+    "Synonyms": [
+      {
+        "Id": 79,
+        "LabelOfInterestId": 19,
+        "Text": "Customer Number"
+      },
+      {
+        "Id": 80,
+        "LabelOfInterestId": 19,
+        "Text": "Customer Num."
+      },
+      {
+        "Id": 81,
+        "LabelOfInterestId": 19,
+        "Text": "Customer Id"
+      },
+      {
+        "Id": 82,
+        "LabelOfInterestId": 19,
+        "Text": "Customer No"
+      },
+      {
+        "Id": 83,
+        "LabelOfInterestId": 19,
+        "Text": "Customer #"
+      },
+      {
+        "Id": 84,
+        "LabelOfInterestId": 19,
+        "Text": "Cust Id"
+      },
+      {
+        "Id": 85,
+        "LabelOfInterestId": 19,
+        "Text": "Cust#"
+      }
+    ],
+    "FallBackLabels": null,
+    "MockedErrors": [],
+    "ExpectedType": 1,
+    "UseAbsoluteComparison": false,
+    "Keywords": []
+  },
+  {
+    "Id": 20,
+    "Text": "Terms",
+    "Synonyms": [],
+    "FallBackLabels": null,
+    "MockedErrors": [],
+    "ExpectedType": 1,
+    "UseAbsoluteComparison": false,
+    "Keywords": []
+  },
+  {
+    "Id": 21,
+    "Text": "poNumber",
+    "Synonyms": [
+      {
+        "Id": 86,
+        "LabelOfInterestId": 21,
+        "Text": "CUSTOMER PURCHASE ORDER NUMBER"
+      },
+      {
+        "Id": 87,
+        "LabelOfInterestId": 21,
+        "Text": "purchase order number"
+      },
+      {
+        "Id": 88,
+        "LabelOfInterestId": 21,
+        "Text": "Customer PO No."
+      },
+      {
+        "Id": 89,
+        "LabelOfInterestId": 21,
+        "Text": "Customer PO #:"
+      },
+      {
+        "Id": 90,
+        "LabelOfInterestId": 21,
+        "Text": "Customer PO #"
+      },
+      {
+        "Id": 91,
+        "LabelOfInterestId": 21,
+        "Text": "Order Number"
+      },
+      {
+        "Id": 92,
+        "LabelOfInterestId": 21,
+        "Text": "Cust Order#"
+      },
+      {
+        "Id": 93,
+        "LabelOfInterestId": 21,
+        "Text": "P.O. Number"
+      },
+      {
+        "Id": 94,
+        "LabelOfInterestId": 21,
+        "Text": "PO Number"
+      },
+      {
+        "Id": 95,
+        "LabelOfInterestId": 21,
+        "Text": "P.O. No."
+      },
+      {
+        "Id": 96,
+        "LabelOfInterestId": 21,
+        "Text": "P.O. No"
+      },
+      {
+        "Id": 97,
+        "LabelOfInterestId": 21,
+        "Text": "Order #"
+      },
+      {
+        "Id": 98,
+        "LabelOfInterestId": 21,
+        "Text": "Order#"
+      },
+      {
+        "Id": 99,
+        "LabelOfInterestId": 21,
+        "Text": "P.O. #"
+      },
+      {
+        "Id": 100,
+        "LabelOfInterestId": 21,
+        "Text": "PO No."
+      },
+      {
+        "Id": 101,
+        "LabelOfInterestId": 21,
+        "Text": "PO No"
+      },
+      {
+        "Id": 102,
+        "LabelOfInterestId": 21,
+        "Text": "PO #"
+      }
+    ],
+    "FallBackLabels": null,
+    "MockedErrors": [],
+    "ExpectedType": 4,
+    "UseAbsoluteComparison": true,
+    "Keywords": []
+  },
+  {
+    "Id": 22,
+    "Text": "Authorized By",
+    "Synonyms": [],
+    "FallBackLabels": null,
+    "MockedErrors": [],
+    "ExpectedType": 1,
+    "UseAbsoluteComparison": false,
+    "Keywords": []
+  },
+  {
+    "Id": 23,
+    "Text": "vendorName",
+    "Synonyms": [],
+    "FallBackLabels": null,
+    "MockedErrors": [],
+    "ExpectedType": 1,
+    "UseAbsoluteComparison": false,
+    "Keywords": []
+  },
+  {
+    "Id": 24,
+    "Text": "vendorWebsite",
+    "Synonyms": [],
+    "FallBackLabels": null,
+    "MockedErrors": [],
+    "ExpectedType": 1,
+    "UseAbsoluteComparison": false,
+    "Keywords": []
+  },
+  {
+    "Id": 25,
+    "Text": "vendorEmail",
+    "Synonyms": [
+      {
+        "Id": 103,
+        "LabelOfInterestId": 25,
+        "Text": "P.O. Box"
+      },
+      {
+        "Id": 104,
+        "LabelOfInterestId": 25,
+        "Text": "PO Box"
+      }
+    ],
+    "FallBackLabels": null,
+    "MockedErrors": [],
+    "ExpectedType": 1,
+    "UseAbsoluteComparison": false,
+    "Keywords": []
+  },
+  {
+    "Id": 26,
+    "Text": "poBox",
+    "Synonyms": [],
+    "FallBackLabels": null,
+    "MockedErrors": [],
+    "ExpectedType": 1,
+    "UseAbsoluteComparison": false,
+    "Keywords": []
+  }
+]

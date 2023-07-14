@@ -1,0 +1,48 @@
+@import "../../../../../styles/globals.scss";
+
+.SwitchButtonComponent {
+    flex: 1 1;
+    z-index: 300;
+    min-width: 40px;
+    max-width: 110px;
+
+    &__field-button {
+        @extend .d-flex, .justify-content-center, .text-center, .text-break, .is-invalid;
+
+        font-weight: $headings-font-weight;
+        font-size: map-get($field-assign-menu-button, "font-size");
+        color: map-get($field-assign-menu-button, "header-color");
+        padding: map-get($field-assign-menu-button, "padding");
+
+        &--disabled {
+            pointer-events: none;
+        }
+    }
+
+    &__switch {
+        @extend .accent-button, .d-flex;
+        height: 32px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        width: 100%;
+
+        &--disabled {
+            @extend .disabled-button;
+        }
+
+        & > * {
+            @extend .mr-2;
+        }
+    }
+
+    &__button-icon {
+        white-space: nowrap;
+    }
+
+    &__button-text {
+        flex: 1;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

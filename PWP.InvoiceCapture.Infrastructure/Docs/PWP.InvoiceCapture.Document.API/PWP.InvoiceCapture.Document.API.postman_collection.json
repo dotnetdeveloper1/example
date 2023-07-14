@@ -1,0 +1,975 @@
+{
+	"info": {
+		"_postman_id": "65a08e47-ca8a-4bbd-887c-fa0d7acbaf84",
+		"name": "PWP.InvoiceCapture.Document.API",
+		"description": "Document API Infrastructure Endpoint definitions",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "files",
+			"item": [
+				{
+					"name": "{id}",
+					"item": [
+						{
+							"name": "Delete File by specified identifier",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/files/:id?collectionId=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"files",
+										":id"
+									],
+									"query": [
+										{
+											"key": "collectionId",
+											"value": "<string>",
+											"description": "File Collection identifier"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "<string>",
+											"description": "File Id"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Access denied",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/files/:id?collectionId=<string>",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"files",
+												":id"
+											],
+											"query": [
+												{
+													"key": "collectionId",
+													"value": "<string>"
+												}
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "Request is not authorized",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/files/:id?collectionId=<string>",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"files",
+												":id"
+											],
+											"query": [
+												{
+													"key": "collectionId",
+													"value": "<string>"
+												}
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "Bad Request (Validation errors)",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/files/:id?collectionId=<string>",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"files",
+												":id"
+											],
+											"query": [
+												{
+													"key": "collectionId",
+													"value": "<string>"
+												}
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "File Not Found",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/files/:id?collectionId=<string>",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"files",
+												":id"
+											],
+											"query": [
+												{
+													"key": "collectionId",
+													"value": "<string>"
+												}
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "OK (File deleted)",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/files/:id?collectionId=<string>",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"files",
+												":id"
+											],
+											"query": [
+												{
+													"key": "collectionId",
+													"value": "<string>"
+												}
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Get Temporary link for specified File",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/files/:id/temporarylink?collectionId=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"files",
+										":id",
+										"temporarylink"
+									],
+									"query": [
+										{
+											"key": "collectionId",
+											"value": "<string>",
+											"description": "File Collection identifier"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "<string>",
+											"description": "File Id"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK (Temporary link)",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/files/:id/temporarylink?collectionId=<string>",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"files",
+												":id",
+												"temporarylink"
+											],
+											"query": [
+												{
+													"key": "collectionId",
+													"value": "<string>"
+												}
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "\"<string>\""
+								},
+								{
+									"name": "File Not Found",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/files/:id/temporarylink?collectionId=<string>",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"files",
+												":id",
+												"temporarylink"
+											],
+											"query": [
+												{
+													"key": "collectionId",
+													"value": "<string>"
+												}
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "Request is not authorized",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/files/:id/temporarylink?collectionId=<string>",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"files",
+												":id",
+												"temporarylink"
+											],
+											"query": [
+												{
+													"key": "collectionId",
+													"value": "<string>"
+												}
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "Access denied",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/files/:id/temporarylink?collectionId=<string>",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"files",
+												":id",
+												"temporarylink"
+											],
+											"query": [
+												{
+													"key": "collectionId",
+													"value": "<string>"
+												}
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "Bad Request (Validation errors)",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/files/:id/temporarylink?collectionId=<string>",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"files",
+												":id",
+												"temporarylink"
+											],
+											"query": [
+												{
+													"key": "collectionId",
+													"value": "<string>"
+												}
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Get File by specified identifier",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://invoicecapture-dev-backend.eastus.cloudapp.azure.com:10083/documents/test.txt",
+									"protocol": "http",
+									"host": [
+										"invoicecapture-dev-backend",
+										"eastus",
+										"cloudapp",
+										"azure",
+										"com"
+									],
+									"port": "10083",
+									"path": [
+										"documents",
+										"test.txt"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Bad Request (Validation errors)",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/files/:id?collectionId=<string>",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"files",
+												":id"
+											],
+											"query": [
+												{
+													"key": "collectionId",
+													"value": "<string>"
+												}
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "OK (File binary stream)",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/files/:id?collectionId=<string>",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"files",
+												":id"
+											],
+											"query": [
+												{
+													"key": "collectionId",
+													"value": "<string>"
+												}
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "\"<binary>\""
+								},
+								{
+									"name": "File Not Found",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/files/:id?collectionId=<string>",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"files",
+												":id"
+											],
+											"query": [
+												{
+													"key": "collectionId",
+													"value": "<string>"
+												}
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "Request is not authorized",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/files/:id?collectionId=<string>",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"files",
+												":id"
+											],
+											"query": [
+												{
+													"key": "collectionId",
+													"value": "<string>"
+												}
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "Access denied",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/files/:id?collectionId=<string>",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"files",
+												":id"
+											],
+											"query": [
+												{
+													"key": "collectionId",
+													"value": "<string>"
+												}
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								}
+							]
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Create File",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "multipart/form-data"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/dsavelyeu/Desktop/123.txt"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://invoicecapture-dev-backend.eastus.cloudapp.azure.com:10083/documents",
+							"protocol": "http",
+							"host": [
+								"invoicecapture-dev-backend",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"port": "10083",
+							"path": [
+								"documents"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "OK (File identifier)",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "file",
+											"value": "<binary>"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{baseUrl}}/files?collectionId=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"files"
+									],
+									"query": [
+										{
+											"key": "collectionId",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "\"<string>\""
+						},
+						{
+							"name": "Bad Request (Validation errors)",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "file",
+											"value": "<binary>"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{baseUrl}}/files?collectionId=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"files"
+									],
+									"query": [
+										{
+											"key": "collectionId",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+						},
+						{
+							"name": "Request is not authorized",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "file",
+											"value": "<binary>"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{baseUrl}}/files?collectionId=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"files"
+									],
+									"query": [
+										{
+											"key": "collectionId",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+						},
+						{
+							"name": "Access denied",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "file",
+											"value": "<binary>"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{baseUrl}}/files?collectionId=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"files"
+									],
+									"query": [
+										{
+											"key": "collectionId",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Forbidden",
+							"code": 403,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+						},
+						{
+							"name": "File Not Found",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "file",
+											"value": "<binary>"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{baseUrl}}/files?collectionId=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"files"
+									],
+									"query": [
+										{
+											"key": "collectionId",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+						}
+					]
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"variable": [
+		{
+			"id": "baseUrl",
+			"key": "baseUrl",
+			"value": "https://localhost/v1",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}

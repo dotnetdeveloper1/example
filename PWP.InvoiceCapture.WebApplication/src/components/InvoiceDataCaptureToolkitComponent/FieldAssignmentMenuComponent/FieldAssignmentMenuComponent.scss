@@ -1,0 +1,181 @@
+@import "../../../styles/globals.scss";
+
+.FieldAssignmentMenuComponent {
+    @extend .d-flex, .flex-column, .position-absolute, .border, .foreground-element;
+
+    @include border-radius(map-get($field-assign-menu-item, "border-radius"));
+    border-color: $field-assign-menu-border-color;
+    box-shadow: $field-assign-menu-box-shadow;
+
+    &__header {
+        @extend .d-flex, .flex-column;
+    }
+
+    &__header-label {
+        @include border-top-radius(map-get($field-assign-menu-item, "border-radius"));
+        font-size: $font-size-base;
+        font-weight: $headings-font-weight;
+        color: map-get($field-assign-menu-item, "header-color");
+        background-color: map-get($field-assign-menu-item, "header-bg-color");
+        height: map-get($field-assign-menu-item, "height");
+        padding: map-get($field-assign-menu-item, "padding");
+    }
+
+    &__edge-header-label {
+        @include border-top-radius(map-get($field-assign-menu-item, "border-radius"));
+        font-size: $font-size-base;
+        font-weight: $headings-font-weight;
+        color: map-get($field-assign-menu-item, "header-color");
+        background-color: map-get($field-assign-menu-item, "header-bg-color");
+        padding: map-get($field-assign-menu-item, "padding");
+
+        // TODO: Waiting for fix in Microsoft Edge browser. Remove __edge-header-label class in future.
+        // Microsoft Edge browser add transpanent bottom border in case css style contains border top radius setting.
+        // See https://stackoverflow.com/questions/47839901/ghostly-border-appears-with-border-radius-in-ie11-and-edge
+        // This css styles try to hide bottom transpanent border and show gray border.
+        height: 37px;
+        margin-bottom: -1px;
+        border-bottom-width: 1px;
+        border-bottom-style: $field-assign-menu-border-style;
+        border-bottom-color: $field-assign-menu-edge-border-color;
+    }
+
+    &__header-body {
+        @extend .border-top;
+
+        border-color: map-get($field-assign-menu-item, "border-color");
+    }
+
+    &__plain-text {
+        @extend .text-left, .text-wrap, .text-break;
+
+        font-size: map-get($field-assign-menu-item, "font-size");
+        color: map-get($field-assign-menu-item, "item-color");
+        background-color: map-get($field-assign-menu-item, "item-bg-color");
+        padding: map-get($field-assign-menu-item, "padding");
+        width: map-get($field-assign-menu-item, "width");
+    }
+
+    &__fields {
+        @extend .d-flex, .flex-column;
+    }
+
+    &__fields-header {
+        @extend .border-top;
+
+        font-size: map-get($field-assign-menu-item, "font-size");
+        font-weight: $headings-font-weight;
+        color: map-get($field-assign-menu-item, "header-color");
+        background-color: map-get($field-assign-menu-item, "header-bg-color");
+        border-color: map-get($field-assign-menu-item, "border-color");
+        padding: map-get($field-assign-menu-item, "padding");
+    }
+
+    &__fields-group {
+        @extend .d-flex, .flex-column;
+
+        @include border-bottom-radius(map-get($field-assign-menu-item, "border-radius"));
+    }
+
+    &__field {
+        @extend .d-flex, .border-top, .text-left, .text-wrap, .text-break;
+
+        font-size: map-get($field-assign-menu-item, "font-size");
+        color: map-get($field-assign-menu-item, "item-color");
+        background-color: map-get($field-assign-menu-item, "item-bg-color");
+        border-color: map-get($field-assign-menu-item, "border-color");
+        padding: map-get($field-assign-menu-item, "padding");
+        width: map-get($field-assign-menu-item, "width");
+        height: map-get($field-assign-menu-item, "height");
+
+        @include hover-focus-active() {
+            color: map-get($field-assign-menu-item, "active-item-color");
+            background-color: map-get($field-assign-menu-item, "active-item-bg-color");
+        }
+
+        &:last-of-type {
+            @include border-bottom-radius(map-get($field-assign-menu-item, "border-radius"));
+        }
+
+        &-items {
+            font-weight: $headings-font-weight;
+            color: map-get($field-assign-menu-item, "header-color");
+        }
+    }
+
+    &__field-items {
+        @extend .d-flex, .justify-content-between, .border-top, .text-left, .text-wrap, .text-break, .is-invalid;
+
+        font-weight: $headings-font-weight;
+        font-size: map-get($field-assign-menu-item, "font-size");
+        color: map-get($field-assign-menu-item, "header-color");
+        background-color: map-get($field-assign-menu-item, "item-bg-color");
+        border-color: map-get($field-assign-menu-item, "border-color");
+        padding: map-get($field-assign-menu-item, "padding");
+        width: map-get($field-assign-menu-item, "width");
+        height: map-get($field-assign-menu-item, "height");
+
+        @include hover-focus-active() {
+            color: map-get($field-assign-menu-item, "active-item-color");
+            background-color: map-get($field-assign-menu-item, "active-item-bg-color");
+        }
+
+        &:last-of-type {
+            @include border-bottom-radius(map-get($field-assign-menu-item, "border-radius"));
+        }
+
+        &-active {
+            color: map-get($field-assign-menu-item, "active-item-color");
+            background-color: map-get($field-assign-menu-item, "active-item-bg-color");
+        }
+    }
+
+    &__field-items-active {
+        @extend .d-flex, .justify-content-between, .border-top, .text-left, .text-wrap, .text-break, .is-invalid;
+
+        font-weight: $headings-font-weight;
+        font-size: map-get($field-assign-menu-item, "font-size");
+        color: map-get($field-assign-menu-item, "header-color");
+        color: map-get($field-assign-menu-item, "active-item-color");
+        background-color: map-get($field-assign-menu-item, "active-item-bg-color");
+        padding: map-get($field-assign-menu-item, "padding");
+        width: map-get($field-assign-menu-item, "width");
+        height: map-get($field-assign-menu-item, "height");
+
+        &:last-of-type {
+            @include border-bottom-radius(map-get($field-assign-menu-item, "border-radius"));
+        }
+    }
+
+    &__field-item-button {
+        @extend .d-flex, .justify-content-center, .border-top, .text-center, .text-break, .is-invalid;
+
+        font-weight: $headings-font-weight;
+        font-size: map-get($field-assign-menu-button, "font-size");
+        color: map-get($field-assign-menu-button, "header-color");
+        background-color: map-get($field-assign-menu-button, "item-bg-color");
+        border-color: map-get($field-assign-menu-button, "border-color");
+        padding: map-get($field-assign-menu-button, "padding");
+        width: map-get($field-assign-menu-button, "width");
+        height: map-get($field-assign-menu-button, "height");
+
+        &:last-of-type {
+            @include border-bottom-radius(map-get($field-assign-menu-button, "border-radius"));
+        }
+    }
+
+    &__add-new-item {
+        @extend .accent-button;
+        height: 32px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+
+        & > * {
+            @extend .mr-2;
+        }
+    }
+
+    &__item-fields-menu {
+        margin-left: 1px;
+    }
+}

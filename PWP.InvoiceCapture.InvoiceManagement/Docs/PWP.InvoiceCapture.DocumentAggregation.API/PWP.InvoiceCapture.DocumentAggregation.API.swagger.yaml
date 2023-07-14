@@ -1,0 +1,56 @@
+swagger: "2.0"
+info:
+  description: "Invoice Document Aggregation API Endpoint definitions"
+  version: "1.0.0"
+  title: "PWP.InvoiceCapture.DocumentAggregation.API"
+host: "localhost"
+basePath: "/v1"
+tags:
+  - name: "document"
+    description: "Invoice Document Entity"
+schemes:
+  - "https"
+  - "http"
+paths:
+  /documents:
+    post:
+      tags:
+        - "document"
+      summary: "Upload Invoice Document"
+      consumes:
+        - "multipart/form-data"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "file"
+          in: "formData"
+          description: "PDF/PNG Invoice document file"
+          required: true
+          type: "file"
+      responses:
+        201:
+          description: "Successful Upload"
+          schema:
+            $ref: "#/definitions/ApiResponse"
+        400:
+          description: "Bad Request (Invalid file input)"
+          schema:
+            $ref: "#/definitions/ApiResponse"
+        401:
+          description: "Request is not authorized"
+          schema:
+            $ref: "#/definitions/ApiResponse"
+        403:
+          description: "Access denied"
+          schema:
+            $ref: "#/definitions/ApiResponse"
+
+definitions:
+  ApiResponse:
+    type: "object"
+    properties:
+      code:
+        type: "integer"
+        format: "int32"
+      message:
+        type: "string"

@@ -1,0 +1,33 @@
+@import "../../../styles/globals.scss";
+
+$disabled-button-color: rgba(map-get($theme-colors, "secondary-accent"), 0.45);
+
+.ToolkitControlPanelComponent {
+    @extend .h-100, .my-3, .p-0;
+
+    &__buttons {
+        @extend .d-flex, .justify-content-end;
+        padding-right: $component-padding-right;
+    }
+
+    &__save {
+        @extend .mr-1, .primary-button;
+        width: 94px;
+        &--disabled {
+            @extend .disabled-button;
+        }
+    }
+
+    &__submit {
+        @extend .mx-1, .primary-button;
+        width: 94px;
+        &--disabled {
+            @extend .disabled-button;
+        }
+    }
+
+    &__close {
+        @extend .ml-1, .accent-button;
+        width: 94px;
+    }
+}

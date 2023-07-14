@@ -1,0 +1,1 @@
+export { useDocumentView } from "./useDocumentView";

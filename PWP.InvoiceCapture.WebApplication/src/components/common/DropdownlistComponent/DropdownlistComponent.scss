@@ -1,0 +1,46 @@
+@import "../../../styles/globals.scss";
+
+.DropdownlistComponent {
+    &__button {
+        @extend .btn, .dropdown-toggle, .accent-button, .mr-1;
+        text-transform: none;
+        justify-content: start !important;
+        color: map-get($theme-colors, "secondary-accent") !important;
+
+        &--disabled {
+            @extend .disabled-button;
+            text-transform: none;
+        }
+    }
+
+    &__button::after {
+        text-align: right;
+        float: right;
+        position: absolute;
+        right: 10px;
+        color: map-get($theme-colors, "secondary-accent");
+    }
+
+    &__button#text {
+        left: 10px;
+    }
+
+    &__item {
+        @extend .dropdown-item;
+        cursor: pointer;
+        padding-left: 0.5rem;
+        color: map-get($theme-colors, "secondary-accent");
+    }
+
+    &__dropdown {
+        @extend .dropdown;
+    }
+
+    &__menu-toggled {
+        @extend .dropdown-menu, .show;
+    }
+
+    &__menu-hidden {
+        @extend .dropdown-menu;
+    }
+}

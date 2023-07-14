@@ -1,0 +1,1 @@
+export { useTableMenuComponent } from "./useTableMenuComponent";

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CoreCLR-NCalc" Version="2.2.92" />
+    <PackageReference Include="Hueppauff.PdfiumViewer.Core" Version="1.0.19172.6" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="3.1.4" />
+    <PackageReference Include="PdfiumViewer.Native.x86_64.v8-xfa" Version="2018.4.8.256" />
+    <PackageReference Include="PWP.InvoiceCapture.Core" Version="1.0.0-CI-20201201-152127" />
+    <PackageReference Include="PWP.InvoiceCapture.Core.ServiceBus" Version="1.0.0-CI-20201201-154335" />
+    <PackageReference Include="PWP.InvoiceCapture.Document.API.Client" Version="1.0.0-CI-20201202-134917" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PWP.InvoiceCapture.InvoiceManagement.Business.Contract\PWP.InvoiceCapture.InvoiceManagement.Business.Contract.csproj" />
+  </ItemGroup>
+
+</Project>

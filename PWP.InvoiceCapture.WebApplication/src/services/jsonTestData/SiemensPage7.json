@@ -1,0 +1,2434 @@
+{
+    "pageLayoutItems": [
+        {
+            "id": "978",
+            "text": "SIEMENS",
+            "value": "SIEMENS",
+            "topLeft": {
+                "x": 130,
+                "y": 42
+            },
+            "bottomRight": {
+                "x": 258,
+                "y": 65
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "979",
+            "text": "Tax",
+            "value": "Tax",
+            "topLeft": {
+                "x": 815,
+                "y": 48
+            },
+            "bottomRight": {
+                "x": 867,
+                "y": 70
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "980",
+            "text": "Invoice",
+            "value": "Invoice",
+            "topLeft": {
+                "x": 878,
+                "y": 48
+            },
+            "bottomRight": {
+                "x": 979,
+                "y": 70
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "981",
+            "text": "Healthineers",
+            "value": "Healthineers",
+            "topLeft": {
+                "x": 75,
+                "y": 72
+            },
+            "bottomRight": {
+                "x": 258,
+                "y": 99
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "982",
+            "text": "Invoice",
+            "value": "Invoice",
+            "topLeft": {
+                "x": 816,
+                "y": 83
+            },
+            "bottomRight": {
+                "x": 853,
+                "y": 92
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "983",
+            "text": "No.",
+            "value": "No.",
+            "topLeft": {
+                "x": 858,
+                "y": 83
+            },
+            "bottomRight": {
+                "x": 875,
+                "y": 92
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "984",
+            "text": "6550094691",
+            "value": "6550094691",
+            "topLeft": {
+                "x": 1018,
+                "y": 83
+            },
+            "bottomRight": {
+                "x": 1083,
+                "y": 92
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "985",
+            "text": "Invoice",
+            "value": "Invoice",
+            "topLeft": {
+                "x": 816,
+                "y": 97
+            },
+            "bottomRight": {
+                "x": 853,
+                "y": 106
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "986",
+            "text": "Date",
+            "value": "Date",
+            "topLeft": {
+                "x": 858,
+                "y": 97
+            },
+            "bottomRight": {
+                "x": 882,
+                "y": 106
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "987",
+            "text": "27.11.2019",
+            "value": "27.11.2019",
+            "topLeft": {
+                "x": 1018,
+                "y": 97
+            },
+            "bottomRight": {
+                "x": 1078,
+                "y": 106
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "988",
+            "text": "Customer",
+            "value": "Customer",
+            "topLeft": {
+                "x": 815,
+                "y": 112
+            },
+            "bottomRight": {
+                "x": 868,
+                "y": 121
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "989",
+            "text": "No.",
+            "value": "No.",
+            "topLeft": {
+                "x": 872,
+                "y": 112
+            },
+            "bottomRight": {
+                "x": 889,
+                "y": 121
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "990",
+            "text": "40147919",
+            "value": "40147919",
+            "topLeft": {
+                "x": 1017,
+                "y": 112
+            },
+            "bottomRight": {
+                "x": 1071,
+                "y": 121
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "991",
+            "text": "Your",
+            "value": "Your",
+            "topLeft": {
+                "x": 815,
+                "y": 127
+            },
+            "bottomRight": {
+                "x": 841,
+                "y": 136
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "992",
+            "text": "Order",
+            "value": "Order",
+            "topLeft": {
+                "x": 844,
+                "y": 126
+            },
+            "bottomRight": {
+                "x": 875,
+                "y": 136
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "993",
+            "text": "No.",
+            "value": "No.",
+            "topLeft": {
+                "x": 879,
+                "y": 127
+            },
+            "bottomRight": {
+                "x": 896,
+                "y": 136
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "994",
+            "text": "Quote",
+            "value": "Quote",
+            "topLeft": {
+                "x": 1018,
+                "y": 126
+            },
+            "bottomRight": {
+                "x": 1050,
+                "y": 136
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "995",
+            "text": "Ref:",
+            "value": "Ref:",
+            "topLeft": {
+                "x": 1055,
+                "y": 126
+            },
+            "bottomRight": {
+                "x": 1075,
+                "y": 136
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "996",
+            "text": "218b.VIC.HO.18",
+            "value": "218b.VIC.HO.18",
+            "topLeft": {
+                "x": 1080,
+                "y": 126
+            },
+            "bottomRight": {
+                "x": 1169,
+                "y": 136
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "997",
+            "text": "Siemens",
+            "value": "Siemens",
+            "topLeft": {
+                "x": 76,
+                "y": 153
+            },
+            "bottomRight": {
+                "x": 137,
+                "y": 164
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "998",
+            "text": "Healthcare",
+            "value": "Healthcare",
+            "topLeft": {
+                "x": 143,
+                "y": 153
+            },
+            "bottomRight": {
+                "x": 219,
+                "y": 164
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "999",
+            "text": "Pty",
+            "value": "Pty",
+            "topLeft": {
+                "x": 225,
+                "y": 153
+            },
+            "bottomRight": {
+                "x": 247,
+                "y": 167
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1000",
+            "text": "Ltd.",
+            "value": "Ltd.",
+            "topLeft": {
+                "x": 252,
+                "y": 153
+            },
+            "bottomRight": {
+                "x": 278,
+                "y": 164
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1001",
+            "text": "Invoice",
+            "value": "Invoice",
+            "topLeft": {
+                "x": 476,
+                "y": 154
+            },
+            "bottomRight": {
+                "x": 526,
+                "y": 165
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1002",
+            "text": "to",
+            "value": "to",
+            "topLeft": {
+                "x": 531,
+                "y": 154
+            },
+            "bottomRight": {
+                "x": 545,
+                "y": 165
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1003",
+            "text": "Consignee",
+            "value": "Consignee",
+            "topLeft": {
+                "x": 815,
+                "y": 154
+            },
+            "bottomRight": {
+                "x": 892,
+                "y": 168
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1004",
+            "text": "(Receiver)",
+            "value": "(Receiver)",
+            "topLeft": {
+                "x": 897,
+                "y": 154
+            },
+            "bottomRight": {
+                "x": 969,
+                "y": 168
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1005",
+            "text": "A.B.N.",
+            "value": "A.B.N.",
+            "topLeft": {
+                "x": 75,
+                "y": 167
+            },
+            "bottomRight": {
+                "x": 118,
+                "y": 178
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1006",
+            "text": "83",
+            "value": "83",
+            "topLeft": {
+                "x": 124,
+                "y": 167
+            },
+            "bottomRight": {
+                "x": 139,
+                "y": 178
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1007",
+            "text": "604",
+            "value": "604",
+            "topLeft": {
+                "x": 145,
+                "y": 167
+            },
+            "bottomRight": {
+                "x": 169,
+                "y": 178
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1008",
+            "text": "853",
+            "value": "853",
+            "topLeft": {
+                "x": 175,
+                "y": 167
+            },
+            "bottomRight": {
+                "x": 198,
+                "y": 178
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1009",
+            "text": "938",
+            "value": "938",
+            "topLeft": {
+                "x": 204,
+                "y": 167
+            },
+            "bottomRight": {
+                "x": 228,
+                "y": 178
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1010",
+            "text": "Capital",
+            "value": "Capital",
+            "topLeft": {
+                "x": 475,
+                "y": 170
+            },
+            "bottomRight": {
+                "x": 512,
+                "y": 181
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1011",
+            "text": "Radiology",
+            "value": "Radiology",
+            "topLeft": {
+                "x": 517,
+                "y": 170
+            },
+            "bottomRight": {
+                "x": 570,
+                "y": 181
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1012",
+            "text": "Pty",
+            "value": "Pty",
+            "topLeft": {
+                "x": 574,
+                "y": 170
+            },
+            "bottomRight": {
+                "x": 591,
+                "y": 181
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1013",
+            "text": "Ltd",
+            "value": "Ltd",
+            "topLeft": {
+                "x": 596,
+                "y": 170
+            },
+            "bottomRight": {
+                "x": 611,
+                "y": 179
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1014",
+            "text": "Capital",
+            "value": "Capital",
+            "topLeft": {
+                "x": 815,
+                "y": 171
+            },
+            "bottomRight": {
+                "x": 852,
+                "y": 182
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1015",
+            "text": "Radiology",
+            "value": "Radiology",
+            "topLeft": {
+                "x": 857,
+                "y": 171
+            },
+            "bottomRight": {
+                "x": 910,
+                "y": 182
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1016",
+            "text": "Pty",
+            "value": "Pty",
+            "topLeft": {
+                "x": 915,
+                "y": 171
+            },
+            "bottomRight": {
+                "x": 931,
+                "y": 182
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1017",
+            "text": "Ltd",
+            "value": "Ltd",
+            "topLeft": {
+                "x": 936,
+                "y": 171
+            },
+            "bottomRight": {
+                "x": 951,
+                "y": 180
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1018",
+            "text": "PO",
+            "value": "PO",
+            "topLeft": {
+                "x": 475,
+                "y": 183
+            },
+            "bottomRight": {
+                "x": 492,
+                "y": 193
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1019",
+            "text": "Box",
+            "value": "Box",
+            "topLeft": {
+                "x": 497,
+                "y": 184
+            },
+            "bottomRight": {
+                "x": 517,
+                "y": 193
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1020",
+            "text": "836",
+            "value": "836",
+            "topLeft": {
+                "x": 520,
+                "y": 184
+            },
+            "bottomRight": {
+                "x": 540,
+                "y": 193
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1021",
+            "text": "PO",
+            "value": "PO",
+            "topLeft": {
+                "x": 816,
+                "y": 185
+            },
+            "bottomRight": {
+                "x": 832,
+                "y": 194
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1022",
+            "text": "Box",
+            "value": "Box",
+            "topLeft": {
+                "x": 837,
+                "y": 185
+            },
+            "bottomRight": {
+                "x": 857,
+                "y": 194
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1023",
+            "text": "836",
+            "value": "836",
+            "topLeft": {
+                "x": 860,
+                "y": 185
+            },
+            "bottomRight": {
+                "x": 880,
+                "y": 194
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1024",
+            "text": "PORT",
+            "value": "PORT",
+            "topLeft": {
+                "x": 475,
+                "y": 197
+            },
+            "bottomRight": {
+                "x": 508,
+                "y": 206
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1025",
+            "text": "MELBOURNE",
+            "value": "MELBOURNE",
+            "topLeft": {
+                "x": 513,
+                "y": 197
+            },
+            "bottomRight": {
+                "x": 589,
+                "y": 206
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1026",
+            "text": "VIC",
+            "value": "VIC",
+            "topLeft": {
+                "x": 593,
+                "y": 197
+            },
+            "bottomRight": {
+                "x": 613,
+                "y": 206
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1027",
+            "text": "3207",
+            "value": "3207",
+            "topLeft": {
+                "x": 617,
+                "y": 197
+            },
+            "bottomRight": {
+                "x": 643,
+                "y": 206
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1028",
+            "text": "PORT",
+            "value": "PORT",
+            "topLeft": {
+                "x": 816,
+                "y": 200
+            },
+            "bottomRight": {
+                "x": 848,
+                "y": 209
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1029",
+            "text": "MELBOURNE",
+            "value": "MELBOURNE",
+            "topLeft": {
+                "x": 853,
+                "y": 200
+            },
+            "bottomRight": {
+                "x": 929,
+                "y": 209
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1030",
+            "text": "VIC",
+            "value": "VIC",
+            "topLeft": {
+                "x": 933,
+                "y": 200
+            },
+            "bottomRight": {
+                "x": 953,
+                "y": 209
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1031",
+            "text": "3207",
+            "value": "3207",
+            "topLeft": {
+                "x": 957,
+                "y": 200
+            },
+            "bottomRight": {
+                "x": 983,
+                "y": 209
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1032",
+            "text": "Our",
+            "value": "Our",
+            "topLeft": {
+                "x": 74,
+                "y": 234
+            },
+            "bottomRight": {
+                "x": 94,
+                "y": 243
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1033",
+            "text": "Reference:",
+            "value": "Reference:",
+            "topLeft": {
+                "x": 98,
+                "y": 234
+            },
+            "bottomRight": {
+                "x": 156,
+                "y": 243
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1034",
+            "text": "2600353717",
+            "value": "2600353717",
+            "topLeft": {
+                "x": 280,
+                "y": 234
+            },
+            "bottomRight": {
+                "x": 347,
+                "y": 243
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1035",
+            "text": "Item",
+            "value": "Item",
+            "topLeft": {
+                "x": 83,
+                "y": 274
+            },
+            "bottomRight": {
+                "x": 106,
+                "y": 283
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1036",
+            "text": "Material",
+            "value": "Material",
+            "topLeft": {
+                "x": 148,
+                "y": 274
+            },
+            "bottomRight": {
+                "x": 192,
+                "y": 283
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1037",
+            "text": "Number",
+            "value": "Number",
+            "topLeft": {
+                "x": 197,
+                "y": 274
+            },
+            "bottomRight": {
+                "x": 243,
+                "y": 283
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1038",
+            "text": "Description",
+            "value": "Description",
+            "topLeft": {
+                "x": 320,
+                "y": 274
+            },
+            "bottomRight": {
+                "x": 386,
+                "y": 285
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1039",
+            "text": "Old",
+            "value": "Old",
+            "topLeft": {
+                "x": 643,
+                "y": 274
+            },
+            "bottomRight": {
+                "x": 663,
+                "y": 283
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1040",
+            "text": "Mat",
+            "value": "Mat",
+            "topLeft": {
+                "x": 668,
+                "y": 274
+            },
+            "bottomRight": {
+                "x": 688,
+                "y": 283
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1041",
+            "text": "No.",
+            "value": "No.",
+            "topLeft": {
+                "x": 692,
+                "y": 274
+            },
+            "bottomRight": {
+                "x": 710,
+                "y": 283
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1042",
+            "text": "This",
+            "value": "This",
+            "topLeft": {
+                "x": 816,
+                "y": 274
+            },
+            "bottomRight": {
+                "x": 840,
+                "y": 283
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1043",
+            "text": "Unit",
+            "value": "Unit",
+            "topLeft": {
+                "x": 958,
+                "y": 274
+            },
+            "bottomRight": {
+                "x": 980,
+                "y": 283
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1044",
+            "text": "Price",
+            "value": "Price",
+            "topLeft": {
+                "x": 985,
+                "y": 274
+            },
+            "bottomRight": {
+                "x": 1013,
+                "y": 283
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1045",
+            "text": "UOM",
+            "value": "UOM",
+            "topLeft": {
+                "x": 1032,
+                "y": 274
+            },
+            "bottomRight": {
+                "x": 1059,
+                "y": 283
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1046",
+            "text": "Total",
+            "value": "Total",
+            "topLeft": {
+                "x": 1133,
+                "y": 270
+            },
+            "bottomRight": {
+                "x": 1161,
+                "y": 279
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1047",
+            "text": "Price",
+            "value": "Price",
+            "topLeft": {
+                "x": 1166,
+                "y": 270
+            },
+            "bottomRight": {
+                "x": 1195,
+                "y": 279
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1048",
+            "text": "excl",
+            "value": "excl",
+            "topLeft": {
+                "x": 1140,
+                "y": 283
+            },
+            "bottomRight": {
+                "x": 1162,
+                "y": 292
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1049",
+            "text": "GST.",
+            "value": "GST.",
+            "topLeft": {
+                "x": 1167,
+                "y": 283
+            },
+            "bottomRight": {
+                "x": 1194,
+                "y": 292
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1050",
+            "text": "No.",
+            "value": "No.",
+            "topLeft": {
+                "x": 83,
+                "y": 292
+            },
+            "bottomRight": {
+                "x": 101,
+                "y": 301
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1051",
+            "text": "Invoice",
+            "value": "Invoice",
+            "topLeft": {
+                "x": 816,
+                "y": 292
+            },
+            "bottomRight": {
+                "x": 857,
+                "y": 301
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1052",
+            "text": "Qty",
+            "value": "Qty",
+            "topLeft": {
+                "x": 862,
+                "y": 292
+            },
+            "bottomRight": {
+                "x": 881,
+                "y": 304
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1053",
+            "text": "155",
+            "value": "155",
+            "topLeft": {
+                "x": 85,
+                "y": 310
+            },
+            "bottomRight": {
+                "x": 104,
+                "y": 319
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1054",
+            "text": "SLA_50B0_PRO_XP",
+            "value": "SLA_50B0_PRO_XP",
+            "topLeft": {
+                "x": 139,
+                "y": 310
+            },
+            "bottomRight": {
+                "x": 252,
+                "y": 321
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1055",
+            "text": "SN",
+            "value": "SN",
+            "topLeft": {
+                "x": 311,
+                "y": 310
+            },
+            "bottomRight": {
+                "x": 327,
+                "y": 319
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1056",
+            "text": "10064",
+            "value": "10064",
+            "topLeft": {
+                "x": 332,
+                "y": 310
+            },
+            "bottomRight": {
+                "x": 364,
+                "y": 319
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1057",
+            "text": "MAMMOMAT",
+            "value": "MAMMOMAT",
+            "topLeft": {
+                "x": 369,
+                "y": 310
+            },
+            "bottomRight": {
+                "x": 442,
+                "y": 319
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1058",
+            "text": "Inspiration",
+            "value": "Inspiration",
+            "topLeft": {
+                "x": 446,
+                "y": 310
+            },
+            "bottomRight": {
+                "x": 501,
+                "y": 321
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1059",
+            "text": "1",
+            "value": "1",
+            "topLeft": {
+                "x": 860,
+                "y": 310
+            },
+            "bottomRight": {
+                "x": 863,
+                "y": 319
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1060",
+            "text": "EA",
+            "value": "EA",
+            "topLeft": {
+                "x": 1050,
+                "y": 310
+            },
+            "bottomRight": {
+                "x": 1066,
+                "y": 319
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1061",
+            "text": "550.33",
+            "value": "550.33",
+            "topLeft": {
+                "x": 1158,
+                "y": 310
+            },
+            "bottomRight": {
+                "x": 1194,
+                "y": 319
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1062",
+            "text": "System-ID:116986",
+            "value": "System-ID:116986",
+            "topLeft": {
+                "x": 311,
+                "y": 327
+            },
+            "bottomRight": {
+                "x": 411,
+                "y": 339
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1063",
+            "text": "AL:",
+            "value": "AL:",
+            "topLeft": {
+                "x": 311,
+                "y": 345
+            },
+            "bottomRight": {
+                "x": 329,
+                "y": 354
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1064",
+            "text": "N",
+            "value": "N",
+            "topLeft": {
+                "x": 335,
+                "y": 345
+            },
+            "bottomRight": {
+                "x": 342,
+                "y": 354
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1065",
+            "text": "ECCN:",
+            "value": "ECCN:",
+            "topLeft": {
+                "x": 356,
+                "y": 345
+            },
+            "bottomRight": {
+                "x": 393,
+                "y": 354
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1066",
+            "text": "N",
+            "value": "N",
+            "topLeft": {
+                "x": 399,
+                "y": 345
+            },
+            "bottomRight": {
+                "x": 406,
+                "y": 354
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1067",
+            "text": "Location:",
+            "value": "Location:",
+            "topLeft": {
+                "x": 312,
+                "y": 362
+            },
+            "bottomRight": {
+                "x": 359,
+                "y": 371
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1068",
+            "text": "CAPITAL-BERWICK",
+            "value": "CAPITAL-BERWICK",
+            "topLeft": {
+                "x": 311,
+                "y": 392
+            },
+            "bottomRight": {
+                "x": 423,
+                "y": 401
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1069",
+            "text": "Invoicing",
+            "value": "Invoicing",
+            "topLeft": {
+                "x": 312,
+                "y": 413
+            },
+            "bottomRight": {
+                "x": 358,
+                "y": 425
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1070",
+            "text": "period:",
+            "value": "period:",
+            "topLeft": {
+                "x": 363,
+                "y": 413
+            },
+            "bottomRight": {
+                "x": 398,
+                "y": 425
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1071",
+            "text": "01.12.2019",
+            "value": "01.12.2019",
+            "topLeft": {
+                "x": 424,
+                "y": 413
+            },
+            "bottomRight": {
+                "x": 484,
+                "y": 422
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1072",
+            "text": "to",
+            "value": "to",
+            "topLeft": {
+                "x": 492,
+                "y": 414
+            },
+            "bottomRight": {
+                "x": 501,
+                "y": 422
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1073",
+            "text": "31.12.2019",
+            "value": "31.12.2019",
+            "topLeft": {
+                "x": 509,
+                "y": 413
+            },
+            "bottomRight": {
+                "x": 569,
+                "y": 422
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1074",
+            "text": "160",
+            "value": "160",
+            "topLeft": {
+                "x": 85,
+                "y": 449
+            },
+            "bottomRight": {
+                "x": 104,
+                "y": 458
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1075",
+            "text": "SLA_50B0_PRO_XP",
+            "value": "SLA_50B0_PRO_XP",
+            "topLeft": {
+                "x": 139,
+                "y": 449
+            },
+            "bottomRight": {
+                "x": 252,
+                "y": 461
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1076",
+            "text": "SN",
+            "value": "SN",
+            "topLeft": {
+                "x": 311,
+                "y": 449
+            },
+            "bottomRight": {
+                "x": 327,
+                "y": 458
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1077",
+            "text": "10043",
+            "value": "10043",
+            "topLeft": {
+                "x": 332,
+                "y": 449
+            },
+            "bottomRight": {
+                "x": 364,
+                "y": 458
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1078",
+            "text": "MAMMOMAT",
+            "value": "MAMMOMAT",
+            "topLeft": {
+                "x": 369,
+                "y": 449
+            },
+            "bottomRight": {
+                "x": 441,
+                "y": 458
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1079",
+            "text": "Inspiration",
+            "value": "Inspiration",
+            "topLeft": {
+                "x": 446,
+                "y": 449
+            },
+            "bottomRight": {
+                "x": 501,
+                "y": 461
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1080",
+            "text": "1",
+            "value": "1",
+            "topLeft": {
+                "x": 860,
+                "y": 449
+            },
+            "bottomRight": {
+                "x": 863,
+                "y": 458
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1081",
+            "text": "EA",
+            "value": "EA",
+            "topLeft": {
+                "x": 1050,
+                "y": 449
+            },
+            "bottomRight": {
+                "x": 1066,
+                "y": 458
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1082",
+            "text": "550.33",
+            "value": "550.33",
+            "topLeft": {
+                "x": 1158,
+                "y": 449
+            },
+            "bottomRight": {
+                "x": 1194,
+                "y": 458
+            },
+            "assigned": true,
+            "selected": true
+        },
+        {
+            "id": "1083",
+            "text": "System-ID:116955",
+            "value": "System-ID:116955",
+            "topLeft": {
+                "x": 311,
+                "y": 466
+            },
+            "bottomRight": {
+                "x": 412,
+                "y": 478
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1084",
+            "text": "AL:",
+            "value": "AL:",
+            "topLeft": {
+                "x": 311,
+                "y": 484
+            },
+            "bottomRight": {
+                "x": 329,
+                "y": 493
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1085",
+            "text": "N",
+            "value": "N",
+            "topLeft": {
+                "x": 335,
+                "y": 484
+            },
+            "bottomRight": {
+                "x": 342,
+                "y": 493
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1086",
+            "text": "ECCN:",
+            "value": "ECCN:",
+            "topLeft": {
+                "x": 356,
+                "y": 484
+            },
+            "bottomRight": {
+                "x": 393,
+                "y": 493
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1087",
+            "text": "N",
+            "value": "N",
+            "topLeft": {
+                "x": 399,
+                "y": 484
+            },
+            "bottomRight": {
+                "x": 406,
+                "y": 493
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1088",
+            "text": "Location:",
+            "value": "Location:",
+            "topLeft": {
+                "x": 312,
+                "y": 501
+            },
+            "bottomRight": {
+                "x": 359,
+                "y": 510
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1089",
+            "text": "CAPITAL-FRANKSTON",
+            "value": "CAPITAL-FRANKSTON",
+            "topLeft": {
+                "x": 311,
+                "y": 531
+            },
+            "bottomRight": {
+                "x": 440,
+                "y": 540
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1090",
+            "text": "PLAYNE",
+            "value": "PLAYNE",
+            "topLeft": {
+                "x": 446,
+                "y": 531
+            },
+            "bottomRight": {
+                "x": 492,
+                "y": 540
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1091",
+            "text": "ST",
+            "value": "ST",
+            "topLeft": {
+                "x": 497,
+                "y": 531
+            },
+            "bottomRight": {
+                "x": 512,
+                "y": 540
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1092",
+            "text": "Invoicing",
+            "value": "Invoicing",
+            "topLeft": {
+                "x": 312,
+                "y": 553
+            },
+            "bottomRight": {
+                "x": 358,
+                "y": 564
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1093",
+            "text": "period:",
+            "value": "period:",
+            "topLeft": {
+                "x": 363,
+                "y": 553
+            },
+            "bottomRight": {
+                "x": 398,
+                "y": 564
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1094",
+            "text": "01.12.2019",
+            "value": "01.12.2019",
+            "topLeft": {
+                "x": 424,
+                "y": 553
+            },
+            "bottomRight": {
+                "x": 484,
+                "y": 562
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1095",
+            "text": "to",
+            "value": "to",
+            "topLeft": {
+                "x": 492,
+                "y": 553
+            },
+            "bottomRight": {
+                "x": 501,
+                "y": 562
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1096",
+            "text": "31.12.2019",
+            "value": "31.12.2019",
+            "topLeft": {
+                "x": 509,
+                "y": 553
+            },
+            "bottomRight": {
+                "x": 569,
+                "y": 562
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1097",
+            "text": "165",
+            "value": "165",
+            "topLeft": {
+                "x": 85,
+                "y": 589
+            },
+            "bottomRight": {
+                "x": 103,
+                "y": 598
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1098",
+            "text": "SLA_50B0_PRO_CT",
+            "value": "SLA_50B0_PRO_CT",
+            "topLeft": {
+                "x": 139,
+                "y": 588
+            },
+            "bottomRight": {
+                "x": 253,
+                "y": 600
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1099",
+            "text": "SN",
+            "value": "SN",
+            "topLeft": {
+                "x": 311,
+                "y": 588
+            },
+            "bottomRight": {
+                "x": 327,
+                "y": 598
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1100",
+            "text": "115467",
+            "value": "115467",
+            "topLeft": {
+                "x": 332,
+                "y": 589
+            },
+            "bottomRight": {
+                "x": 371,
+                "y": 598
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1101",
+            "text": "SOMATOM",
+            "value": "SOMATOM",
+            "topLeft": {
+                "x": 376,
+                "y": 588
+            },
+            "bottomRight": {
+                "x": 437,
+                "y": 598
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1102",
+            "text": "Scope",
+            "value": "Scope",
+            "topLeft": {
+                "x": 442,
+                "y": 588
+            },
+            "bottomRight": {
+                "x": 476,
+                "y": 600
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1103",
+            "text": "Power",
+            "value": "Power",
+            "topLeft": {
+                "x": 481,
+                "y": 589
+            },
+            "bottomRight": {
+                "x": 514,
+                "y": 598
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1104",
+            "text": "1",
+            "value": "1",
+            "topLeft": {
+                "x": 860,
+                "y": 589
+            },
+            "bottomRight": {
+                "x": 863,
+                "y": 597
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1105",
+            "text": "EA",
+            "value": "EA",
+            "topLeft": {
+                "x": 1050,
+                "y": 589
+            },
+            "bottomRight": {
+                "x": 1066,
+                "y": 597
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1106",
+            "text": "1,458.33",
+            "value": "1458.33",
+            "topLeft": {
+                "x": 1148,
+                "y": 589
+            },
+            "bottomRight": {
+                "x": 1194,
+                "y": 599
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1107",
+            "text": "System-ID:116804",
+            "value": "System-ID:116804",
+            "topLeft": {
+                "x": 311,
+                "y": 606
+            },
+            "bottomRight": {
+                "x": 411,
+                "y": 617
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1108",
+            "text": "AL:",
+            "value": "AL:",
+            "topLeft": {
+                "x": 311,
+                "y": 624
+            },
+            "bottomRight": {
+                "x": 329,
+                "y": 633
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1109",
+            "text": "N",
+            "value": "N",
+            "topLeft": {
+                "x": 335,
+                "y": 624
+            },
+            "bottomRight": {
+                "x": 342,
+                "y": 633
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1110",
+            "text": "ECCN:",
+            "value": "ECCN:",
+            "topLeft": {
+                "x": 356,
+                "y": 623
+            },
+            "bottomRight": {
+                "x": 393,
+                "y": 633
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1111",
+            "text": "N",
+            "value": "N",
+            "topLeft": {
+                "x": 399,
+                "y": 624
+            },
+            "bottomRight": {
+                "x": 406,
+                "y": 633
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1112",
+            "text": "Location:",
+            "value": "Location:",
+            "topLeft": {
+                "x": 312,
+                "y": 640
+            },
+            "bottomRight": {
+                "x": 359,
+                "y": 649
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1113",
+            "text": "CAPITAL-WILLIAMSTOWN",
+            "value": "CAPITAL-WILLIAMSTOWN",
+            "topLeft": {
+                "x": 311,
+                "y": 671
+            },
+            "bottomRight": {
+                "x": 462,
+                "y": 680
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1114",
+            "text": "Invoicing",
+            "value": "Invoicing",
+            "topLeft": {
+                "x": 312,
+                "y": 692
+            },
+            "bottomRight": {
+                "x": 358,
+                "y": 703
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1115",
+            "text": "period:",
+            "value": "period:",
+            "topLeft": {
+                "x": 363,
+                "y": 692
+            },
+            "bottomRight": {
+                "x": 398,
+                "y": 703
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1116",
+            "text": "01.12.2019",
+            "value": "01.12.2019",
+            "topLeft": {
+                "x": 424,
+                "y": 692
+            },
+            "bottomRight": {
+                "x": 484,
+                "y": 701
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1117",
+            "text": "to",
+            "value": "to",
+            "topLeft": {
+                "x": 492,
+                "y": 692
+            },
+            "bottomRight": {
+                "x": 501,
+                "y": 701
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1118",
+            "text": "31.12.2019",
+            "value": "31.12.2019",
+            "topLeft": {
+                "x": 509,
+                "y": 692
+            },
+            "bottomRight": {
+                "x": 569,
+                "y": 701
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1119",
+            "text": "170",
+            "value": "170",
+            "topLeft": {
+                "x": 85,
+                "y": 728
+            },
+            "bottomRight": {
+                "x": 104,
+                "y": 737
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1120",
+            "text": "SLA_50B0_PRO_MR",
+            "value": "SLA_50B0_PRO_MR",
+            "topLeft": {
+                "x": 139,
+                "y": 728
+            },
+            "bottomRight": {
+                "x": 255,
+                "y": 739
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1121",
+            "text": "SN",
+            "value": "SN",
+            "topLeft": {
+                "x": 311,
+                "y": 728
+            },
+            "bottomRight": {
+                "x": 327,
+                "y": 737
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1122",
+            "text": "39006",
+            "value": "39006",
+            "topLeft": {
+                "x": 331,
+                "y": 728
+            },
+            "bottomRight": {
+                "x": 364,
+                "y": 737
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1123",
+            "text": "MAGNETOM",
+            "value": "MAGNETOM",
+            "topLeft": {
+                "x": 369,
+                "y": 728
+            },
+            "bottomRight": {
+                "x": 439,
+                "y": 737
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1124",
+            "text": "Essenza",
+            "value": "Essenza",
+            "topLeft": {
+                "x": 444,
+                "y": 728
+            },
+            "bottomRight": {
+                "x": 490,
+                "y": 737
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1125",
+            "text": "Dot",
+            "value": "Dot",
+            "topLeft": {
+                "x": 495,
+                "y": 728
+            },
+            "bottomRight": {
+                "x": 513,
+                "y": 737
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1126",
+            "text": "1",
+            "value": "1",
+            "topLeft": {
+                "x": 860,
+                "y": 728
+            },
+            "bottomRight": {
+                "x": 863,
+                "y": 737
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1127",
+            "text": "EA",
+            "value": "EA",
+            "topLeft": {
+                "x": 1050,
+                "y": 728
+            },
+            "bottomRight": {
+                "x": 1066,
+                "y": 737
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1128",
+            "text": "2,836.33",
+            "value": "2836.33",
+            "topLeft": {
+                "x": 1148,
+                "y": 728
+            },
+            "bottomRight": {
+                "x": 1194,
+                "y": 739
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1129",
+            "text": "System-ID:113076",
+            "value": "System-ID:113076",
+            "topLeft": {
+                "x": 311,
+                "y": 745
+            },
+            "bottomRight": {
+                "x": 411,
+                "y": 757
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1130",
+            "text": "AL:",
+            "value": "AL:",
+            "topLeft": {
+                "x": 311,
+                "y": 763
+            },
+            "bottomRight": {
+                "x": 329,
+                "y": 772
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1131",
+            "text": "N",
+            "value": "N",
+            "topLeft": {
+                "x": 335,
+                "y": 763
+            },
+            "bottomRight": {
+                "x": 342,
+                "y": 772
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1132",
+            "text": "ECCN:",
+            "value": "ECCN:",
+            "topLeft": {
+                "x": 356,
+                "y": 763
+            },
+            "bottomRight": {
+                "x": 393,
+                "y": 772
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1133",
+            "text": "N",
+            "value": "N",
+            "topLeft": {
+                "x": 399,
+                "y": 763
+            },
+            "bottomRight": {
+                "x": 406,
+                "y": 772
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1134",
+            "text": "Location:",
+            "value": "Location:",
+            "topLeft": {
+                "x": 312,
+                "y": 780
+            },
+            "bottomRight": {
+                "x": 359,
+                "y": 789
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1135",
+            "text": "CAPITAL-DANDENONG",
+            "value": "CAPITAL-DANDENONG",
+            "topLeft": {
+                "x": 311,
+                "y": 810
+            },
+            "bottomRight": {
+                "x": 444,
+                "y": 819
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1136",
+            "text": "Page",
+            "value": "Page",
+            "topLeft": {
+                "x": 1049,
+                "y": 854
+            },
+            "bottomRight": {
+                "x": 1077,
+                "y": 865
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1137",
+            "text": "7",
+            "value": "7",
+            "topLeft": {
+                "x": 1144,
+                "y": 854
+            },
+            "bottomRight": {
+                "x": 1150,
+                "y": 863
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1138",
+            "text": "/",
+            "value": "/",
+            "topLeft": {
+                "x": 1160,
+                "y": 854
+            },
+            "bottomRight": {
+                "x": 1164,
+                "y": 863
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "1139",
+            "text": "*",
+            "value": "*",
+            "topLeft": {
+                "x": 1171,
+                "y": 854
+            },
+            "bottomRight": {
+                "x": 1175,
+                "y": 858
+            },
+            "assigned": false,
+            "selected": true
+        }
+    ]
+}

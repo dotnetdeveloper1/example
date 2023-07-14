@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PWP.InvoiceCapture.Core" Version="1.0.0-CI-20201201-152127" />
+    <PackageReference Include="PWP.InvoiceCapture.Core.DataAccess" Version="1.0.0-CI-20210114-105927" />
+    <PackageReference Include="PWP.InvoiceCapture.Core.ServiceBus" Version="1.0.0-CI-20201201-154335" />
+  </ItemGroup>
+  
+</Project>

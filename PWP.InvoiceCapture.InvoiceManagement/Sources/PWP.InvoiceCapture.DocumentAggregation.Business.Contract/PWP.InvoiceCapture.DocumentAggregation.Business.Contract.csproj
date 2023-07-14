@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="3.1.8" />
+    <PackageReference Include="PWP.InvoiceCapture.Core.DataAccess" Version="1.0.0-CI-20210114-105927" />
+    <PackageReference Include="PWP.InvoiceCapture.InvoiceManagement.Business.Contract" Version="1.0.0-CI-20201224-155442" />
+  </ItemGroup>
+
+</Project>

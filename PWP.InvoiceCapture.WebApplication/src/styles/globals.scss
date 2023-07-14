@@ -1,0 +1,118 @@
+@import "./theme.scss";
+
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";
+
+html,
+body {
+    @extend .min-vw-100, .min-vh-100;
+
+    scroll-behavior: smooth;
+}
+
+body {
+    @extend .d-flex, .flex-column, .flex-fill;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#root {
+    @extend .d-flex, .flex-column, .flex-fill;
+    height: 100%;
+}
+
+.primary-button {
+    @extend .d-flex, .justify-content-center, .align-items-center, .btn, .btn-sm;
+    font-size: $font-size-base;
+    font-weight: $font-weight-normal;
+    font-stretch: $font-stretch-normal;
+    font-style: $font-style-normal;
+    line-height: $line-height-normal;
+    letter-spacing: $letter-spacing-normal;
+    font-family: $headings-font-family;
+    height: $btn-height;
+
+    background-color: map-get($theme-colors, "primary");
+    color: map-get($theme-colors, "light");
+    border-color: map-get($theme-colors, "primary");
+    border-radius: $btn-border-radius;
+    box-shadow: $btn-box-shadow;
+    text-transform: uppercase;
+
+    &:active,
+    &:focus,
+    &:hover {
+        background-color: map-get($theme-colors, "primary-focus");
+        color: map-get($theme-colors, "light");
+        border-color: map-get($theme-colors, "primary-focus");
+        box-shadow: $btn-focus-box-shadow;
+    }
+}
+
+.accent-button {
+    @extend .d-flex, .justify-content-center, .align-items-center, .btn, .btn-sm;
+    font-size: $font-size-base;
+    font-weight: $font-weight-normal;
+    font-stretch: $font-stretch-normal;
+    font-style: $font-style-normal;
+    line-height: $line-height-normal;
+    letter-spacing: $letter-spacing-normal;
+    font-family: $headings-font-family;
+    height: $btn-height;
+
+    background-color: map-get($theme-colors, "light");
+    color: map-get($theme-colors, "primary");
+    border-color: map-get($theme-colors, "primary");
+    border-radius: $btn-border-radius;
+    box-shadow: $btn-box-shadow;
+    text-transform: uppercase;
+
+    &:active,
+    &:focus,
+    &:hover {
+        background-color: map-get($theme-colors, "secondary-focus");
+        color: map-get($theme-colors, "primary");
+        border-color: map-get($theme-colors, "primary");
+        box-shadow: $btn-focus-box-shadow;
+    }
+}
+
+.disabled-button {
+    @extend .primary-button;
+    pointer-events: none;
+    background-color: $btn-disabled-bg-color;
+    color: $btn-disabled-color;
+    border: none;
+}
+
+.common-input {
+    @extend .form-control, .form-control-sm;
+
+    color: map-get($theme-colors, "secondary-accent");
+    background-color: map-get($theme-colors, "light");
+    height: 38px;
+    border-radius: $input-border-radius;
+}
+
+.group-header {
+    @extend .d-flex, .flex-row, .h5;
+    padding-top: $form-group-text-padding-top;
+    padding-right: $form-group-text-padding-right;
+    font-family: Lato;
+    font-weight: $font-weight-bold;
+    font-stretch: $font-stretch-normal;
+    font-style: $font-style-normal;
+    letter-spacing: $letter-spacing-normal;
+    color: map-get($theme-colors, "secondary-accent");
+}
+
+.foreground-element {
+    z-index: $foreground-z-index;
+}
+
+.__react_component_tooltip.show {
+    opacity: 1 !important;
+}

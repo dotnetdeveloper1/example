@@ -1,0 +1,244 @@
+{
+	"info": {
+		"_postman_id": "411b81be-70c2-4b2f-8f73-c11cfe48ef3d",
+		"name": "PWP.InvoiceCapture.OcrDataAnalysis.API",
+		"description": "Invoice Management API Endpoint definitions",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "invoicetemplates",
+			"item": [
+				{
+					"name": "{template Id}",
+					"item": [
+						{
+							"name": "Get trainings count by templateId",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE2MDkzMjcyOTEsImV4cCI6MTYwOTMzMDg5MSwiaXNzIjoiaHR0cDovL2ludm9pY2VjYXB0dXJlLWFwcGxpY2F0aW9uZ2F0ZXdheS1kZXYuZWFzdHVzLmNsb3VkYXBwLmF6dXJlLmNvbSIsImF1ZCI6Ik9jckRhdGFBbmFseXNpcyIsImNsaWVudF9pZCI6ImRlZmF1bHRDbGllbnQiLCJqdGkiOiI1NkJCNjRFRDBDOUU2NjA0NkQ2RjVDRTVDREZCNEVEQiIsImlhdCI6MTYwOTMyNzI5MSwic2NvcGUiOlsiT2NyRGF0YUFuYWx5c2lzIl19.UwCzoj4P5JDa7d2ZCd35dsP-AaTLdeyLlTBAQEHJApMOIHnXvIYqEcITpIBTcQsOdD_goHFRKwhKpDHxIeaMVg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/invoicetemplates/:templateId/trainingscount",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"invoicetemplates",
+										":templateId",
+										"trainingscount"
+									],
+									"variable": [
+										{
+											"key": "templateId",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Access denied",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/invoices/:invoiceId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices",
+												":invoiceId"
+											],
+											"variable": [
+												{
+													"key": "invoiceId"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "Request is not authorized",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/invoices/:invoiceId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices",
+												":invoiceId"
+											],
+											"variable": [
+												{
+													"key": "invoiceId"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "Bad Request (Validation errors)",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/invoices/:invoiceId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices",
+												":invoiceId"
+											],
+											"variable": [
+												{
+													"key": "invoiceId"
+												}
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"code\": \"<integer>\",\n \"message\": \"<string>\"\n}"
+								},
+								{
+									"name": "Invoice Entity",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/invoices/:invoiceId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"invoices",
+												":invoiceId"
+											],
+											"variable": [
+												{
+													"key": "invoiceId"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"id\": \"<integer>\",\n \"name\": \"<string>\",\n \"statusId\": \"<integer>\",\n \"createdDate\": \"<dateTime>\",\n \"modifiedDate\": \"<dateTime>\",\n \"invoiceNumber\": \"<string>\",\n \"invoiceDate\": \"<dateTime>\",\n \"dueDate\": \"<dateTime>\",\n \"poNumber\": \"<string>\",\n \"taxNumber\": \"<string>\",\n \"taxAmount\": \"<double>\",\n \"freightAmount\": \"<double>\",\n \"subTotal\": \"<double>\",\n \"total\": \"<double>\",\n \"currencyId\": \"<integer>\",\n \"fileName\": \"<string>\",\n \"fileId\": \"<string>\",\n \"fileSourceTypeId\": \"<integer>\",\n \"contacts\": [\n  {\n   \"id\": \"<integer>\",\n   \"invoiceId\": \"<integer>\",\n   \"contactTypeId\": \"<integer>\",\n   \"name\": \"<string>\",\n   \"address\": \"<string>\",\n   \"phone\": \"<string>\",\n   \"website\": \"<string>\",\n   \"email\": \"<string>\",\n   \"createdDate\": \"<dateTime>\",\n   \"modifiedDate\": \"<dateTime>\"\n  },\n  {\n   \"id\": \"<integer>\",\n   \"invoiceId\": \"<integer>\",\n   \"contactTypeId\": \"<integer>\",\n   \"name\": \"<string>\",\n   \"address\": \"<string>\",\n   \"phone\": \"<string>\",\n   \"website\": \"<string>\",\n   \"email\": \"<string>\",\n   \"createdDate\": \"<dateTime>\",\n   \"modifiedDate\": \"<dateTime>\"\n  }\n ],\n \"lines\": [\n  {\n   \"id\": \"<integer>\",\n   \"invoiceId\": \"<integer>\",\n   \"recipientContactId\": \"<integer>\",\n   \"lineNumber\": \"<string>\",\n   \"orderNumber\": \"<integer>\",\n   \"description\": \"<string>\",\n   \"subTotal\": \"<double>\",\n   \"total\": \"<double>\",\n   \"createdDate\": \"<dateTime>\",\n   \"modifiedDate\": \"<dateTime>\",\n   \"recipientContact\": {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   }\n  },\n  {\n   \"id\": \"<integer>\",\n   \"invoiceId\": \"<integer>\",\n   \"recipientContactId\": \"<integer>\",\n   \"lineNumber\": \"<string>\",\n   \"orderNumber\": \"<integer>\",\n   \"description\": \"<string>\",\n   \"subTotal\": \"<double>\",\n   \"total\": \"<double>\",\n   \"createdDate\": \"<dateTime>\",\n   \"modifiedDate\": \"<dateTime>\",\n   \"recipientContact\": {\n    \"id\": \"<integer>\",\n    \"invoiceId\": \"<integer>\",\n    \"contactTypeId\": \"<integer>\",\n    \"name\": \"<string>\",\n    \"address\": \"<string>\",\n    \"phone\": \"<string>\",\n    \"website\": \"<string>\",\n    \"email\": \"<string>\",\n    \"createdDate\": \"<dateTime>\",\n    \"modifiedDate\": \"<dateTime>\"\n   }\n  }\n ]\n}"
+								}
+							]
+						}
+					]
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE2MDkzMjcyOTEsImV4cCI6MTYwOTMzMDg5MSwiaXNzIjoiaHR0cDovL2ludm9pY2VjYXB0dXJlLWFwcGxpY2F0aW9uZ2F0ZXdheS1kZXYuZWFzdHVzLmNsb3VkYXBwLmF6dXJlLmNvbSIsImF1ZCI6Ik9jckRhdGFBbmFseXNpcyIsImNsaWVudF9pZCI6ImRlZmF1bHRDbGllbnQiLCJqdGkiOiI1NkJCNjRFRDBDOUU2NjA0NkQ2RjVDRTVDREZCNEVEQiIsImlhdCI6MTYwOTMyNzI5MSwic2NvcGUiOlsiT2NyRGF0YUFuYWx5c2lzIl19.UwCzoj4P5JDa7d2ZCd35dsP-AaTLdeyLlTBAQEHJApMOIHnXvIYqEcITpIBTcQsOdD_goHFRKwhKpDHxIeaMVg",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:10084"
+		}
+	]
+}

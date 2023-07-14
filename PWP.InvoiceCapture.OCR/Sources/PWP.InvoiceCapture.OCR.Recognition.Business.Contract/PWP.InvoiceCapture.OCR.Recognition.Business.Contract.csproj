@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PWP.InvoiceCapture.InvoiceManagement.Business.Contract" Version="1.0.0-CI-20210209-112639" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PWP.InvoiceCapture.OCR.Core\PWP.InvoiceCapture.OCR.Core.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[Group]
+(
+	[Id] INT NOT NULL IDENTITY(1,1),
+	[Name] NVARCHAR(MAX) NOT NULL,
+	[ParentGroupId] INT NULL,
+	[CreatedDate] DATETIME CONSTRAINT [DF_Group_CreatedDate] DEFAULT (GETUTCDATE()) NOT NULL,
+	[ModifiedDate] DATETIME CONSTRAINT [DF_Group_ModifiedDate] DEFAULT (GETUTCDATE()) NOT NULL,
+
+	CONSTRAINT [PK_Group] PRIMARY KEY (Id),
+	CONSTRAINT [FK_Group_Id] FOREIGN KEY ([ParentGroupId]) REFERENCES [Group](Id)
+)

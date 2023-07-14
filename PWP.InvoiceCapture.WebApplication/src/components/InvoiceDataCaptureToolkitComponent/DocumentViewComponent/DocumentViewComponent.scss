@@ -1,0 +1,33 @@
+@import "../../../styles/globals.scss";
+
+.DocumentViewComponent {
+    @extend .d-flex, .flex-column, .h-100, .w-100, .border, .border-secondary;
+
+    background-color: map-get($theme-colors, "neutral");
+    color: map-get($theme-colors, "secondary-accent");
+
+    &__pages {
+        @extend .d-flex, .flex-column, .w-100;
+
+        overflow-y: scroll;
+        overflow-x: auto;
+
+        & > * {
+            padding: 32px 32px 0px 32px;
+
+            &:last-of-type {
+                padding-bottom: 32px;
+            }
+        }
+    }
+
+    &__no-content {
+        @extend .d-flex, .flex-column, .flex-fill, .justify-content-center, .align-items-center, .h-100, .w-100;
+
+        background-color: map-get($colors, "white");
+
+        & > * {
+            @extend .py-3;
+        }
+    }
+}

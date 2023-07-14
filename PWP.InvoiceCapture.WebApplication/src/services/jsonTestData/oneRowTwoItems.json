@@ -1,0 +1,5119 @@
+{
+    "pageLayoutItems": [
+        {
+            "id": "0",
+            "text": "FIRE",
+            "value": "FIRE",
+            "topLeft": {
+                "x": 223,
+                "y": 60
+            },
+            "bottomRight": {
+                "x": 451,
+                "y": 148
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "1",
+            "text": "&",
+            "value": "&",
+            "topLeft": {
+                "x": 475,
+                "y": 60
+            },
+            "bottomRight": {
+                "x": 533,
+                "y": 148
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "2",
+            "text": "Fire",
+            "value": "Fire",
+            "topLeft": {
+                "x": 820,
+                "y": 55
+            },
+            "bottomRight": {
+                "x": 873,
+                "y": 79
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "3",
+            "text": "&",
+            "value": "&",
+            "topLeft": {
+                "x": 884,
+                "y": 56
+            },
+            "bottomRight": {
+                "x": 909,
+                "y": 79
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "4",
+            "text": "Emergency",
+            "value": "Emergency",
+            "topLeft": {
+                "x": 921,
+                "y": 56
+            },
+            "bottomRight": {
+                "x": 1085,
+                "y": 86
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "5",
+            "text": "Pty",
+            "value": "Pty",
+            "topLeft": {
+                "x": 1097,
+                "y": 56
+            },
+            "bottomRight": {
+                "x": 1144,
+                "y": 86
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "6",
+            "text": "Ltd",
+            "value": "Ltd",
+            "topLeft": {
+                "x": 1155,
+                "y": 55
+            },
+            "bottomRight": {
+                "x": 1199,
+                "y": 79
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "7",
+            "text": "Phone:",
+            "value": "Phone:",
+            "topLeft": {
+                "x": 991,
+                "y": 119
+            },
+            "bottomRight": {
+                "x": 1056,
+                "y": 136
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "8",
+            "text": "1300",
+            "value": "1300",
+            "topLeft": {
+                "x": 1066,
+                "y": 119
+            },
+            "bottomRight": {
+                "x": 1111,
+                "y": 136
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "9",
+            "text": "68",
+            "value": "68",
+            "topLeft": {
+                "x": 1120,
+                "y": 119
+            },
+            "bottomRight": {
+                "x": 1142,
+                "y": 136
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "10",
+            "text": "38",
+            "value": "38",
+            "topLeft": {
+                "x": 1150,
+                "y": 119
+            },
+            "bottomRight": {
+                "x": 1172,
+                "y": 136
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "11",
+            "text": "00",
+            "value": "000",
+            "topLeft": {
+                "x": 1180,
+                "y": 119
+            },
+            "bottomRight": {
+                "x": 1203,
+                "y": 136
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "12",
+            "text": "EMERGENCY",
+            "value": "EMERGENCY",
+            "topLeft": {
+                "x": 220,
+                "y": 154
+            },
+            "bottomRight": {
+                "x": 548,
+                "y": 200
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "13",
+            "text": "info@fireandemergency.com.au",
+            "value": "info@fireandemergency.com.au",
+            "topLeft": {
+                "x": 888,
+                "y": 148
+            },
+            "bottomRight": {
+                "x": 1202,
+                "y": 171
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "14",
+            "text": "ACN:",
+            "value": "ACN:",
+            "topLeft": {
+                "x": 800,
+                "y": 179
+            },
+            "bottomRight": {
+                "x": 848,
+                "y": 196
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "15",
+            "text": "151",
+            "value": "151",
+            "topLeft": {
+                "x": 858,
+                "y": 179
+            },
+            "bottomRight": {
+                "x": 888,
+                "y": 196
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "16",
+            "text": "656",
+            "value": "656",
+            "topLeft": {
+                "x": 899,
+                "y": 179
+            },
+            "bottomRight": {
+                "x": 934,
+                "y": 196
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "17",
+            "text": "709",
+            "value": "709",
+            "topLeft": {
+                "x": 942,
+                "y": 179
+            },
+            "bottomRight": {
+                "x": 976,
+                "y": 196
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "18",
+            "text": "ABN:",
+            "value": "ABN:",
+            "topLeft": {
+                "x": 996,
+                "y": 180
+            },
+            "bottomRight": {
+                "x": 1044,
+                "y": 196
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "19",
+            "text": "44",
+            "value": "44",
+            "topLeft": {
+                "x": 1052,
+                "y": 180
+            },
+            "bottomRight": {
+                "x": 1075,
+                "y": 196
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "20",
+            "text": "932",
+            "value": "932",
+            "topLeft": {
+                "x": 1083,
+                "y": 179
+            },
+            "bottomRight": {
+                "x": 1117,
+                "y": 196
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "21",
+            "text": "291",
+            "value": "291",
+            "topLeft": {
+                "x": 1126,
+                "y": 179
+            },
+            "bottomRight": {
+                "x": 1157,
+                "y": 196
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "22",
+            "text": "436",
+            "value": "436",
+            "topLeft": {
+                "x": 1167,
+                "y": 179
+            },
+            "bottomRight": {
+                "x": 1203,
+                "y": 196
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "23",
+            "text": "REC:",
+            "value": "REC:",
+            "topLeft": {
+                "x": 772,
+                "y": 209
+            },
+            "bottomRight": {
+                "x": 812,
+                "y": 226
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "24",
+            "text": "28666",
+            "value": "28666",
+            "topLeft": {
+                "x": 821,
+                "y": 209
+            },
+            "bottomRight": {
+                "x": 880,
+                "y": 226
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "25",
+            "text": "FPAS:",
+            "value": "FPAS:",
+            "topLeft": {
+                "x": 907,
+                "y": 209
+            },
+            "bottomRight": {
+                "x": 958,
+                "y": 226
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "26",
+            "text": "16296",
+            "value": "16296",
+            "topLeft": {
+                "x": 968,
+                "y": 209
+            },
+            "bottomRight": {
+                "x": 1025,
+                "y": 226
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "27",
+            "text": "ACMA:",
+            "value": "ACMA:",
+            "topLeft": {
+                "x": 1045,
+                "y": 209
+            },
+            "bottomRight": {
+                "x": 1111,
+                "y": 226
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "28",
+            "text": "1616296",
+            "value": "1616296",
+            "topLeft": {
+                "x": 1121,
+                "y": 209
+            },
+            "bottomRight": {
+                "x": 1203,
+                "y": 226
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "29",
+            "text": "Tax",
+            "value": "Tax",
+            "topLeft": {
+                "x": 115,
+                "y": 299
+            },
+            "bottomRight": {
+                "x": 141,
+                "y": 311
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "30",
+            "text": "Invoice",
+            "value": "Invoice",
+            "topLeft": {
+                "x": 147,
+                "y": 298
+            },
+            "bottomRight": {
+                "x": 202,
+                "y": 311
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "31",
+            "text": "No:",
+            "value": "No:",
+            "topLeft": {
+                "x": 208,
+                "y": 299
+            },
+            "bottomRight": {
+                "x": 234,
+                "y": 311
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "32",
+            "text": "00006443",
+            "value": "00006443",
+            "topLeft": {
+                "x": 403,
+                "y": 298
+            },
+            "bottomRight": {
+                "x": 480,
+                "y": 311
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "33",
+            "text": "Your",
+            "value": "Your",
+            "topLeft": {
+                "x": 682,
+                "y": 299
+            },
+            "bottomRight": {
+                "x": 718,
+                "y": 311
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "34",
+            "text": "Reference:",
+            "value": "Reference:",
+            "topLeft": {
+                "x": 724,
+                "y": 298
+            },
+            "bottomRight": {
+                "x": 807,
+                "y": 311
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "35",
+            "text": "Service",
+            "value": "Service",
+            "topLeft": {
+                "x": 999,
+                "y": 298
+            },
+            "bottomRight": {
+                "x": 1053,
+                "y": 311
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "36",
+            "text": "Invoice",
+            "value": "Invoice",
+            "topLeft": {
+                "x": 116,
+                "y": 328
+            },
+            "bottomRight": {
+                "x": 171,
+                "y": 342
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "37",
+            "text": "Date:",
+            "value": "Date:",
+            "topLeft": {
+                "x": 177,
+                "y": 329
+            },
+            "bottomRight": {
+                "x": 218,
+                "y": 342
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "38",
+            "text": "17/01/2020",
+            "value": "17/01/2020",
+            "topLeft": {
+                "x": 389,
+                "y": 327
+            },
+            "bottomRight": {
+                "x": 480,
+                "y": 344
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "39",
+            "text": "Payment",
+            "value": "Payment",
+            "topLeft": {
+                "x": 683,
+                "y": 329
+            },
+            "bottomRight": {
+                "x": 752,
+                "y": 345
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "40",
+            "text": "Due:",
+            "value": "Due:",
+            "topLeft": {
+                "x": 758,
+                "y": 329
+            },
+            "bottomRight": {
+                "x": 793,
+                "y": 342
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "41",
+            "text": "14/02/2020",
+            "value": "14/02/2020",
+            "topLeft": {
+                "x": 960,
+                "y": 327
+            },
+            "bottomRight": {
+                "x": 1053,
+                "y": 341
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "42",
+            "text": "Customer:",
+            "value": "Customer:",
+            "topLeft": {
+                "x": 115,
+                "y": 384
+            },
+            "bottomRight": {
+                "x": 196,
+                "y": 397
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "43",
+            "text": "Site/Delivery",
+            "value": "Site/Delivery",
+            "topLeft": {
+                "x": 682,
+                "y": 382
+            },
+            "bottomRight": {
+                "x": 786,
+                "y": 400
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "44",
+            "text": "Address:",
+            "value": "Address:",
+            "topLeft": {
+                "x": 791,
+                "y": 383
+            },
+            "bottomRight": {
+                "x": 859,
+                "y": 397
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "45",
+            "text": "Capital",
+            "value": "Capital",
+            "topLeft": {
+                "x": 116,
+                "y": 420
+            },
+            "bottomRight": {
+                "x": 167,
+                "y": 436
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "46",
+            "text": "Radiology",
+            "value": "Radiology",
+            "topLeft": {
+                "x": 175,
+                "y": 420
+            },
+            "bottomRight": {
+                "x": 250,
+                "y": 436
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "47",
+            "text": "-",
+            "value": "-",
+            "topLeft": {
+                "x": 255,
+                "y": 427
+            },
+            "bottomRight": {
+                "x": 260,
+                "y": 429
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "48",
+            "text": "Springvale",
+            "value": "Springvale",
+            "topLeft": {
+                "x": 266,
+                "y": 420
+            },
+            "bottomRight": {
+                "x": 345,
+                "y": 436
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "49",
+            "text": "Capital",
+            "value": "Capital",
+            "topLeft": {
+                "x": 683,
+                "y": 420
+            },
+            "bottomRight": {
+                "x": 734,
+                "y": 436
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "50",
+            "text": "Radiology",
+            "value": "Radiology",
+            "topLeft": {
+                "x": 742,
+                "y": 420
+            },
+            "bottomRight": {
+                "x": 817,
+                "y": 436
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "51",
+            "text": "-",
+            "value": "-",
+            "topLeft": {
+                "x": 822,
+                "y": 427
+            },
+            "bottomRight": {
+                "x": 827,
+                "y": 429
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "52",
+            "text": "Springvale",
+            "value": "Springvale",
+            "topLeft": {
+                "x": 833,
+                "y": 420
+            },
+            "bottomRight": {
+                "x": 913,
+                "y": 436
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "53",
+            "text": "PO",
+            "value": "PO",
+            "topLeft": {
+                "x": 116,
+                "y": 444
+            },
+            "bottomRight": {
+                "x": 136,
+                "y": 457
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "54",
+            "text": "Box",
+            "value": "Box",
+            "topLeft": {
+                "x": 143,
+                "y": 444
+            },
+            "bottomRight": {
+                "x": 170,
+                "y": 457
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "55",
+            "text": "836",
+            "value": "836",
+            "topLeft": {
+                "x": 176,
+                "y": 444
+            },
+            "bottomRight": {
+                "x": 204,
+                "y": 457
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "56",
+            "text": "12-14",
+            "value": "12-14",
+            "topLeft": {
+                "x": 683,
+                "y": 444
+            },
+            "bottomRight": {
+                "x": 726,
+                "y": 457
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "57",
+            "text": "Windsor",
+            "value": "Windsor",
+            "topLeft": {
+                "x": 732,
+                "y": 443
+            },
+            "bottomRight": {
+                "x": 797,
+                "y": 457
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "58",
+            "text": "Av",
+            "value": "Av",
+            "topLeft": {
+                "x": 802,
+                "y": 444
+            },
+            "bottomRight": {
+                "x": 821,
+                "y": 457
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "59",
+            "text": "Port",
+            "value": "Port",
+            "topLeft": {
+                "x": 116,
+                "y": 468
+            },
+            "bottomRight": {
+                "x": 147,
+                "y": 480
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "60",
+            "text": "Melbourne",
+            "value": "Melbourne",
+            "topLeft": {
+                "x": 154,
+                "y": 467
+            },
+            "bottomRight": {
+                "x": 239,
+                "y": 480
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "61",
+            "text": "VIC",
+            "value": "VIC",
+            "topLeft": {
+                "x": 245,
+                "y": 468
+            },
+            "bottomRight": {
+                "x": 270,
+                "y": 480
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "62",
+            "text": "3207",
+            "value": "3207",
+            "topLeft": {
+                "x": 276,
+                "y": 468
+            },
+            "bottomRight": {
+                "x": 313,
+                "y": 480
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "63",
+            "text": "Springvale",
+            "value": "Springvale",
+            "topLeft": {
+                "x": 682,
+                "y": 467
+            },
+            "bottomRight": {
+                "x": 762,
+                "y": 484
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "64",
+            "text": "VIC",
+            "value": "VIC",
+            "topLeft": {
+                "x": 772,
+                "y": 468
+            },
+            "bottomRight": {
+                "x": 797,
+                "y": 480
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "65",
+            "text": "3172",
+            "value": "3172",
+            "topLeft": {
+                "x": 808,
+                "y": 468
+            },
+            "bottomRight": {
+                "x": 845,
+                "y": 480
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "66",
+            "text": "Quantity",
+            "value": "Quantity",
+            "topLeft": {
+                "x": 121,
+                "y": 566
+            },
+            "bottomRight": {
+                "x": 191,
+                "y": 583
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "67",
+            "text": "Description",
+            "value": "Description",
+            "topLeft": {
+                "x": 526,
+                "y": 566
+            },
+            "bottomRight": {
+                "x": 615,
+                "y": 583
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "68",
+            "text": "Unit",
+            "value": "Unit",
+            "topLeft": {
+                "x": 922,
+                "y": 566
+            },
+            "bottomRight": {
+                "x": 954,
+                "y": 580
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "69",
+            "text": "Price",
+            "value": "Price",
+            "topLeft": {
+                "x": 960,
+                "y": 566
+            },
+            "bottomRight": {
+                "x": 998,
+                "y": 580
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "70",
+            "text": "Total",
+            "value": "Total",
+            "topLeft": {
+                "x": 1094,
+                "y": 566
+            },
+            "bottomRight": {
+                "x": 1132,
+                "y": 580
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "71",
+            "text": "1",
+            "value": "1",
+            "topLeft": {
+                "x": 166,
+                "y": 623
+            },
+            "bottomRight": {
+                "x": 170,
+                "y": 636
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "72",
+            "text": "Attended",
+            "value": "Attended",
+            "topLeft": {
+                "x": 237,
+                "y": 623
+            },
+            "bottomRight": {
+                "x": 307,
+                "y": 636
+            },
+            "assigned": true,
+            "selected": true
+        },
+        {
+            "id": "73",
+            "text": "site",
+            "value": "site",
+            "topLeft": {
+                "x": 314,
+                "y": 623
+            },
+            "bottomRight": {
+                "x": 340,
+                "y": 636
+            },
+            "assigned": true,
+            "selected": true
+        },
+        {
+            "id": "74",
+            "text": "and",
+            "value": "and",
+            "topLeft": {
+                "x": 347,
+                "y": 623
+            },
+            "bottomRight": {
+                "x": 374,
+                "y": 636
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "75",
+            "text": "performed",
+            "value": "performed",
+            "topLeft": {
+                "x": 382,
+                "y": 623
+            },
+            "bottomRight": {
+                "x": 460,
+                "y": 639
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "76",
+            "text": "level",
+            "value": "level",
+            "topLeft": {
+                "x": 467,
+                "y": 623
+            },
+            "bottomRight": {
+                "x": 501,
+                "y": 636
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "77",
+            "text": "1",
+            "value": "1",
+            "topLeft": {
+                "x": 510,
+                "y": 623
+            },
+            "bottomRight": {
+                "x": 514,
+                "y": 636
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "78",
+            "text": "service",
+            "value": "service",
+            "topLeft": {
+                "x": 523,
+                "y": 623
+            },
+            "bottomRight": {
+                "x": 578,
+                "y": 636
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "79",
+            "text": "on",
+            "value": "on",
+            "topLeft": {
+                "x": 584,
+                "y": 626
+            },
+            "bottomRight": {
+                "x": 602,
+                "y": 636
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "80",
+            "text": "all",
+            "value": "all",
+            "topLeft": {
+                "x": 609,
+                "y": 623
+            },
+            "bottomRight": {
+                "x": 625,
+                "y": 636
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "81",
+            "text": "portable",
+            "value": "portable",
+            "topLeft": {
+                "x": 632,
+                "y": 623
+            },
+            "bottomRight": {
+                "x": 694,
+                "y": 639
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "82",
+            "text": "fire",
+            "value": "fire",
+            "topLeft": {
+                "x": 700,
+                "y": 623
+            },
+            "bottomRight": {
+                "x": 724,
+                "y": 636
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "83",
+            "text": "equipment",
+            "value": "equipment",
+            "topLeft": {
+                "x": 730,
+                "y": 623
+            },
+            "bottomRight": {
+                "x": 812,
+                "y": 639
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "84",
+            "text": "on",
+            "value": "on",
+            "topLeft": {
+                "x": 818,
+                "y": 626
+            },
+            "bottomRight": {
+                "x": 836,
+                "y": 636
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "85",
+            "text": "$50.00",
+            "value": "50.00",
+            "topLeft": {
+                "x": 970,
+                "y": 622
+            },
+            "bottomRight": {
+                "x": 1023,
+                "y": 638
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "86",
+            "text": "$50.00",
+            "value": "50.00",
+            "topLeft": {
+                "x": 1116,
+                "y": 622
+            },
+            "bottomRight": {
+                "x": 1169,
+                "y": 638
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "87",
+            "text": "site",
+            "value": "site",
+            "topLeft": {
+                "x": 238,
+                "y": 643
+            },
+            "bottomRight": {
+                "x": 264,
+                "y": 657
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "88",
+            "text": "as",
+            "value": "as",
+            "topLeft": {
+                "x": 271,
+                "y": 647
+            },
+            "bottomRight": {
+                "x": 288,
+                "y": 657
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "89",
+            "text": "per",
+            "value": "per",
+            "topLeft": {
+                "x": 295,
+                "y": 647
+            },
+            "bottomRight": {
+                "x": 320,
+                "y": 660
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "90",
+            "text": "Australian",
+            "value": "Australian",
+            "topLeft": {
+                "x": 323,
+                "y": 643
+            },
+            "bottomRight": {
+                "x": 401,
+                "y": 657
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "91",
+            "text": "Standards",
+            "value": "Standards",
+            "topLeft": {
+                "x": 408,
+                "y": 643
+            },
+            "bottomRight": {
+                "x": 487,
+                "y": 657
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "92",
+            "text": "1851.2005",
+            "value": "1851.2005",
+            "topLeft": {
+                "x": 495,
+                "y": 643
+            },
+            "bottomRight": {
+                "x": 576,
+                "y": 657
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "93",
+            "text": "1",
+            "value": "1",
+            "topLeft": {
+                "x": 166,
+                "y": 670
+            },
+            "bottomRight": {
+                "x": 170,
+                "y": 683
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "94",
+            "text": "Performed",
+            "value": "Performed",
+            "topLeft": {
+                "x": 239,
+                "y": 670
+            },
+            "bottomRight": {
+                "x": 319,
+                "y": 683
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "95",
+            "text": "emergency",
+            "value": "emergency",
+            "topLeft": {
+                "x": 326,
+                "y": 674
+            },
+            "bottomRight": {
+                "x": 413,
+                "y": 687
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "96",
+            "text": "&",
+            "value": "&",
+            "topLeft": {
+                "x": 419,
+                "y": 670
+            },
+            "bottomRight": {
+                "x": 429,
+                "y": 684
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "97",
+            "text": "exit",
+            "value": "exit",
+            "topLeft": {
+                "x": 435,
+                "y": 670
+            },
+            "bottomRight": {
+                "x": 462,
+                "y": 683
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "98",
+            "text": "light",
+            "value": "light",
+            "topLeft": {
+                "x": 468,
+                "y": 670
+            },
+            "bottomRight": {
+                "x": 500,
+                "y": 687
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "99",
+            "text": "discharge",
+            "value": "discharge",
+            "topLeft": {
+                "x": 505,
+                "y": 670
+            },
+            "bottomRight": {
+                "x": 581,
+                "y": 687
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "100",
+            "text": "test",
+            "value": "test",
+            "topLeft": {
+                "x": 587,
+                "y": 671
+            },
+            "bottomRight": {
+                "x": 615,
+                "y": 683
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "101",
+            "text": "as",
+            "value": "as",
+            "topLeft": {
+                "x": 621,
+                "y": 674
+            },
+            "bottomRight": {
+                "x": 638,
+                "y": 683
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "102",
+            "text": "per",
+            "value": "per",
+            "topLeft": {
+                "x": 645,
+                "y": 674
+            },
+            "bottomRight": {
+                "x": 670,
+                "y": 687
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "103",
+            "text": "Australian",
+            "value": "Australian",
+            "topLeft": {
+                "x": 673,
+                "y": 670
+            },
+            "bottomRight": {
+                "x": 751,
+                "y": 683
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "104",
+            "text": "Standards",
+            "value": "Standards",
+            "topLeft": {
+                "x": 758,
+                "y": 670
+            },
+            "bottomRight": {
+                "x": 837,
+                "y": 683
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "105",
+            "text": "$150.00",
+            "value": "150.00",
+            "topLeft": {
+                "x": 960,
+                "y": 669
+            },
+            "bottomRight": {
+                "x": 1023,
+                "y": 685
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "106",
+            "text": "$150.00",
+            "value": "150.00",
+            "topLeft": {
+                "x": 1106,
+                "y": 669
+            },
+            "bottomRight": {
+                "x": 1169,
+                "y": 685
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "107",
+            "text": "2293.2",
+            "value": "2293.2",
+            "topLeft": {
+                "x": 238,
+                "y": 691
+            },
+            "bottomRight": {
+                "x": 291,
+                "y": 704
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "108",
+            "text": "1",
+            "value": "1",
+            "topLeft": {
+                "x": 166,
+                "y": 718
+            },
+            "bottomRight": {
+                "x": 170,
+                "y": 731
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "109",
+            "text": "Performed",
+            "value": "Performed",
+            "topLeft": {
+                "x": 239,
+                "y": 717
+            },
+            "bottomRight": {
+                "x": 319,
+                "y": 731
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "110",
+            "text": "6",
+            "value": "6",
+            "topLeft": {
+                "x": 326,
+                "y": 718
+            },
+            "bottomRight": {
+                "x": 334,
+                "y": 731
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "111",
+            "text": "monthly",
+            "value": "monthly",
+            "topLeft": {
+                "x": 341,
+                "y": 718
+            },
+            "bottomRight": {
+                "x": 402,
+                "y": 734
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "112",
+            "text": "inspection",
+            "value": "inspection",
+            "topLeft": {
+                "x": 408,
+                "y": 718
+            },
+            "bottomRight": {
+                "x": 486,
+                "y": 734
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "113",
+            "text": "of",
+            "value": "of",
+            "topLeft": {
+                "x": 492,
+                "y": 717
+            },
+            "bottomRight": {
+                "x": 507,
+                "y": 731
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "114",
+            "text": "all",
+            "value": "all",
+            "topLeft": {
+                "x": 512,
+                "y": 718
+            },
+            "bottomRight": {
+                "x": 528,
+                "y": 731
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "115",
+            "text": "240v",
+            "value": "240v",
+            "topLeft": {
+                "x": 535,
+                "y": 718
+            },
+            "bottomRight": {
+                "x": 572,
+                "y": 731
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "116",
+            "text": "smoke",
+            "value": "smoke",
+            "topLeft": {
+                "x": 578,
+                "y": 718
+            },
+            "bottomRight": {
+                "x": 629,
+                "y": 731
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "117",
+            "text": "alarms",
+            "value": "alarms",
+            "topLeft": {
+                "x": 635,
+                "y": 718
+            },
+            "bottomRight": {
+                "x": 687,
+                "y": 731
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "118",
+            "text": "$40.00",
+            "value": "40.00",
+            "topLeft": {
+                "x": 970,
+                "y": 716
+            },
+            "bottomRight": {
+                "x": 1023,
+                "y": 732
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "119",
+            "text": "$40.00",
+            "value": "40.00",
+            "topLeft": {
+                "x": 1116,
+                "y": 716
+            },
+            "bottomRight": {
+                "x": 1169,
+                "y": 732
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "120",
+            "text": "Subtotal:",
+            "value": "Subtotal:",
+            "topLeft": {
+                "x": 865,
+                "y": 1225
+            },
+            "bottomRight": {
+                "x": 934,
+                "y": 1238
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "121",
+            "text": "$240.00",
+            "value": "240.00",
+            "topLeft": {
+                "x": 1115,
+                "y": 1224
+            },
+            "bottomRight": {
+                "x": 1177,
+                "y": 1241
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "122",
+            "text": "We",
+            "value": "We",
+            "topLeft": {
+                "x": 109,
+                "y": 1238
+            },
+            "bottomRight": {
+                "x": 134,
+                "y": 1251
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "123",
+            "text": "appreciate",
+            "value": "appreciate",
+            "topLeft": {
+                "x": 140,
+                "y": 1238
+            },
+            "bottomRight": {
+                "x": 221,
+                "y": 1254
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "124",
+            "text": "your",
+            "value": "your",
+            "topLeft": {
+                "x": 227,
+                "y": 1241
+            },
+            "bottomRight": {
+                "x": 262,
+                "y": 1254
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "125",
+            "text": "business.",
+            "value": "business.",
+            "topLeft": {
+                "x": 268,
+                "y": 1237
+            },
+            "bottomRight": {
+                "x": 337,
+                "y": 1251
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "126",
+            "text": "Freight",
+            "value": "Freight",
+            "topLeft": {
+                "x": 866,
+                "y": 1255
+            },
+            "bottomRight": {
+                "x": 919,
+                "y": 1272
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "127",
+            "text": "(ex-GST):",
+            "value": "(ex-GST):",
+            "topLeft": {
+                "x": 926,
+                "y": 1255
+            },
+            "bottomRight": {
+                "x": 994,
+                "y": 1272
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "128",
+            "text": "$0.00",
+            "value": "00.00",
+            "topLeft": {
+                "x": 1135,
+                "y": 1254
+            },
+            "bottomRight": {
+                "x": 1178,
+                "y": 1271
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "129",
+            "text": "GST:",
+            "value": "GST:",
+            "topLeft": {
+                "x": 866,
+                "y": 1287
+            },
+            "bottomRight": {
+                "x": 897,
+                "y": 1299
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "130",
+            "text": "$24.00",
+            "value": "24.00",
+            "topLeft": {
+                "x": 1125,
+                "y": 1285
+            },
+            "bottomRight": {
+                "x": 1177,
+                "y": 1302
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "131",
+            "text": "Total",
+            "value": "Total",
+            "topLeft": {
+                "x": 865,
+                "y": 1347
+            },
+            "bottomRight": {
+                "x": 901,
+                "y": 1360
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "132",
+            "text": "(inc-GST):",
+            "value": "(inc-GST):",
+            "topLeft": {
+                "x": 908,
+                "y": 1347
+            },
+            "bottomRight": {
+                "x": 981,
+                "y": 1364
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "133",
+            "text": "$264.00",
+            "value": "264.00",
+            "topLeft": {
+                "x": 1115,
+                "y": 1346
+            },
+            "bottomRight": {
+                "x": 1177,
+                "y": 1363
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "134",
+            "text": "This",
+            "value": "This",
+            "topLeft": {
+                "x": 136,
+                "y": 1375
+            },
+            "bottomRight": {
+                "x": 163,
+                "y": 1386
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "135",
+            "text": "is",
+            "value": "is",
+            "topLeft": {
+                "x": 169,
+                "y": 1375
+            },
+            "bottomRight": {
+                "x": 178,
+                "y": 1386
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "136",
+            "text": "a",
+            "value": "a",
+            "topLeft": {
+                "x": 184,
+                "y": 1378
+            },
+            "bottomRight": {
+                "x": 191,
+                "y": 1386
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "137",
+            "text": "payment",
+            "value": "payment",
+            "topLeft": {
+                "x": 197,
+                "y": 1376
+            },
+            "bottomRight": {
+                "x": 253,
+                "y": 1389
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "138",
+            "text": "claim",
+            "value": "claim",
+            "topLeft": {
+                "x": 258,
+                "y": 1375
+            },
+            "bottomRight": {
+                "x": 292,
+                "y": 1386
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "139",
+            "text": "under",
+            "value": "under",
+            "topLeft": {
+                "x": 298,
+                "y": 1375
+            },
+            "bottomRight": {
+                "x": 336,
+                "y": 1386
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "140",
+            "text": "the",
+            "value": "the",
+            "topLeft": {
+                "x": 340,
+                "y": 1375
+            },
+            "bottomRight": {
+                "x": 360,
+                "y": 1386
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "141",
+            "text": "Building",
+            "value": "Building",
+            "topLeft": {
+                "x": 366,
+                "y": 1375
+            },
+            "bottomRight": {
+                "x": 417,
+                "y": 1389
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "142",
+            "text": "Construction",
+            "value": "Construction",
+            "topLeft": {
+                "x": 423,
+                "y": 1375
+            },
+            "bottomRight": {
+                "x": 506,
+                "y": 1386
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "143",
+            "text": "Industry",
+            "value": "Industry",
+            "topLeft": {
+                "x": 512,
+                "y": 1375
+            },
+            "bottomRight": {
+                "x": 564,
+                "y": 1389
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "144",
+            "text": "Security",
+            "value": "Security",
+            "topLeft": {
+                "x": 569,
+                "y": 1375
+            },
+            "bottomRight": {
+                "x": 623,
+                "y": 1389
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "145",
+            "text": "of",
+            "value": "of",
+            "topLeft": {
+                "x": 628,
+                "y": 1375
+            },
+            "bottomRight": {
+                "x": 640,
+                "y": 1386
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "146",
+            "text": "Payment",
+            "value": "Payment",
+            "topLeft": {
+                "x": 645,
+                "y": 1375
+            },
+            "bottomRight": {
+                "x": 703,
+                "y": 1389
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "147",
+            "text": "Act",
+            "value": "Act",
+            "topLeft": {
+                "x": 707,
+                "y": 1375
+            },
+            "bottomRight": {
+                "x": 728,
+                "y": 1386
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "148",
+            "text": "2002",
+            "value": "2002",
+            "topLeft": {
+                "x": 733,
+                "y": 1375
+            },
+            "bottomRight": {
+                "x": 765,
+                "y": 1386
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "149",
+            "text": "Paid",
+            "value": "Paid",
+            "topLeft": {
+                "x": 866,
+                "y": 1377
+            },
+            "bottomRight": {
+                "x": 897,
+                "y": 1391
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "150",
+            "text": "to",
+            "value": "to",
+            "topLeft": {
+                "x": 903,
+                "y": 1379
+            },
+            "bottomRight": {
+                "x": 918,
+                "y": 1391
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "151",
+            "text": "Date:",
+            "value": "Date:",
+            "topLeft": {
+                "x": 925,
+                "y": 1378
+            },
+            "bottomRight": {
+                "x": 964,
+                "y": 1391
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "152",
+            "text": "$0.00",
+            "value": "00.00",
+            "topLeft": {
+                "x": 1135,
+                "y": 1376
+            },
+            "bottomRight": {
+                "x": 1178,
+                "y": 1393
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "153",
+            "text": "Should",
+            "value": "Should",
+            "topLeft": {
+                "x": 122,
+                "y": 1400
+            },
+            "bottomRight": {
+                "x": 167,
+                "y": 1411
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "154",
+            "text": "your",
+            "value": "your",
+            "topLeft": {
+                "x": 172,
+                "y": 1403
+            },
+            "bottomRight": {
+                "x": 202,
+                "y": 1414
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "155",
+            "text": "account",
+            "value": "account",
+            "topLeft": {
+                "x": 206,
+                "y": 1400
+            },
+            "bottomRight": {
+                "x": 258,
+                "y": 1411
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "156",
+            "text": "exceed",
+            "value": "exceed",
+            "topLeft": {
+                "x": 263,
+                "y": 1400
+            },
+            "bottomRight": {
+                "x": 310,
+                "y": 1411
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "157",
+            "text": "our",
+            "value": "our",
+            "topLeft": {
+                "x": 316,
+                "y": 1403
+            },
+            "bottomRight": {
+                "x": 337,
+                "y": 1411
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "158",
+            "text": "trading",
+            "value": "trading",
+            "topLeft": {
+                "x": 341,
+                "y": 1400
+            },
+            "bottomRight": {
+                "x": 386,
+                "y": 1414
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "159",
+            "text": "terms",
+            "value": "terms",
+            "topLeft": {
+                "x": 392,
+                "y": 1400
+            },
+            "bottomRight": {
+                "x": 428,
+                "y": 1411
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "160",
+            "text": "&",
+            "value": "&",
+            "topLeft": {
+                "x": 434,
+                "y": 1400
+            },
+            "bottomRight": {
+                "x": 443,
+                "y": 1411
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "161",
+            "text": "be",
+            "value": "be",
+            "topLeft": {
+                "x": 448,
+                "y": 1400
+            },
+            "bottomRight": {
+                "x": 463,
+                "y": 1411
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "162",
+            "text": "passed",
+            "value": "passed",
+            "topLeft": {
+                "x": 469,
+                "y": 1400
+            },
+            "bottomRight": {
+                "x": 516,
+                "y": 1414
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "163",
+            "text": "on",
+            "value": "on",
+            "topLeft": {
+                "x": 521,
+                "y": 1403
+            },
+            "bottomRight": {
+                "x": 537,
+                "y": 1411
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "164",
+            "text": "for",
+            "value": "for",
+            "topLeft": {
+                "x": 542,
+                "y": 1400
+            },
+            "bottomRight": {
+                "x": 560,
+                "y": 1411
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "165",
+            "text": "collection,",
+            "value": "collection,",
+            "topLeft": {
+                "x": 564,
+                "y": 1400
+            },
+            "bottomRight": {
+                "x": 629,
+                "y": 1413
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "166",
+            "text": "all",
+            "value": "all",
+            "topLeft": {
+                "x": 635,
+                "y": 1400
+            },
+            "bottomRight": {
+                "x": 649,
+                "y": 1411
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "167",
+            "text": "costs",
+            "value": "costs",
+            "topLeft": {
+                "x": 655,
+                "y": 1400
+            },
+            "bottomRight": {
+                "x": 688,
+                "y": 1411
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "168",
+            "text": "including",
+            "value": "including",
+            "topLeft": {
+                "x": 694,
+                "y": 1400
+            },
+            "bottomRight": {
+                "x": 752,
+                "y": 1414
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "169",
+            "text": "debt",
+            "value": "debt",
+            "topLeft": {
+                "x": 757,
+                "y": 1400
+            },
+            "bottomRight": {
+                "x": 786,
+                "y": 1411
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "170",
+            "text": "collection",
+            "value": "collection",
+            "topLeft": {
+                "x": 173,
+                "y": 1417
+            },
+            "bottomRight": {
+                "x": 234,
+                "y": 1428
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "171",
+            "text": "commission,",
+            "value": "commission,",
+            "topLeft": {
+                "x": 240,
+                "y": 1417
+            },
+            "bottomRight": {
+                "x": 321,
+                "y": 1430
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "172",
+            "text": "Solicitor",
+            "value": "Solicitor",
+            "topLeft": {
+                "x": 328,
+                "y": 1417
+            },
+            "bottomRight": {
+                "x": 381,
+                "y": 1428
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "173",
+            "text": "fees",
+            "value": "fees",
+            "topLeft": {
+                "x": 385,
+                "y": 1417
+            },
+            "bottomRight": {
+                "x": 412,
+                "y": 1428
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "174",
+            "text": "&",
+            "value": "&",
+            "topLeft": {
+                "x": 418,
+                "y": 1417
+            },
+            "bottomRight": {
+                "x": 427,
+                "y": 1428
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "175",
+            "text": "any",
+            "value": "any",
+            "topLeft": {
+                "x": 432,
+                "y": 1420
+            },
+            "bottomRight": {
+                "x": 456,
+                "y": 1431
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "176",
+            "text": "out",
+            "value": "out",
+            "topLeft": {
+                "x": 460,
+                "y": 1417
+            },
+            "bottomRight": {
+                "x": 481,
+                "y": 1428
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "177",
+            "text": "of",
+            "value": "of",
+            "topLeft": {
+                "x": 485,
+                "y": 1417
+            },
+            "bottomRight": {
+                "x": 498,
+                "y": 1428
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "178",
+            "text": "pocket",
+            "value": "pocket",
+            "topLeft": {
+                "x": 503,
+                "y": 1417
+            },
+            "bottomRight": {
+                "x": 546,
+                "y": 1431
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "179",
+            "text": "expenses",
+            "value": "expenses",
+            "topLeft": {
+                "x": 551,
+                "y": 1420
+            },
+            "bottomRight": {
+                "x": 614,
+                "y": 1431
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "180",
+            "text": "will",
+            "value": "will",
+            "topLeft": {
+                "x": 619,
+                "y": 1417
+            },
+            "bottomRight": {
+                "x": 639,
+                "y": 1428
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "181",
+            "text": "be",
+            "value": "be",
+            "topLeft": {
+                "x": 645,
+                "y": 1417
+            },
+            "bottomRight": {
+                "x": 660,
+                "y": 1428
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "182",
+            "text": "the",
+            "value": "the",
+            "topLeft": {
+                "x": 665,
+                "y": 1417
+            },
+            "bottomRight": {
+                "x": 685,
+                "y": 1428
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "183",
+            "text": "liability",
+            "value": "liability",
+            "topLeft": {
+                "x": 691,
+                "y": 1417
+            },
+            "bottomRight": {
+                "x": 735,
+                "y": 1431
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "184",
+            "text": "Balance",
+            "value": "Balance",
+            "topLeft": {
+                "x": 866,
+                "y": 1420
+            },
+            "bottomRight": {
+                "x": 927,
+                "y": 1434
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "185",
+            "text": "Due:",
+            "value": "Due:",
+            "topLeft": {
+                "x": 933,
+                "y": 1421
+            },
+            "bottomRight": {
+                "x": 968,
+                "y": 1434
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "186",
+            "text": "$264.00",
+            "value": "264.00",
+            "topLeft": {
+                "x": 1121,
+                "y": 1419
+            },
+            "bottomRight": {
+                "x": 1184,
+                "y": 1436
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "187",
+            "text": "of",
+            "value": "of",
+            "topLeft": {
+                "x": 402,
+                "y": 1434
+            },
+            "bottomRight": {
+                "x": 415,
+                "y": 1445
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "188",
+            "text": "the",
+            "value": "the",
+            "topLeft": {
+                "x": 419,
+                "y": 1434
+            },
+            "bottomRight": {
+                "x": 439,
+                "y": 1445
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "189",
+            "text": "customer",
+            "value": "customer",
+            "topLeft": {
+                "x": 444,
+                "y": 1435
+            },
+            "bottomRight": {
+                "x": 506,
+                "y": 1445
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "190",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 18,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 27,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "191",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 32,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 41,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "192",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 46,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 55,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "193",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 60,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 69,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "194",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 74,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 83,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "195",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 88,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 97,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "196",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 102,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 111,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "197",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 116,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 126,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "198",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 130,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 140,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "199",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 144,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 154,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "200",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 158,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 168,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "201",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 172,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 182,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "202",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 186,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 196,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "203",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 200,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 210,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "204",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 214,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 224,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "205",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 228,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 238,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "206",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 242,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 252,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "207",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 256,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 266,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "208",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 270,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 280,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "209",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 284,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 294,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "210",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 298,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 308,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "211",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 312,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 322,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "212",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 326,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 336,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "213",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 340,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 350,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "214",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 354,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 364,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "215",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 368,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 378,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "216",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 382,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 392,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "217",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 396,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 406,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "218",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 410,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 420,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "219",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 424,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 434,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "220",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 438,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 448,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "221",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 452,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 462,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "222",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 466,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 476,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "223",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 480,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 490,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "224",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 494,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 504,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "225",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 508,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 518,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "226",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 522,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 532,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "227",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 536,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 546,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "228",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 550,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 560,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "229",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 564,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 574,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "230",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 578,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 588,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "231",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 592,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 602,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "232",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 606,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 616,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "233",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 620,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 630,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "234",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 634,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 644,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "235",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 648,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 658,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "236",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 662,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 672,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "237",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 676,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 686,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "238",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 691,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 700,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "239",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 705,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 714,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "240",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 719,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 728,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "241",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 733,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 742,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "242",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 747,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 756,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "243",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 761,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 770,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "244",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 775,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 785,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "245",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 789,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 799,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "246",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 803,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 813,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "247",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 817,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 827,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "248",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 831,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 841,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "249",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 845,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 855,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "250",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 859,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 869,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "251",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 873,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 883,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "252",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 887,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 897,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "253",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 901,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 911,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "254",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 915,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 925,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "255",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 929,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 939,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "256",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 943,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 953,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "257",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 957,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 967,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "258",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 971,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 981,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "259",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 985,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 995,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "260",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 999,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 1009,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "261",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 1013,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 1023,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "262",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 1027,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 1037,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "263",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 1041,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 1051,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "264",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 1055,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 1065,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "265",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 1069,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 1079,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "266",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 1083,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 1093,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "267",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 1097,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 1107,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "268",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 1111,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 1121,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "269",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 1125,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 1135,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "270",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 1139,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 1149,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "271",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 1153,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 1163,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "272",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 1167,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 1177,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "273",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 1181,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 1191,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "274",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 1195,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 1205,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "275",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 1209,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 1219,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "276",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 1223,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 1233,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "277",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 1237,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 1247,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "278",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 1252,
+                "y": 1484
+            },
+            "bottomRight": {
+                "x": 1261,
+                "y": 1486
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "279",
+            "text": "_",
+            "value": "_",
+            "topLeft": {
+                "x": 632,
+                "y": 1508
+            },
+            "bottomRight": {
+                "x": 642,
+                "y": 1509
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "280",
+            "text": "HOW",
+            "value": "HOW",
+            "topLeft": {
+                "x": 106,
+                "y": 1512
+            },
+            "bottomRight": {
+                "x": 185,
+                "y": 1538
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "281",
+            "text": "TO",
+            "value": "TO",
+            "topLeft": {
+                "x": 195,
+                "y": 1512
+            },
+            "bottomRight": {
+                "x": 236,
+                "y": 1538
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "282",
+            "text": "PAY",
+            "value": "PAY",
+            "topLeft": {
+                "x": 250,
+                "y": 1512
+            },
+            "bottomRight": {
+                "x": 302,
+                "y": 1537
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "283",
+            "text": "Tax",
+            "value": "Tax",
+            "topLeft": {
+                "x": 603,
+                "y": 1513
+            },
+            "bottomRight": {
+                "x": 631,
+                "y": 1527
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "284",
+            "text": "Invoice",
+            "value": "Invoice",
+            "topLeft": {
+                "x": 638,
+                "y": 1513
+            },
+            "bottomRight": {
+                "x": 699,
+                "y": 1527
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "285",
+            "text": "#:",
+            "value": "#:",
+            "topLeft": {
+                "x": 705,
+                "y": 1513
+            },
+            "bottomRight": {
+                "x": 720,
+                "y": 1527
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "286",
+            "text": "00006443",
+            "value": "00006443",
+            "topLeft": {
+                "x": 743,
+                "y": 1513
+            },
+            "bottomRight": {
+                "x": 829,
+                "y": 1527
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "287",
+            "text": "Amount",
+            "value": "Amount",
+            "topLeft": {
+                "x": 895,
+                "y": 1513
+            },
+            "bottomRight": {
+                "x": 967,
+                "y": 1527
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "288",
+            "text": "Due:",
+            "value": "Due:",
+            "topLeft": {
+                "x": 974,
+                "y": 1513
+            },
+            "bottomRight": {
+                "x": 1013,
+                "y": 1527
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "289",
+            "text": "$264.00",
+            "value": "264.00",
+            "topLeft": {
+                "x": 1048,
+                "y": 1511
+            },
+            "bottomRight": {
+                "x": 1118,
+                "y": 1530
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "290",
+            "text": "Direct",
+            "value": "Direct",
+            "topLeft": {
+                "x": 104,
+                "y": 1569
+            },
+            "bottomRight": {
+                "x": 166,
+                "y": 1586
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "291",
+            "text": "Deposit",
+            "value": "Deposit",
+            "topLeft": {
+                "x": 174,
+                "y": 1569
+            },
+            "bottomRight": {
+                "x": 254,
+                "y": 1591
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "292",
+            "text": "By",
+            "value": "By",
+            "topLeft": {
+                "x": 818,
+                "y": 1563
+            },
+            "bottomRight": {
+                "x": 842,
+                "y": 1585
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "293",
+            "text": "Mail",
+            "value": "Mail",
+            "topLeft": {
+                "x": 850,
+                "y": 1562
+            },
+            "bottomRight": {
+                "x": 895,
+                "y": 1580
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "294",
+            "text": "Account",
+            "value": "Account",
+            "topLeft": {
+                "x": 103,
+                "y": 1598
+            },
+            "bottomRight": {
+                "x": 166,
+                "y": 1611
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "295",
+            "text": "Name:",
+            "value": "Name:",
+            "topLeft": {
+                "x": 173,
+                "y": 1598
+            },
+            "bottomRight": {
+                "x": 222,
+                "y": 1611
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "296",
+            "text": "Fire",
+            "value": "Fire",
+            "topLeft": {
+                "x": 229,
+                "y": 1598
+            },
+            "bottomRight": {
+                "x": 256,
+                "y": 1611
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "297",
+            "text": "&",
+            "value": "&",
+            "topLeft": {
+                "x": 261,
+                "y": 1597
+            },
+            "bottomRight": {
+                "x": 274,
+                "y": 1611
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "298",
+            "text": "Emergency",
+            "value": "Emergency",
+            "topLeft": {
+                "x": 281,
+                "y": 1598
+            },
+            "bottomRight": {
+                "x": 365,
+                "y": 1614
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "299",
+            "text": "Pty",
+            "value": "Pty",
+            "topLeft": {
+                "x": 372,
+                "y": 1598
+            },
+            "bottomRight": {
+                "x": 395,
+                "y": 1614
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "300",
+            "text": "Ltd",
+            "value": "Ltd",
+            "topLeft": {
+                "x": 401,
+                "y": 1597
+            },
+            "bottomRight": {
+                "x": 422,
+                "y": 1611
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "301",
+            "text": "Fire",
+            "value": "Fire",
+            "topLeft": {
+                "x": 824,
+                "y": 1592
+            },
+            "bottomRight": {
+                "x": 851,
+                "y": 1604
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "302",
+            "text": "&",
+            "value": "&",
+            "topLeft": {
+                "x": 856,
+                "y": 1591
+            },
+            "bottomRight": {
+                "x": 868,
+                "y": 1604
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "303",
+            "text": "Emergency",
+            "value": "Emergency",
+            "topLeft": {
+                "x": 875,
+                "y": 1592
+            },
+            "bottomRight": {
+                "x": 960,
+                "y": 1608
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "304",
+            "text": "Pty",
+            "value": "Pty",
+            "topLeft": {
+                "x": 966,
+                "y": 1592
+            },
+            "bottomRight": {
+                "x": 990,
+                "y": 1608
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "305",
+            "text": "Ltd",
+            "value": "Ltd",
+            "topLeft": {
+                "x": 996,
+                "y": 1591
+            },
+            "bottomRight": {
+                "x": 1017,
+                "y": 1604
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "306",
+            "text": "BSB:",
+            "value": "BSB:",
+            "topLeft": {
+                "x": 104,
+                "y": 1621
+            },
+            "bottomRight": {
+                "x": 136,
+                "y": 1634
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "307",
+            "text": "013",
+            "value": "013",
+            "topLeft": {
+                "x": 143,
+                "y": 1621
+            },
+            "bottomRight": {
+                "x": 170,
+                "y": 1634
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "308",
+            "text": "-",
+            "value": "-",
+            "topLeft": {
+                "x": 176,
+                "y": 1629
+            },
+            "bottomRight": {
+                "x": 181,
+                "y": 1630
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "309",
+            "text": "310",
+            "value": "310",
+            "topLeft": {
+                "x": 187,
+                "y": 1621
+            },
+            "bottomRight": {
+                "x": 215,
+                "y": 1634
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "310",
+            "text": "PO",
+            "value": "PO",
+            "topLeft": {
+                "x": 824,
+                "y": 1615
+            },
+            "bottomRight": {
+                "x": 844,
+                "y": 1628
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "311",
+            "text": "Box",
+            "value": "Box",
+            "topLeft": {
+                "x": 851,
+                "y": 1616
+            },
+            "bottomRight": {
+                "x": 878,
+                "y": 1628
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "312",
+            "text": "4357",
+            "value": "4357",
+            "topLeft": {
+                "x": 883,
+                "y": 1615
+            },
+            "bottomRight": {
+                "x": 921,
+                "y": 1628
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "313",
+            "text": "Account:",
+            "value": "Account:",
+            "topLeft": {
+                "x": 103,
+                "y": 1645
+            },
+            "bottomRight": {
+                "x": 170,
+                "y": 1658
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "314",
+            "text": "2766",
+            "value": "2766",
+            "topLeft": {
+                "x": 177,
+                "y": 1645
+            },
+            "bottomRight": {
+                "x": 215,
+                "y": 1658
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "315",
+            "text": "-",
+            "value": "-",
+            "topLeft": {
+                "x": 221,
+                "y": 1652
+            },
+            "bottomRight": {
+                "x": 225,
+                "y": 1654
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "316",
+            "text": "76327",
+            "value": "76327",
+            "topLeft": {
+                "x": 231,
+                "y": 1645
+            },
+            "bottomRight": {
+                "x": 278,
+                "y": 1658
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "317",
+            "text": "Narre",
+            "value": "Narre",
+            "topLeft": {
+                "x": 824,
+                "y": 1639
+            },
+            "bottomRight": {
+                "x": 866,
+                "y": 1652
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "318",
+            "text": "Warren",
+            "value": "Warren",
+            "topLeft": {
+                "x": 872,
+                "y": 1639
+            },
+            "bottomRight": {
+                "x": 929,
+                "y": 1652
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "319",
+            "text": "South,",
+            "value": "South,",
+            "topLeft": {
+                "x": 935,
+                "y": 1638
+            },
+            "bottomRight": {
+                "x": 984,
+                "y": 1654
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "320",
+            "text": "Victoria",
+            "value": "Victoria",
+            "topLeft": {
+                "x": 990,
+                "y": 1639
+            },
+            "bottomRight": {
+                "x": 1049,
+                "y": 1652
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "321",
+            "text": "3805",
+            "value": "3805",
+            "topLeft": {
+                "x": 1056,
+                "y": 1639
+            },
+            "bottomRight": {
+                "x": 1093,
+                "y": 1652
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "322",
+            "text": "VISA",
+            "value": "VISA",
+            "topLeft": {
+                "x": 113,
+                "y": 1687
+            },
+            "bottomRight": {
+                "x": 161,
+                "y": 1705
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "323",
+            "text": "MasterCard",
+            "value": "MasterCard",
+            "topLeft": {
+                "x": 181,
+                "y": 1689
+            },
+            "bottomRight": {
+                "x": 251,
+                "y": 1703
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "324",
+            "text": "Credit",
+            "value": "Credit",
+            "topLeft": {
+                "x": 268,
+                "y": 1690
+            },
+            "bottomRight": {
+                "x": 331,
+                "y": 1708
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "325",
+            "text": "Card",
+            "value": "Card",
+            "topLeft": {
+                "x": 338,
+                "y": 1690
+            },
+            "bottomRight": {
+                "x": 385,
+                "y": 1708
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "326",
+            "text": "-",
+            "value": "-",
+            "topLeft": {
+                "x": 393,
+                "y": 1700
+            },
+            "bottomRight": {
+                "x": 400,
+                "y": 1703
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "327",
+            "text": "Attracts",
+            "value": "Attracts",
+            "topLeft": {
+                "x": 407,
+                "y": 1691
+            },
+            "bottomRight": {
+                "x": 491,
+                "y": 1708
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "328",
+            "text": "2%",
+            "value": "2%",
+            "topLeft": {
+                "x": 499,
+                "y": 1691
+            },
+            "bottomRight": {
+                "x": 529,
+                "y": 1709
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "329",
+            "text": "Surcharge",
+            "value": "Surcharge",
+            "topLeft": {
+                "x": 536,
+                "y": 1690
+            },
+            "bottomRight": {
+                "x": 641,
+                "y": 1713
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "330",
+            "text": "To",
+            "value": "To",
+            "topLeft": {
+                "x": 109,
+                "y": 1738
+            },
+            "bottomRight": {
+                "x": 126,
+                "y": 1751
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "331",
+            "text": "pay",
+            "value": "pay",
+            "topLeft": {
+                "x": 132,
+                "y": 1741
+            },
+            "bottomRight": {
+                "x": 160,
+                "y": 1754
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "332",
+            "text": "via",
+            "value": "via",
+            "topLeft": {
+                "x": 165,
+                "y": 1738
+            },
+            "bottomRight": {
+                "x": 187,
+                "y": 1751
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "333",
+            "text": "Visa",
+            "value": "Visa",
+            "topLeft": {
+                "x": 192,
+                "y": 1738
+            },
+            "bottomRight": {
+                "x": 225,
+                "y": 1751
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "334",
+            "text": "or",
+            "value": "or",
+            "topLeft": {
+                "x": 231,
+                "y": 1741
+            },
+            "bottomRight": {
+                "x": 247,
+                "y": 1751
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "335",
+            "text": "MasterCard",
+            "value": "MasterCard",
+            "topLeft": {
+                "x": 253,
+                "y": 1737
+            },
+            "bottomRight": {
+                "x": 344,
+                "y": 1751
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "336",
+            "text": "call",
+            "value": "call",
+            "topLeft": {
+                "x": 351,
+                "y": 1737
+            },
+            "bottomRight": {
+                "x": 376,
+                "y": 1751
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "337",
+            "text": "1300",
+            "value": "1300",
+            "topLeft": {
+                "x": 383,
+                "y": 1738
+            },
+            "bottomRight": {
+                "x": 420,
+                "y": 1751
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "338",
+            "text": "68",
+            "value": "68",
+            "topLeft": {
+                "x": 426,
+                "y": 1738
+            },
+            "bottomRight": {
+                "x": 444,
+                "y": 1751
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "339",
+            "text": "38",
+            "value": "38",
+            "topLeft": {
+                "x": 450,
+                "y": 1738
+            },
+            "bottomRight": {
+                "x": 468,
+                "y": 1751
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "340",
+            "text": "00",
+            "value": "000",
+            "topLeft": {
+                "x": 473,
+                "y": 1738
+            },
+            "bottomRight": {
+                "x": 492,
+                "y": 1751
+            },
+            "assigned": false,
+            "selected": false
+        }
+    ]
+}

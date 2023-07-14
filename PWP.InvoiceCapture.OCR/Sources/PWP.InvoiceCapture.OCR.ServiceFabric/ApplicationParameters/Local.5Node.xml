@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/PWP.InvoiceCapture.OCR.ServiceFabric" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="PWP.InvoiceCapture.OCR.DataAnalysis.API_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="PWP.InvoiceCapture.OCR.DataAnalysis.API_InstanceCount" Value="1" />
+    <Parameter Name="PWP.InvoiceCapture.OCR.DataAnalysis.API_PlacementConstraints" Value="((NodeTypeName==NodeType0) || (NodeTypeName==N0010Ref))" />
+    <Parameter Name="PWP.InvoiceCapture.OCR.DataAnalysis.Service_InstanceCount" Value="1" />
+    <Parameter Name="PWP.InvoiceCapture.OCR.DataAnalysis.Service_PlacementConstraints" Value="((NodeTypeName==NodeType0) || (NodeTypeName==N0010Ref))" />
+    <Parameter Name="PWP.InvoiceCapture.OCR.DataAnalysis.Service_ENVIRONMENT" Value="Development" />
+    <Parameter Name="PWP.InvoiceCapture.OCR.Recognition.Service_InstanceCount" Value="1" />
+    <Parameter Name="PWP.InvoiceCapture.OCR.Recognition.Service_PlacementConstraints" Value="((NodeTypeName==NodeType0) || (NodeTypeName==N0010Ref))" />
+    <Parameter Name="PWP.InvoiceCapture.OCR.Recognition.Service_ENVIRONMENT" Value="Development" />
+    <Parameter Name="PWP.InvoiceCapture.OCR.DocumentConversion.Service_InstanceCount" Value="1" />
+    <Parameter Name="PWP.InvoiceCapture.OCR.DocumentConversion.Service_PlacementConstraints" Value="((NodeTypeName==NodeType0) || (NodeTypeName==N0010Ref))" />
+    <Parameter Name="PWP.InvoiceCapture.OCR.DocumentConversion.Service_ENVIRONMENT" Value="Development" />
+  </Parameters>
+</Application>

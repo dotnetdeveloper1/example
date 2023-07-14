@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.6" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="3.1.6" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="3.1.6" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.6" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PWP.InvoiceCapture.OCR.Core.DataAccess\PWP.InvoiceCapture.OCR.Core.DataAccess.csproj" />
+    <ProjectReference Include="..\PWP.InvoiceCapture.OCR.Core.FormRecognizerClient\PWP.InvoiceCapture.OCR.Core.FormRecognizer.Client.csproj" />
+    <ProjectReference Include="..\PWP.InvoiceCapture.OCR.Core\PWP.InvoiceCapture.OCR.Core.csproj" />
+    <ProjectReference Include="..\PWP.InvoiceCapture.OCR.DataAnalysis.Business.Contract\PWP.InvoiceCapture.OCR.DataAnalysis.Business.Contract.csproj" />
+    <ProjectReference Include="..\PWP.InvoiceCapture.OCR.DataAnalysis.DataAccess\PWP.InvoiceCapture.OCR.DataAnalysis.DataAccess.csproj" />
+    <ProjectReference Include="..\PWP.InvoiceCapture.OCR.Recognition.Business.Contract\PWP.InvoiceCapture.OCR.Recognition.Business.Contract.csproj" />
+    <ProjectReference Include="..\PWP.InvoiceCapture.OCR.Recognition.Business\PWP.InvoiceCapture.OCR.Recognition.Business.csproj" />
+    <ProjectReference Include="..\PWP.InvoiceCapture.OCR.Recognition.DataAccess\PWP.InvoiceCapture.OCR.Recognition.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/PWP.InvoiceCapture.InvoiceManagement.ServiceFabric" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="PWP.InvoiceCapture.InvoiceManagement.API_InstanceCount" Value="-1" />
+    <Parameter Name="PWP.InvoiceCapture.InvoiceManagement.API_PlacementConstraints" Value="(NodeTypeName==backend)" />
+    <Parameter Name="PWP.InvoiceCapture.InvoiceManagement.API_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="PWP.InvoiceCapture.InvoiceManagement.Service_InstanceCount" Value="-1" />
+    <Parameter Name="PWP.InvoiceCapture.InvoiceManagement.Service_PlacementConstraints" Value="(NodeTypeName==backend)" />
+    <Parameter Name="PWP.InvoiceCapture.InvoiceManagement.Service_ENVIRONMENT" Value="Development" />
+  </Parameters>
+</Application>

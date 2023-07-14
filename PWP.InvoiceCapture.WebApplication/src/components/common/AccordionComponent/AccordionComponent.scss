@@ -1,0 +1,77 @@
+@import "../../../styles/globals.scss";
+
+.AccordionComponent {
+    @extend .mb-3;
+
+    &:last-child {
+        @extend .mb-0;
+    }
+
+    > input {
+        position: absolute;
+        opacity: 0;
+        z-index: -1;
+    }
+
+    > input:checked {
+        + .AccordionComponent__header {
+            .AccordionComponent__header__label {
+                &::before {
+                    transform: rotate(90deg);
+                }
+            }
+        }
+        ~ .AccordionComponent__content {
+            @extend .border, .border-secondary, .border-top-0;
+            max-height: 100%;
+        }
+    }
+
+    &__header {
+        @extend .d-flex, .border, .border-secondary, .group-header, .mb-0, .p-0;
+        justify-content: space-between;
+        background-color: map-get($theme-colors, "light-accent");
+
+        cursor: pointer;
+        &__label {
+            @extend .d-flex, .bg-light-accent, .px-3, .w-100, .mb-0;
+            line-height: 4rem;
+            background-color: map-get($theme-colors, "light");
+            cursor: pointer;
+            user-select: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            &::before {
+                @extend .mr-3, .ml-2;
+                transform-origin: center center;
+                content: "\276F";
+                color: map-get($theme-colors, "primary");
+                text-align: center;
+                transition: all 0.05s;
+            }
+        }
+
+        &__button {
+            @extend .accent-button, .mr-3;
+            align-self: center;
+            width: 106px;
+
+            & > * {
+                @extend .mr-2;
+            }
+
+            &--disabled {
+                @extend .disabled-button;
+            }
+        }
+    }
+
+    &__content {
+        @extend .border-0, .px-3;
+        overflow: hidden;
+        max-height: 0;
+        //transition: max-height 0.05s ease-in-out;
+    }
+}

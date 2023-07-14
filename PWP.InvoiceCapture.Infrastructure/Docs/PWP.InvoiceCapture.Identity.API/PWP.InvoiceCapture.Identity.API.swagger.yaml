@@ -1,0 +1,149 @@
+swagger: "2.0"
+info:
+  description: "Identity Infrastructure API Endpoint definitions"
+  version: "1.0.0"
+  title: "PWP.InvoiceCapture.Identity.API"
+host: "localhost"
+basePath: "/v1"
+tags:
+  - name: "tenant"
+    description: "Application Tenant Entity"
+  - name: "identity"
+    description: "Identity endpoints"
+schemes:
+  - "https"
+  - "http"
+paths:
+  /tenants/{id}/rollout:
+    post:
+      tags:
+        - "tenant"
+      summary: "Initiate setup process for specified Tenant"
+      consumes:
+        - "application/json"
+      parameters:
+        - name: "id"
+          in: "path"
+          description: "New Tenant identifier"
+          required: true
+          type: "string"
+      produces:
+        - "application/json"
+      responses:
+        202:
+          description: "Accepted (Setup Initiated)"
+          schema:
+            $ref: "#/definitions/ApiResponse"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ApiResponse"
+        401:
+          description: "Request is not authorized"
+          schema:
+            $ref: "#/definitions/ApiResponse"
+        403:
+          description: "Access denied"
+          schema:
+            $ref: "#/definitions/ApiResponse"
+  /tenants/{id}:
+    get:
+      tags:
+        - "tenant"
+      summary: "Check existence of specific Tenant"
+      parameters:
+        - name: "id"
+          in: "path"
+          description: "Tenant identifier"
+          required: true
+          type: "string"
+      produces:
+        - "application/json"
+      responses:
+        200:
+          description: "OK (Tenant resources exist)"
+          schema:
+            $ref: "#/definitions/ApiResponse"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ApiResponse"
+        401:
+          description: "Request is not authorized"
+          schema:
+            $ref: "#/definitions/ApiResponse"
+        403:
+          description: "Access denied"
+          schema:
+            $ref: "#/definitions/ApiResponse"
+        404:
+          description: "No Tenant found"
+          schema:
+            $ref: "#/definitions/ApiResponse"
+  /token:
+    post:
+      tags:
+        - "identity"
+      summary: "Generate Access/Refresh tokens"
+      consumes:
+        - "application/json"
+      parameters:
+        - name: "request"
+          in: "body"
+          description: "Token request parameters"
+          required: true
+          schema:
+            $ref: "#/definitions/TokenRequest"
+      produces:
+        - "application/json"
+      responses:
+        200:
+          description: "OK (Access/Refresh token)"
+          schema:
+            $ref: "#/definitions/TokenResponse"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ApiResponse"
+        401:
+          description: "Request is not authorized"
+          schema:
+            $ref: "#/definitions/ApiResponse"
+        403:
+          description: "Access denied"
+          schema:
+            $ref: "#/definitions/ApiResponse"
+definitions:
+  TokenRequest:
+    type: "object"
+    properties:
+      grant_type:
+        type: "string"
+      refresh_token:
+        type: "string"
+      client_id:
+        type: "string"
+      client_secret:
+        type: "string"
+  TokenResponse:
+    type: "object"
+    properties:
+      access_token:
+        type: "string"
+      expires_in:
+        type: "integer"
+        format: "int32"
+      id_token:
+        type: "string"
+      refresh_token:
+        type: "string"
+      token_type:
+        type: "string"
+  ApiResponse:
+    type: "object"
+    properties:
+      code:
+        type: "integer"
+        format: "int32"
+      message:
+        type: "string"

@@ -1,0 +1,24 @@
+@import "../../../../../styles/globals.scss";
+
+.ColumnHighlightComponent {
+    @extend .position-absolute;
+    border: 3px solid #55bc61;
+    z-index: 500;
+    pointer-events: none;
+
+    &__header {
+        @extend .position-absolute;
+        font-size: 13px;
+        background-color: #55bc61;
+        color: white;
+        padding-top: 2px;
+        padding-left: 15px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    &--selected {
+        border: 3px solid rgba(map-get($theme-colors, "primary"), $alpha: 1);
+    }
+}

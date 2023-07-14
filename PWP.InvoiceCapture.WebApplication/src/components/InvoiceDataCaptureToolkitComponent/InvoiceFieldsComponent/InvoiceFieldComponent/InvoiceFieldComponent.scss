@@ -1,0 +1,60 @@
+@import "../../../../styles/globals.scss";
+
+.InvoiceFieldComponent {
+    @extend .d-flex, .flex-row, .form-group, .row;
+
+    margin-bottom: $form-field-margin-bottom;
+    flex-shrink: 0;
+
+    &__error {
+        @extend .offset-sm-7, .offset-md-6, .offset-lg-4, .col-sm-5, .col-md-6, .col-lg-8, .py-1;
+        font-size: $font-size-base * 0.88;
+        color: map-get($theme-colors, "danger");
+    }
+
+    &__label {
+        @extend .d-flex,
+            .flex-row,
+            .col-sm-7,
+            .col-md-6,
+            .col-lg-4,
+            .text-nowrap,
+            .justify-content-start,
+            .align-items-center;
+
+        margin-bottom: 1px;
+        margin-top: 1px;
+        font-size: $font-size-base;
+
+        & > * {
+            @extend .mx-2;
+            color: map-get($theme-colors, "secondary-accent");
+        }
+
+        & > svg {
+            font-size: $font-size-lg;
+            color: map-get($theme-colors, "primary");
+        }
+    }
+
+    &__input-container {
+        @extend .col-sm-5, .col-md-6, .col-lg-8;
+    }
+
+    &__input {
+        @extend .form-control;
+
+        background-color: map-get($theme-colors, "light");
+        padding-left: $input-padding-y;
+        min-width: 0;
+        text-overflow: ellipsis;
+        &--invalid {
+            @extend .is-invalid;
+            background-size: $thumbnail-background-size;
+        }
+
+        &--in-focus {
+            @extend .form-control:focus;
+        }
+    }
+}

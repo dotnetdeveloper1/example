@@ -1,0 +1,67 @@
+@import "../../../../../styles/globals.scss";
+
+.SwitchToEditModeComponent {
+    flex: 1 1;
+    z-index: 300;
+    min-width: 40px;
+    max-width: 222px;
+
+    &__field-menu-item-button {
+        @extend .d-flex, .justify-content-center, .border-top, .text-center, .text-break, .is-invalid;
+
+        font-weight: $headings-font-weight;
+        font-size: map-get($field-assign-menu-button, "font-size");
+        color: map-get($field-assign-menu-button, "header-color");
+        background-color: map-get($field-assign-menu-button, "item-bg-color");
+        border-color: map-get($field-assign-menu-button, "border-color");
+        padding: map-get($field-assign-menu-button, "padding");
+        width: map-get($field-assign-menu-button, "width");
+        height: map-get($field-assign-menu-button, "height");
+        &:last-of-type {
+            @include border-bottom-radius(map-get($field-assign-menu-button, "border-radius"));
+        }
+    }
+
+    &__field-button {
+        @extend .d-flex, .justify-content-center, .text-center, .text-break, .is-invalid;
+
+        font-weight: $headings-font-weight;
+        font-size: map-get($field-assign-menu-button, "font-size");
+        color: map-get($field-assign-menu-button, "header-color");
+        padding: map-get($field-assign-menu-button, "padding");
+    }
+
+    &__switch-to-edit-mode-menu {
+        @extend .accent-button;
+        height: 32px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    &__switch-to-edit-mode {
+        @extend .accent-button, .d-flex;
+        height: 32px;
+        width: 100%;
+
+        & > * {
+            @extend .mr-2;
+        }
+    }
+
+    &__company-logo {
+        margin-right: 32px;
+        height: 24px;
+        object-fit: contain;
+    }
+
+    &__button-icon {
+        white-space: nowrap;
+    }
+
+    &__button-text {
+        flex: 1;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

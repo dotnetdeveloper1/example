@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PWP.InvoiceCapture.Core" Version="1.0.0-CI-20201201-152127" />   
+    <PackageReference Include="PWP.InvoiceCapture.Document.API.Client" Version="1.0.0-CI-20201202-134917" />
+    <PackageReference Include="PWP.InvoiceCapture.InvoiceManagement.Business.Contract" Version="1.0.0-CI-20201224-155442" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PWP.InvoiceCapture.DocumentAggregation.Business.Contract\PWP.InvoiceCapture.DocumentAggregation.Business.Contract.csproj" />
+  </ItemGroup>
+
+</Project>

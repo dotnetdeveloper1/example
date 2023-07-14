@@ -1,0 +1,4474 @@
+{
+    "pageLayoutItems": [
+        {
+            "id": "0",
+            "text": "GRAINGER",
+            "value": "GRAINGER",
+            "topLeft": {
+                "x": 62,
+                "y": 27
+            },
+            "bottomRight": {
+                "x": 360,
+                "y": 76
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "1",
+            "text": "PAGE",
+            "value": "PAGE",
+            "topLeft": {
+                "x": 484,
+                "y": 33
+            },
+            "bottomRight": {
+                "x": 528,
+                "y": 46
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "2",
+            "text": "1",
+            "value": "1",
+            "topLeft": {
+                "x": 536,
+                "y": 33
+            },
+            "bottomRight": {
+                "x": 540,
+                "y": 45
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "3",
+            "text": "ORIGINAL",
+            "value": "ORIGINAL",
+            "topLeft": {
+                "x": 754,
+                "y": 57
+            },
+            "bottomRight": {
+                "x": 895,
+                "y": 80
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "4",
+            "text": "INVOICE",
+            "value": "INVOICE",
+            "topLeft": {
+                "x": 905,
+                "y": 57
+            },
+            "bottomRight": {
+                "x": 1027,
+                "y": 80
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "5",
+            "text": "GRAINGER",
+            "value": "GRAINGER",
+            "topLeft": {
+                "x": 662,
+                "y": 97
+            },
+            "bottomRight": {
+                "x": 750,
+                "y": 110
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "6",
+            "text": "ACCOUNT",
+            "value": "ACCOUNT",
+            "topLeft": {
+                "x": 756,
+                "y": 97
+            },
+            "bottomRight": {
+                "x": 839,
+                "y": 110
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "7",
+            "text": "NUMBER",
+            "value": "NUMBER",
+            "topLeft": {
+                "x": 845,
+                "y": 98
+            },
+            "bottomRight": {
+                "x": 916,
+                "y": 110
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "8",
+            "text": "882172984",
+            "value": "882172984",
+            "topLeft": {
+                "x": 1042,
+                "y": 93
+            },
+            "bottomRight": {
+                "x": 1125,
+                "y": 105
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "9",
+            "text": "4820",
+            "value": "4820",
+            "topLeft": {
+                "x": 66,
+                "y": 111
+            },
+            "bottomRight": {
+                "x": 102,
+                "y": 123
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "10",
+            "text": "SIGNETT",
+            "value": "SIGNETT",
+            "topLeft": {
+                "x": 108,
+                "y": 110
+            },
+            "bottomRight": {
+                "x": 180,
+                "y": 123
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "11",
+            "text": "DR.",
+            "value": "DR.",
+            "topLeft": {
+                "x": 187,
+                "y": 110
+            },
+            "bottomRight": {
+                "x": 213,
+                "y": 123
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "12",
+            "text": "INVOICE",
+            "value": "INVOICE",
+            "topLeft": {
+                "x": 663,
+                "y": 118
+            },
+            "bottomRight": {
+                "x": 730,
+                "y": 131
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "13",
+            "text": "NUMBER",
+            "value": "NUMBER",
+            "topLeft": {
+                "x": 736,
+                "y": 118
+            },
+            "bottomRight": {
+                "x": 807,
+                "y": 131
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "14",
+            "text": "9186689064",
+            "value": "9186689064",
+            "topLeft": {
+                "x": 1033,
+                "y": 113
+            },
+            "bottomRight": {
+                "x": 1125,
+                "y": 126
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "15",
+            "text": "RALEIGH,",
+            "value": "RALEIGH,",
+            "topLeft": {
+                "x": 67,
+                "y": 125
+            },
+            "bottomRight": {
+                "x": 143,
+                "y": 140
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "16",
+            "text": "NC",
+            "value": "NC",
+            "topLeft": {
+                "x": 150,
+                "y": 125
+            },
+            "bottomRight": {
+                "x": 172,
+                "y": 138
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "17",
+            "text": "27616-2824",
+            "value": "27616-2824",
+            "topLeft": {
+                "x": 183,
+                "y": 126
+            },
+            "bottomRight": {
+                "x": 272,
+                "y": 138
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "18",
+            "text": "www.grainger.com",
+            "value": "www.grainger.com",
+            "topLeft": {
+                "x": 66,
+                "y": 141
+            },
+            "bottomRight": {
+                "x": 204,
+                "y": 157
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "19",
+            "text": "INVOICE",
+            "value": "INVOICE",
+            "topLeft": {
+                "x": 663,
+                "y": 139
+            },
+            "bottomRight": {
+                "x": 730,
+                "y": 152
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "20",
+            "text": "DATE",
+            "value": "DATE",
+            "topLeft": {
+                "x": 737,
+                "y": 139
+            },
+            "bottomRight": {
+                "x": 779,
+                "y": 151
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "21",
+            "text": "05/24/2019",
+            "value": "05/24/2019",
+            "topLeft": {
+                "x": 1043,
+                "y": 134
+            },
+            "bottomRight": {
+                "x": 1125,
+                "y": 147
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "22",
+            "text": "DUE",
+            "value": "DUE",
+            "topLeft": {
+                "x": 663,
+                "y": 160
+            },
+            "bottomRight": {
+                "x": 696,
+                "y": 173
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "23",
+            "text": "DATE",
+            "value": "DATE",
+            "topLeft": {
+                "x": 703,
+                "y": 160
+            },
+            "bottomRight": {
+                "x": 746,
+                "y": 172
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "24",
+            "text": "06/23/2019",
+            "value": "06/23/2019",
+            "topLeft": {
+                "x": 1043,
+                "y": 155
+            },
+            "bottomRight": {
+                "x": 1125,
+                "y": 168
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "25",
+            "text": "AMOUNT",
+            "value": "AMOUNT",
+            "topLeft": {
+                "x": 662,
+                "y": 181
+            },
+            "bottomRight": {
+                "x": 734,
+                "y": 193
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "26",
+            "text": "DUE",
+            "value": "DUE",
+            "topLeft": {
+                "x": 740,
+                "y": 181
+            },
+            "bottomRight": {
+                "x": 774,
+                "y": 193
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "27",
+            "text": "$453.73",
+            "value": "453.73",
+            "topLeft": {
+                "x": 1066,
+                "y": 175
+            },
+            "bottomRight": {
+                "x": 1125,
+                "y": 190
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "28",
+            "text": "SHIP",
+            "value": "SHIP",
+            "topLeft": {
+                "x": 108,
+                "y": 194
+            },
+            "bottomRight": {
+                "x": 146,
+                "y": 207
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "29",
+            "text": "TO",
+            "value": "TO",
+            "topLeft": {
+                "x": 152,
+                "y": 194
+            },
+            "bottomRight": {
+                "x": 174,
+                "y": 207
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "30",
+            "text": "HUMACYTE",
+            "value": "HUMACYTE",
+            "topLeft": {
+                "x": 109,
+                "y": 229
+            },
+            "bottomRight": {
+                "x": 201,
+                "y": 242
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "31",
+            "text": "PO",
+            "value": "PO",
+            "topLeft": {
+                "x": 663,
+                "y": 225
+            },
+            "bottomRight": {
+                "x": 682,
+                "y": 236
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "32",
+            "text": "NUMBER:",
+            "value": "NUMBER:",
+            "topLeft": {
+                "x": 688,
+                "y": 225
+            },
+            "bottomRight": {
+                "x": 754,
+                "y": 236
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "33",
+            "text": "37291",
+            "value": "37291",
+            "topLeft": {
+                "x": 900,
+                "y": 225
+            },
+            "bottomRight": {
+                "x": 938,
+                "y": 236
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "34",
+            "text": "2525",
+            "value": "2525",
+            "topLeft": {
+                "x": 108,
+                "y": 245
+            },
+            "bottomRight": {
+                "x": 144,
+                "y": 257
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "35",
+            "text": "E",
+            "value": "E",
+            "topLeft": {
+                "x": 151,
+                "y": 245
+            },
+            "bottomRight": {
+                "x": 160,
+                "y": 257
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "36",
+            "text": "NC",
+            "value": "NC",
+            "topLeft": {
+                "x": 167,
+                "y": 245
+            },
+            "bottomRight": {
+                "x": 189,
+                "y": 257
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "37",
+            "text": "HIGHWAY",
+            "value": "HIGHWAY",
+            "topLeft": {
+                "x": 196,
+                "y": 245
+            },
+            "bottomRight": {
+                "x": 275,
+                "y": 257
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "38",
+            "text": "54",
+            "value": "54",
+            "topLeft": {
+                "x": 280,
+                "y": 245
+            },
+            "bottomRight": {
+                "x": 298,
+                "y": 257
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "39",
+            "text": "CALLER:",
+            "value": "CALLER:",
+            "topLeft": {
+                "x": 662,
+                "y": 243
+            },
+            "bottomRight": {
+                "x": 722,
+                "y": 254
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "40",
+            "text": "LIZ",
+            "value": "LIZ",
+            "topLeft": {
+                "x": 901,
+                "y": 243
+            },
+            "bottomRight": {
+                "x": 920,
+                "y": 254
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "41",
+            "text": "CORSER",
+            "value": "CORSER",
+            "topLeft": {
+                "x": 926,
+                "y": 243
+            },
+            "bottomRight": {
+                "x": 987,
+                "y": 254
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "42",
+            "text": "DURHAM",
+            "value": "DURHAM",
+            "topLeft": {
+                "x": 109,
+                "y": 260
+            },
+            "bottomRight": {
+                "x": 180,
+                "y": 273
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "43",
+            "text": "NC",
+            "value": "NC",
+            "topLeft": {
+                "x": 187,
+                "y": 260
+            },
+            "bottomRight": {
+                "x": 210,
+                "y": 273
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "44",
+            "text": "27713-2582",
+            "value": "27713-2582",
+            "topLeft": {
+                "x": 220,
+                "y": 260
+            },
+            "bottomRight": {
+                "x": 309,
+                "y": 273
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "45",
+            "text": "CUSTOMER",
+            "value": "CUSTOMER",
+            "topLeft": {
+                "x": 662,
+                "y": 261
+            },
+            "bottomRight": {
+                "x": 745,
+                "y": 272
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "46",
+            "text": "PHONE:",
+            "value": "PHONE:",
+            "topLeft": {
+                "x": 751,
+                "y": 261
+            },
+            "bottomRight": {
+                "x": 805,
+                "y": 272
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "47",
+            "text": "9193139633",
+            "value": "9193139633",
+            "topLeft": {
+                "x": 900,
+                "y": 261
+            },
+            "bottomRight": {
+                "x": 981,
+                "y": 272
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "48",
+            "text": "ORDER",
+            "value": "ORDER",
+            "topLeft": {
+                "x": 662,
+                "y": 279
+            },
+            "bottomRight": {
+                "x": 714,
+                "y": 290
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "49",
+            "text": "NUMBER:",
+            "value": "NUMBER:",
+            "topLeft": {
+                "x": 720,
+                "y": 279
+            },
+            "bottomRight": {
+                "x": 786,
+                "y": 290
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "50",
+            "text": "1352517561",
+            "value": "1352517561",
+            "topLeft": {
+                "x": 901,
+                "y": 279
+            },
+            "bottomRight": {
+                "x": 978,
+                "y": 290
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "51",
+            "text": "INCO",
+            "value": "INCO",
+            "topLeft": {
+                "x": 663,
+                "y": 297
+            },
+            "bottomRight": {
+                "x": 698,
+                "y": 308
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "52",
+            "text": "TERMS:",
+            "value": "TERMS:",
+            "topLeft": {
+                "x": 703,
+                "y": 297
+            },
+            "bottomRight": {
+                "x": 757,
+                "y": 308
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "53",
+            "text": "FOB",
+            "value": "FOB",
+            "topLeft": {
+                "x": 901,
+                "y": 297
+            },
+            "bottomRight": {
+                "x": 929,
+                "y": 308
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "54",
+            "text": "ORIGIN",
+            "value": "ORIGIN",
+            "topLeft": {
+                "x": 935,
+                "y": 297
+            },
+            "bottomRight": {
+                "x": 985,
+                "y": 308
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "55",
+            "text": "BILL",
+            "value": "BILL",
+            "topLeft": {
+                "x": 109,
+                "y": 373
+            },
+            "bottomRight": {
+                "x": 141,
+                "y": 385
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "56",
+            "text": "TO",
+            "value": "TO",
+            "topLeft": {
+                "x": 147,
+                "y": 372
+            },
+            "bottomRight": {
+                "x": 169,
+                "y": 385
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "57",
+            "text": "HUMACYTE",
+            "value": "HUMACYTE",
+            "topLeft": {
+                "x": 109,
+                "y": 390
+            },
+            "bottomRight": {
+                "x": 201,
+                "y": 403
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "58",
+            "text": "2525",
+            "value": "2525",
+            "topLeft": {
+                "x": 108,
+                "y": 406
+            },
+            "bottomRight": {
+                "x": 144,
+                "y": 418
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "59",
+            "text": "E",
+            "value": "E",
+            "topLeft": {
+                "x": 151,
+                "y": 406
+            },
+            "bottomRight": {
+                "x": 160,
+                "y": 418
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "60",
+            "text": "NC",
+            "value": "NC",
+            "topLeft": {
+                "x": 167,
+                "y": 405
+            },
+            "bottomRight": {
+                "x": 189,
+                "y": 418
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "61",
+            "text": "HIGHWAY",
+            "value": "HIGHWAY",
+            "topLeft": {
+                "x": 196,
+                "y": 405
+            },
+            "bottomRight": {
+                "x": 275,
+                "y": 418
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "62",
+            "text": "54",
+            "value": "54",
+            "topLeft": {
+                "x": 280,
+                "y": 406
+            },
+            "bottomRight": {
+                "x": 298,
+                "y": 418
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "63",
+            "text": "DURHAM",
+            "value": "DURHAM",
+            "topLeft": {
+                "x": 109,
+                "y": 421
+            },
+            "bottomRight": {
+                "x": 180,
+                "y": 433
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "64",
+            "text": "NC",
+            "value": "NC",
+            "topLeft": {
+                "x": 187,
+                "y": 421
+            },
+            "bottomRight": {
+                "x": 210,
+                "y": 433
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "65",
+            "text": "27713-2582",
+            "value": "27713-2582",
+            "topLeft": {
+                "x": 220,
+                "y": 421
+            },
+            "bottomRight": {
+                "x": 309,
+                "y": 433
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "66",
+            "text": "Pay",
+            "value": "Pay",
+            "topLeft": {
+                "x": 732,
+                "y": 450
+            },
+            "bottomRight": {
+                "x": 759,
+                "y": 466
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "67",
+            "text": "invoices",
+            "value": "invoices",
+            "topLeft": {
+                "x": 765,
+                "y": 450
+            },
+            "bottomRight": {
+                "x": 824,
+                "y": 463
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "68",
+            "text": "online",
+            "value": "online",
+            "topLeft": {
+                "x": 830,
+                "y": 450
+            },
+            "bottomRight": {
+                "x": 874,
+                "y": 463
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "69",
+            "text": "at:",
+            "value": "at:",
+            "topLeft": {
+                "x": 880,
+                "y": 451
+            },
+            "bottomRight": {
+                "x": 897,
+                "y": 463
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "70",
+            "text": "www.grainger.com/invoicing",
+            "value": "www.grainger.com/invoicing",
+            "topLeft": {
+                "x": 732,
+                "y": 465
+            },
+            "bottomRight": {
+                "x": 960,
+                "y": 481
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "71",
+            "text": "THANK",
+            "value": "THANK",
+            "topLeft": {
+                "x": 723,
+                "y": 492
+            },
+            "bottomRight": {
+                "x": 782,
+                "y": 504
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "72",
+            "text": "YOU!",
+            "value": "YOU!",
+            "topLeft": {
+                "x": 787,
+                "y": 492
+            },
+            "bottomRight": {
+                "x": 828,
+                "y": 505
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "73",
+            "text": "FEI",
+            "value": "FEI",
+            "topLeft": {
+                "x": 841,
+                "y": 495
+            },
+            "bottomRight": {
+                "x": 859,
+                "y": 504
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "74",
+            "text": "NUMBER",
+            "value": "NUMBER",
+            "topLeft": {
+                "x": 864,
+                "y": 495
+            },
+            "bottomRight": {
+                "x": 918,
+                "y": 504
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "75",
+            "text": "36-1150280",
+            "value": "36-1150280",
+            "topLeft": {
+                "x": 930,
+                "y": 495
+            },
+            "bottomRight": {
+                "x": 996,
+                "y": 504
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "76",
+            "text": "FOR",
+            "value": "FOR",
+            "topLeft": {
+                "x": 603,
+                "y": 513
+            },
+            "bottomRight": {
+                "x": 628,
+                "y": 522
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "77",
+            "text": "QUESTIONS",
+            "value": "QUESTIONS",
+            "topLeft": {
+                "x": 632,
+                "y": 513
+            },
+            "bottomRight": {
+                "x": 706,
+                "y": 523
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "78",
+            "text": "ABOUT",
+            "value": "ABOUT",
+            "topLeft": {
+                "x": 710,
+                "y": 513
+            },
+            "bottomRight": {
+                "x": 754,
+                "y": 522
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "79",
+            "text": "THIS",
+            "value": "THIS",
+            "topLeft": {
+                "x": 758,
+                "y": 513
+            },
+            "bottomRight": {
+                "x": 786,
+                "y": 522
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "80",
+            "text": "INVOICE",
+            "value": "INVOICE",
+            "topLeft": {
+                "x": 791,
+                "y": 513
+            },
+            "bottomRight": {
+                "x": 841,
+                "y": 522
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "81",
+            "text": "OR",
+            "value": "OR",
+            "topLeft": {
+                "x": 846,
+                "y": 513
+            },
+            "bottomRight": {
+                "x": 864,
+                "y": 522
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "82",
+            "text": "ACCOUNT",
+            "value": "ACCOUNT",
+            "topLeft": {
+                "x": 868,
+                "y": 513
+            },
+            "bottomRight": {
+                "x": 931,
+                "y": 522
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "83",
+            "text": "CALL",
+            "value": "CALL",
+            "topLeft": {
+                "x": 935,
+                "y": 513
+            },
+            "bottomRight": {
+                "x": 968,
+                "y": 522
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "84",
+            "text": "1-800-472-4643",
+            "value": "1-800-472-4643",
+            "topLeft": {
+                "x": 975,
+                "y": 508
+            },
+            "bottomRight": {
+                "x": 1107,
+                "y": 522
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "85",
+            "text": "PO",
+            "value": "PO",
+            "topLeft": {
+                "x": 89,
+                "y": 541
+            },
+            "bottomRight": {
+                "x": 108,
+                "y": 552
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "86",
+            "text": "ITEM",
+            "value": "ITEM",
+            "topLeft": {
+                "x": 138,
+                "y": 541
+            },
+            "bottomRight": {
+                "x": 171,
+                "y": 552
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "87",
+            "text": "#",
+            "value": "#",
+            "topLeft": {
+                "x": 176,
+                "y": 542
+            },
+            "bottomRight": {
+                "x": 184,
+                "y": 552
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "88",
+            "text": "DESCRIPTION",
+            "value": "DESCRIPTION",
+            "topLeft": {
+                "x": 457,
+                "y": 541
+            },
+            "bottomRight": {
+                "x": 556,
+                "y": 552
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "89",
+            "text": "QUANTITY",
+            "value": "QUANTITY",
+            "topLeft": {
+                "x": 791,
+                "y": 541
+            },
+            "bottomRight": {
+                "x": 865,
+                "y": 553
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "90",
+            "text": "UNIT",
+            "value": "UNIT",
+            "topLeft": {
+                "x": 889,
+                "y": 541
+            },
+            "bottomRight": {
+                "x": 922,
+                "y": 552
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "91",
+            "text": "PRICE",
+            "value": "PRICE",
+            "topLeft": {
+                "x": 927,
+                "y": 541
+            },
+            "bottomRight": {
+                "x": 970,
+                "y": 552
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "92",
+            "text": "TOTAL",
+            "value": "TOTAL",
+            "topLeft": {
+                "x": 1036,
+                "y": 541
+            },
+            "bottomRight": {
+                "x": 1084,
+                "y": 552
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "93",
+            "text": "LINE",
+            "value": "LINE",
+            "topLeft": {
+                "x": 77,
+                "y": 562
+            },
+            "bottomRight": {
+                "x": 108,
+                "y": 573
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "94",
+            "text": "#",
+            "value": "#",
+            "topLeft": {
+                "x": 113,
+                "y": 562
+            },
+            "bottomRight": {
+                "x": 121,
+                "y": 573
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "95",
+            "text": "2KU25",
+            "value": "2KU25",
+            "topLeft": {
+                "x": 138,
+                "y": 585
+            },
+            "bottomRight": {
+                "x": 188,
+                "y": 598
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "96",
+            "text": "3",
+            "value": "3",
+            "topLeft": {
+                "x": 844,
+                "y": 586
+            },
+            "bottomRight": {
+                "x": 852,
+                "y": 598
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "97",
+            "text": "32.67",
+            "value": "32.67",
+            "topLeft": {
+                "x": 925,
+                "y": 586
+            },
+            "bottomRight": {
+                "x": 966,
+                "y": 598
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "98",
+            "text": "98.01",
+            "value": "98.01",
+            "topLeft": {
+                "x": 1081,
+                "y": 586
+            },
+            "bottomRight": {
+                "x": 1118,
+                "y": 598
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "99",
+            "text": "VOLTAGE",
+            "value": "VOLTAGE",
+            "topLeft": {
+                "x": 233,
+                "y": 600
+            },
+            "bottomRight": {
+                "x": 311,
+                "y": 613
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "100",
+            "text": "DETECTOR,5",
+            "value": "DETECTOR,5",
+            "topLeft": {
+                "x": 318,
+                "y": 600
+            },
+            "bottomRight": {
+                "x": 422,
+                "y": 615
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "101",
+            "text": "IN.",
+            "value": "IN.",
+            "topLeft": {
+                "x": 430,
+                "y": 601
+            },
+            "bottomRight": {
+                "x": 448,
+                "y": 613
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "102",
+            "text": "L,90",
+            "value": "L,90",
+            "topLeft": {
+                "x": 455,
+                "y": 601
+            },
+            "bottomRight": {
+                "x": 486,
+                "y": 615
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "103",
+            "text": "TO",
+            "value": "TO",
+            "topLeft": {
+                "x": 492,
+                "y": 600
+            },
+            "bottomRight": {
+                "x": 514,
+                "y": 613
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "104",
+            "text": "1000VAC",
+            "value": "1000VAC",
+            "topLeft": {
+                "x": 521,
+                "y": 600
+            },
+            "bottomRight": {
+                "x": 591,
+                "y": 613
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "105",
+            "text": "MANUFACTURER",
+            "value": "MANUFACTURER",
+            "topLeft": {
+                "x": 234,
+                "y": 616
+            },
+            "bottomRight": {
+                "x": 373,
+                "y": 628
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "106",
+            "text": "#",
+            "value": "#",
+            "topLeft": {
+                "x": 379,
+                "y": 616
+            },
+            "bottomRight": {
+                "x": 388,
+                "y": 628
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "107",
+            "text": "FLUKE-1AC-A1-II",
+            "value": "FLUKE-1AC-A1-II",
+            "topLeft": {
+                "x": 394,
+                "y": 616
+            },
+            "bottomRight": {
+                "x": 525,
+                "y": 628
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "108",
+            "text": "35HU77",
+            "value": "35HU77",
+            "topLeft": {
+                "x": 138,
+                "y": 635
+            },
+            "bottomRight": {
+                "x": 198,
+                "y": 648
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "109",
+            "text": "3",
+            "value": "3",
+            "topLeft": {
+                "x": 844,
+                "y": 635
+            },
+            "bottomRight": {
+                "x": 852,
+                "y": 648
+            },
+            "assigned": false,
+            "selected": true
+        },
+        {
+            "id": "110",
+            "text": "108.02",
+            "value": "108.02",
+            "topLeft": {
+                "x": 917,
+                "y": 635
+            },
+            "bottomRight": {
+                "x": 966,
+                "y": 648
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "111",
+            "text": "324.06",
+            "value": "324.06",
+            "topLeft": {
+                "x": 1071,
+                "y": 635
+            },
+            "bottomRight": {
+                "x": 1121,
+                "y": 648
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "112",
+            "text": "TOOL",
+            "value": "TOOL",
+            "topLeft": {
+                "x": 233,
+                "y": 650
+            },
+            "bottomRight": {
+                "x": 278,
+                "y": 663
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "113",
+            "text": "TOTE,40",
+            "value": "TOTE,40",
+            "topLeft": {
+                "x": 283,
+                "y": 650
+            },
+            "bottomRight": {
+                "x": 350,
+                "y": 665
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "114",
+            "text": "POCKETS,10-1/4\"X10\"X12-1/4\"",
+            "value": "POCKETS,10-1/4\"X10\"X12-1/4\"",
+            "topLeft": {
+                "x": 357,
+                "y": 650
+            },
+            "bottomRight": {
+                "x": 594,
+                "y": 665
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "115",
+            "text": "MANUFACTURER",
+            "value": "MANUFACTURER",
+            "topLeft": {
+                "x": 234,
+                "y": 665
+            },
+            "bottomRight": {
+                "x": 373,
+                "y": 678
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "116",
+            "text": "#",
+            "value": "#",
+            "topLeft": {
+                "x": 379,
+                "y": 666
+            },
+            "bottomRight": {
+                "x": 388,
+                "y": 678
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "117",
+            "text": "5541610-14",
+            "value": "5541610-14",
+            "topLeft": {
+                "x": 393,
+                "y": 665
+            },
+            "bottomRight": {
+                "x": 482,
+                "y": 678
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "118",
+            "text": "Delivery",
+            "value": "Delivery",
+            "topLeft": {
+                "x": 234,
+                "y": 696
+            },
+            "bottomRight": {
+                "x": 293,
+                "y": 712
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "119",
+            "text": "#6434020022",
+            "value": "#6434020022",
+            "topLeft": {
+                "x": 298,
+                "y": 696
+            },
+            "bottomRight": {
+                "x": 400,
+                "y": 708
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "120",
+            "text": "Date",
+            "value": "Date",
+            "topLeft": {
+                "x": 426,
+                "y": 696
+            },
+            "bottomRight": {
+                "x": 459,
+                "y": 708
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "121",
+            "text": "Shipped:05/24/2019",
+            "value": "Shipped:05/24/2019",
+            "topLeft": {
+                "x": 465,
+                "y": 695
+            },
+            "bottomRight": {
+                "x": 614,
+                "y": 712
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "122",
+            "text": "Carrier:",
+            "value": "Carrier:",
+            "topLeft": {
+                "x": 233,
+                "y": 711
+            },
+            "bottomRight": {
+                "x": 287,
+                "y": 723
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "123",
+            "text": "UPS",
+            "value": "UPS",
+            "topLeft": {
+                "x": 294,
+                "y": 711
+            },
+            "bottomRight": {
+                "x": 327,
+                "y": 723
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "124",
+            "text": "GROUND",
+            "value": "GROUND",
+            "topLeft": {
+                "x": 333,
+                "y": 711
+            },
+            "bottomRight": {
+                "x": 406,
+                "y": 723
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "125",
+            "text": "No:of",
+            "value": "No:of",
+            "topLeft": {
+                "x": 423,
+                "y": 711
+            },
+            "bottomRight": {
+                "x": 461,
+                "y": 723
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "126",
+            "text": "Pkgs:1",
+            "value": "Pkgs:1",
+            "topLeft": {
+                "x": 468,
+                "y": 711
+            },
+            "bottomRight": {
+                "x": 514,
+                "y": 727
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "127",
+            "text": "Wt:",
+            "value": "Wt:",
+            "topLeft": {
+                "x": 546,
+                "y": 711
+            },
+            "bottomRight": {
+                "x": 570,
+                "y": 723
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "128",
+            "text": "19.530",
+            "value": "19.530",
+            "topLeft": {
+                "x": 577,
+                "y": 711
+            },
+            "bottomRight": {
+                "x": 626,
+                "y": 723
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "129",
+            "text": "Trk",
+            "value": "Trk",
+            "topLeft": {
+                "x": 233,
+                "y": 727
+            },
+            "bottomRight": {
+                "x": 254,
+                "y": 738
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "130",
+            "text": "#:1Z01A6460318784508",
+            "value": "#:1Z01A6460318784508",
+            "topLeft": {
+                "x": 258,
+                "y": 727
+            },
+            "bottomRight": {
+                "x": 419,
+                "y": 738
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "131",
+            "text": "SHIPPED",
+            "value": "SHIPPED",
+            "topLeft": {
+                "x": 233,
+                "y": 746
+            },
+            "bottomRight": {
+                "x": 305,
+                "y": 759
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "132",
+            "text": "FROM:",
+            "value": "FROM:",
+            "topLeft": {
+                "x": 313,
+                "y": 746
+            },
+            "bottomRight": {
+                "x": 364,
+                "y": 759
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "133",
+            "text": "DC",
+            "value": "DC",
+            "topLeft": {
+                "x": 371,
+                "y": 746
+            },
+            "bottomRight": {
+                "x": 393,
+                "y": 759
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "134",
+            "text": "FOUNTAIN",
+            "value": "FOUNTAIN",
+            "topLeft": {
+                "x": 400,
+                "y": 746
+            },
+            "bottomRight": {
+                "x": 484,
+                "y": 759
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "135",
+            "text": "INN",
+            "value": "INN",
+            "topLeft": {
+                "x": 491,
+                "y": 746
+            },
+            "bottomRight": {
+                "x": 517,
+                "y": 758
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "136",
+            "text": "003",
+            "value": "003",
+            "topLeft": {
+                "x": 524,
+                "y": 746
+            },
+            "bottomRight": {
+                "x": 551,
+                "y": 759
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "137",
+            "text": "101",
+            "value": "101",
+            "topLeft": {
+                "x": 234,
+                "y": 766
+            },
+            "bottomRight": {
+                "x": 257,
+                "y": 779
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "138",
+            "text": "SOUTHCHASE",
+            "value": "SOUTHCHASE",
+            "topLeft": {
+                "x": 266,
+                "y": 766
+            },
+            "bottomRight": {
+                "x": 381,
+                "y": 779
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "139",
+            "text": "BLVD,FOUNTAIN",
+            "value": "BLVD,FOUNTAIN",
+            "topLeft": {
+                "x": 388,
+                "y": 766
+            },
+            "bottomRight": {
+                "x": 520,
+                "y": 781
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "140",
+            "text": "INN,SC",
+            "value": "INN,SC",
+            "topLeft": {
+                "x": 528,
+                "y": 766
+            },
+            "bottomRight": {
+                "x": 583,
+                "y": 781
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "141",
+            "text": "29644-9019",
+            "value": "29644-9019",
+            "topLeft": {
+                "x": 589,
+                "y": 766
+            },
+            "bottomRight": {
+                "x": 677,
+                "y": 779
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "142",
+            "text": "THIS",
+            "value": "THIS",
+            "topLeft": {
+                "x": 67,
+                "y": 1019
+            },
+            "bottomRight": {
+                "x": 95,
+                "y": 1029
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "143",
+            "text": "PURCHASE",
+            "value": "PURCHASE",
+            "topLeft": {
+                "x": 99,
+                "y": 1019
+            },
+            "bottomRight": {
+                "x": 170,
+                "y": 1029
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "144",
+            "text": "IS",
+            "value": "IS",
+            "topLeft": {
+                "x": 173,
+                "y": 1019
+            },
+            "bottomRight": {
+                "x": 185,
+                "y": 1029
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "145",
+            "text": "GOVERNED",
+            "value": "GOVERNED",
+            "topLeft": {
+                "x": 189,
+                "y": 1019
+            },
+            "bottomRight": {
+                "x": 260,
+                "y": 1029
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "146",
+            "text": "EXCLUSIVELY",
+            "value": "EXCLUSIVELY",
+            "topLeft": {
+                "x": 268,
+                "y": 1019
+            },
+            "bottomRight": {
+                "x": 356,
+                "y": 1029
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "147",
+            "text": "BY",
+            "value": "BY",
+            "topLeft": {
+                "x": 359,
+                "y": 1019
+            },
+            "bottomRight": {
+                "x": 377,
+                "y": 1029
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "148",
+            "text": "GRAINGER\\'S",
+            "value": "GRAINGER\\'S",
+            "topLeft": {
+                "x": 380,
+                "y": 1019
+            },
+            "bottomRight": {
+                "x": 460,
+                "y": 1029
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "149",
+            "text": "TERMS",
+            "value": "TERMS",
+            "topLeft": {
+                "x": 464,
+                "y": 1019
+            },
+            "bottomRight": {
+                "x": 507,
+                "y": 1029
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "150",
+            "text": "OF",
+            "value": "OF",
+            "topLeft": {
+                "x": 511,
+                "y": 1019
+            },
+            "bottomRight": {
+                "x": 529,
+                "y": 1029
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "151",
+            "text": "SALE,",
+            "value": "SALE,",
+            "topLeft": {
+                "x": 531,
+                "y": 1019
+            },
+            "bottomRight": {
+                "x": 567,
+                "y": 1031
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "152",
+            "text": "INCLUDING:",
+            "value": "INCLUDING:",
+            "topLeft": {
+                "x": 572,
+                "y": 1019
+            },
+            "bottomRight": {
+                "x": 646,
+                "y": 1029
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "153",
+            "text": "(I)",
+            "value": "(I)",
+            "topLeft": {
+                "x": 650,
+                "y": 1019
+            },
+            "bottomRight": {
+                "x": 661,
+                "y": 1031
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "154",
+            "text": "INVOICE",
+            "value": "INVOICE",
+            "topLeft": {
+                "x": 802,
+                "y": 1018
+            },
+            "bottomRight": {
+                "x": 861,
+                "y": 1029
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "155",
+            "text": "SUB",
+            "value": "SUB",
+            "topLeft": {
+                "x": 866,
+                "y": 1018
+            },
+            "bottomRight": {
+                "x": 895,
+                "y": 1029
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "156",
+            "text": "TOTAL",
+            "value": "TOTAL",
+            "topLeft": {
+                "x": 900,
+                "y": 1018
+            },
+            "bottomRight": {
+                "x": 947,
+                "y": 1029
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "157",
+            "text": "422.07",
+            "value": "422.07",
+            "topLeft": {
+                "x": 1063,
+                "y": 1016
+            },
+            "bottomRight": {
+                "x": 1114,
+                "y": 1029
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "158",
+            "text": "DISPUTE",
+            "value": "DISPUTE",
+            "topLeft": {
+                "x": 67,
+                "y": 1034
+            },
+            "bottomRight": {
+                "x": 121,
+                "y": 1044
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "159",
+            "text": "RESOLUTION",
+            "value": "RESOLUTION",
+            "topLeft": {
+                "x": 125,
+                "y": 1034
+            },
+            "bottomRight": {
+                "x": 208,
+                "y": 1044
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "160",
+            "text": "REMEDIES,",
+            "value": "REMEDIES,",
+            "topLeft": {
+                "x": 211,
+                "y": 1034
+            },
+            "bottomRight": {
+                "x": 279,
+                "y": 1046
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "161",
+            "text": "AND",
+            "value": "AND",
+            "topLeft": {
+                "x": 283,
+                "y": 1035
+            },
+            "bottomRight": {
+                "x": 311,
+                "y": 1044
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "162",
+            "text": "(II)",
+            "value": "(II)",
+            "topLeft": {
+                "x": 315,
+                "y": 1035
+            },
+            "bottomRight": {
+                "x": 329,
+                "y": 1046
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "163",
+            "text": "CERTAIN",
+            "value": "CERTAIN",
+            "topLeft": {
+                "x": 334,
+                "y": 1034
+            },
+            "bottomRight": {
+                "x": 390,
+                "y": 1044
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "164",
+            "text": "WARRANTY",
+            "value": "WARRANTY",
+            "topLeft": {
+                "x": 394,
+                "y": 1035
+            },
+            "bottomRight": {
+                "x": 467,
+                "y": 1044
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "165",
+            "text": "AND",
+            "value": "AND",
+            "topLeft": {
+                "x": 469,
+                "y": 1035
+            },
+            "bottomRight": {
+                "x": 497,
+                "y": 1044
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "166",
+            "text": "DAMAGES",
+            "value": "DAMAGES",
+            "topLeft": {
+                "x": 501,
+                "y": 1034
+            },
+            "bottomRight": {
+                "x": 565,
+                "y": 1044
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "167",
+            "text": "LIMITATIONS",
+            "value": "LIMITATIONS",
+            "topLeft": {
+                "x": 569,
+                "y": 1034
+            },
+            "bottomRight": {
+                "x": 649,
+                "y": 1044
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "168",
+            "text": "AND",
+            "value": "AND",
+            "topLeft": {
+                "x": 652,
+                "y": 1035
+            },
+            "bottomRight": {
+                "x": 680,
+                "y": 1044
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "169",
+            "text": "TAX",
+            "value": "TAX",
+            "topLeft": {
+                "x": 919,
+                "y": 1036
+            },
+            "bottomRight": {
+                "x": 947,
+                "y": 1046
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "170",
+            "text": "31.66",
+            "value": "31.66",
+            "topLeft": {
+                "x": 1073,
+                "y": 1034
+            },
+            "bottomRight": {
+                "x": 1114,
+                "y": 1047
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "171",
+            "text": "DISCLAIMERS",
+            "value": "DISCLAIMERS",
+            "topLeft": {
+                "x": 67,
+                "y": 1050
+            },
+            "bottomRight": {
+                "x": 153,
+                "y": 1059
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "172",
+            "text": "IN",
+            "value": "IN",
+            "topLeft": {
+                "x": 157,
+                "y": 1050
+            },
+            "bottomRight": {
+                "x": 170,
+                "y": 1059
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "173",
+            "text": "EFFECT",
+            "value": "EFFECT",
+            "topLeft": {
+                "x": 173,
+                "y": 1050
+            },
+            "bottomRight": {
+                "x": 223,
+                "y": 1059
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "174",
+            "text": "AT",
+            "value": "AT",
+            "topLeft": {
+                "x": 225,
+                "y": 1050
+            },
+            "bottomRight": {
+                "x": 243,
+                "y": 1059
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "175",
+            "text": "THE",
+            "value": "THE",
+            "topLeft": {
+                "x": 247,
+                "y": 1050
+            },
+            "bottomRight": {
+                "x": 271,
+                "y": 1059
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "176",
+            "text": "TIME",
+            "value": "TIME",
+            "topLeft": {
+                "x": 275,
+                "y": 1050
+            },
+            "bottomRight": {
+                "x": 305,
+                "y": 1059
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "177",
+            "text": "OF",
+            "value": "OF",
+            "topLeft": {
+                "x": 309,
+                "y": 1050
+            },
+            "bottomRight": {
+                "x": 326,
+                "y": 1059
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "178",
+            "text": "THE",
+            "value": "THE",
+            "topLeft": {
+                "x": 330,
+                "y": 1050
+            },
+            "bottomRight": {
+                "x": 355,
+                "y": 1059
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "179",
+            "text": "ORDER,",
+            "value": "ORDER,",
+            "topLeft": {
+                "x": 358,
+                "y": 1050
+            },
+            "bottomRight": {
+                "x": 406,
+                "y": 1061
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "180",
+            "text": "WHICH",
+            "value": "WHICH",
+            "topLeft": {
+                "x": 412,
+                "y": 1050
+            },
+            "bottomRight": {
+                "x": 453,
+                "y": 1059
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "181",
+            "text": "ARE",
+            "value": "ARE",
+            "topLeft": {
+                "x": 456,
+                "y": 1050
+            },
+            "bottomRight": {
+                "x": 484,
+                "y": 1059
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "182",
+            "text": "INCORPORATED",
+            "value": "INCORPORATED",
+            "topLeft": {
+                "x": 486,
+                "y": 1050
+            },
+            "bottomRight": {
+                "x": 588,
+                "y": 1059
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "183",
+            "text": "BY",
+            "value": "BY",
+            "topLeft": {
+                "x": 592,
+                "y": 1050
+            },
+            "bottomRight": {
+                "x": 611,
+                "y": 1059
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "184",
+            "text": "REFERENCE",
+            "value": "REFERENCE",
+            "topLeft": {
+                "x": 613,
+                "y": 1050
+            },
+            "bottomRight": {
+                "x": 691,
+                "y": 1059
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "185",
+            "text": "HEREIN.",
+            "value": "HEREIN.",
+            "topLeft": {
+                "x": 66,
+                "y": 1065
+            },
+            "bottomRight": {
+                "x": 116,
+                "y": 1074
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "186",
+            "text": "GRAINGER\\'S",
+            "value": "GRAINGER\\'S",
+            "topLeft": {
+                "x": 122,
+                "y": 1065
+            },
+            "bottomRight": {
+                "x": 201,
+                "y": 1074
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "187",
+            "text": "TERMS",
+            "value": "TERMS",
+            "topLeft": {
+                "x": 205,
+                "y": 1065
+            },
+            "bottomRight": {
+                "x": 249,
+                "y": 1074
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "188",
+            "text": "OF",
+            "value": "OF",
+            "topLeft": {
+                "x": 253,
+                "y": 1065
+            },
+            "bottomRight": {
+                "x": 270,
+                "y": 1074
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "189",
+            "text": "SALE",
+            "value": "SALE",
+            "topLeft": {
+                "x": 273,
+                "y": 1065
+            },
+            "bottomRight": {
+                "x": 307,
+                "y": 1074
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "190",
+            "text": "ARE",
+            "value": "ARE",
+            "topLeft": {
+                "x": 310,
+                "y": 1065
+            },
+            "bottomRight": {
+                "x": 337,
+                "y": 1074
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "191",
+            "text": "AVAILABLE",
+            "value": "AVAILABLE",
+            "topLeft": {
+                "x": 340,
+                "y": 1065
+            },
+            "bottomRight": {
+                "x": 413,
+                "y": 1074
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "192",
+            "text": "AT",
+            "value": "AT",
+            "topLeft": {
+                "x": 416,
+                "y": 1065
+            },
+            "bottomRight": {
+                "x": 434,
+                "y": 1074
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "193",
+            "text": "WWW.GRAINGER.COM",
+            "value": "WWW.GRAINGER.COM",
+            "topLeft": {
+                "x": 441,
+                "y": 1065
+            },
+            "bottomRight": {
+                "x": 580,
+                "y": 1074
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "194",
+            "text": "PRODUCT",
+            "value": "PRODUCT",
+            "topLeft": {
+                "x": 67,
+                "y": 1080
+            },
+            "bottomRight": {
+                "x": 130,
+                "y": 1089
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "195",
+            "text": "RETURN",
+            "value": "RETURN",
+            "topLeft": {
+                "x": 132,
+                "y": 1080
+            },
+            "bottomRight": {
+                "x": 185,
+                "y": 1089
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "196",
+            "text": "INSTRUCTIONS",
+            "value": "INSTRUCTIONS",
+            "topLeft": {
+                "x": 188,
+                "y": 1080
+            },
+            "bottomRight": {
+                "x": 283,
+                "y": 1089
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "197",
+            "text": "ARE",
+            "value": "ARE",
+            "topLeft": {
+                "x": 286,
+                "y": 1080
+            },
+            "bottomRight": {
+                "x": 313,
+                "y": 1089
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "198",
+            "text": "AVAILABLE",
+            "value": "AVAILABLE",
+            "topLeft": {
+                "x": 316,
+                "y": 1080
+            },
+            "bottomRight": {
+                "x": 389,
+                "y": 1089
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "199",
+            "text": "AT",
+            "value": "AT",
+            "topLeft": {
+                "x": 392,
+                "y": 1080
+            },
+            "bottomRight": {
+                "x": 410,
+                "y": 1089
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "200",
+            "text": "WWW.GRAINGER.COM/RETURNS",
+            "value": "WWW.GRAINGER.COM/RETURNS",
+            "topLeft": {
+                "x": 414,
+                "y": 1080
+            },
+            "bottomRight": {
+                "x": 617,
+                "y": 1089
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "201",
+            "text": "These",
+            "value": "These",
+            "topLeft": {
+                "x": 66,
+                "y": 1107
+            },
+            "bottomRight": {
+                "x": 106,
+                "y": 1118
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "202",
+            "text": "items",
+            "value": "items",
+            "topLeft": {
+                "x": 112,
+                "y": 1107
+            },
+            "bottomRight": {
+                "x": 145,
+                "y": 1118
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "203",
+            "text": "are",
+            "value": "are",
+            "topLeft": {
+                "x": 150,
+                "y": 1110
+            },
+            "bottomRight": {
+                "x": 170,
+                "y": 1118
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "204",
+            "text": "sold",
+            "value": "sold",
+            "topLeft": {
+                "x": 176,
+                "y": 1107
+            },
+            "bottomRight": {
+                "x": 201,
+                "y": 1118
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "205",
+            "text": "for",
+            "value": "for",
+            "topLeft": {
+                "x": 206,
+                "y": 1107
+            },
+            "bottomRight": {
+                "x": 223,
+                "y": 1118
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "206",
+            "text": "domestic",
+            "value": "domestic",
+            "topLeft": {
+                "x": 228,
+                "y": 1107
+            },
+            "bottomRight": {
+                "x": 286,
+                "y": 1118
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "207",
+            "text": "consumption.",
+            "value": "consumption.",
+            "topLeft": {
+                "x": 291,
+                "y": 1107
+            },
+            "bottomRight": {
+                "x": 377,
+                "y": 1121
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "208",
+            "text": "If",
+            "value": "If",
+            "topLeft": {
+                "x": 383,
+                "y": 1107
+            },
+            "bottomRight": {
+                "x": 390,
+                "y": 1118
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "209",
+            "text": "exported,",
+            "value": "exported,",
+            "topLeft": {
+                "x": 395,
+                "y": 1107
+            },
+            "bottomRight": {
+                "x": 454,
+                "y": 1121
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "210",
+            "text": "purchaser",
+            "value": "purchaser",
+            "topLeft": {
+                "x": 461,
+                "y": 1107
+            },
+            "bottomRight": {
+                "x": 526,
+                "y": 1121
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "211",
+            "text": "assumes",
+            "value": "assumes",
+            "topLeft": {
+                "x": 531,
+                "y": 1110
+            },
+            "bottomRight": {
+                "x": 588,
+                "y": 1118
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "212",
+            "text": "full",
+            "value": "full",
+            "topLeft": {
+                "x": 593,
+                "y": 1107
+            },
+            "bottomRight": {
+                "x": 611,
+                "y": 1118
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "213",
+            "text": "responsibility",
+            "value": "responsibility",
+            "topLeft": {
+                "x": 617,
+                "y": 1107
+            },
+            "bottomRight": {
+                "x": 701,
+                "y": 1121
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "214",
+            "text": "for",
+            "value": "for",
+            "topLeft": {
+                "x": 705,
+                "y": 1107
+            },
+            "bottomRight": {
+                "x": 722,
+                "y": 1118
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "215",
+            "text": "export",
+            "value": "export",
+            "topLeft": {
+                "x": 70,
+                "y": 1126
+            },
+            "bottomRight": {
+                "x": 110,
+                "y": 1139
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "216",
+            "text": "controls.",
+            "value": "controls.",
+            "topLeft": {
+                "x": 115,
+                "y": 1125
+            },
+            "bottomRight": {
+                "x": 169,
+                "y": 1136
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "217",
+            "text": "Diversion",
+            "value": "Diversion",
+            "topLeft": {
+                "x": 175,
+                "y": 1125
+            },
+            "bottomRight": {
+                "x": 235,
+                "y": 1136
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "218",
+            "text": "contrary",
+            "value": "contrary",
+            "topLeft": {
+                "x": 240,
+                "y": 1126
+            },
+            "bottomRight": {
+                "x": 292,
+                "y": 1139
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "219",
+            "text": "to",
+            "value": "to",
+            "topLeft": {
+                "x": 297,
+                "y": 1126
+            },
+            "bottomRight": {
+                "x": 308,
+                "y": 1136
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "220",
+            "text": "US",
+            "value": "US",
+            "topLeft": {
+                "x": 314,
+                "y": 1125
+            },
+            "bottomRight": {
+                "x": 333,
+                "y": 1136
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "221",
+            "text": "law",
+            "value": "law",
+            "topLeft": {
+                "x": 339,
+                "y": 1125
+            },
+            "bottomRight": {
+                "x": 360,
+                "y": 1136
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "222",
+            "text": "prohibited.",
+            "value": "prohibited.",
+            "topLeft": {
+                "x": 365,
+                "y": 1125
+            },
+            "bottomRight": {
+                "x": 431,
+                "y": 1139
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "223",
+            "text": "PAY",
+            "value": "PAY",
+            "topLeft": {
+                "x": 67,
+                "y": 1168
+            },
+            "bottomRight": {
+                "x": 91,
+                "y": 1178
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "224",
+            "text": "THIS",
+            "value": "THIS",
+            "topLeft": {
+                "x": 95,
+                "y": 1168
+            },
+            "bottomRight": {
+                "x": 123,
+                "y": 1178
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "225",
+            "text": "INVOICE;",
+            "value": "INVOICE;",
+            "topLeft": {
+                "x": 128,
+                "y": 1168
+            },
+            "bottomRight": {
+                "x": 181,
+                "y": 1179
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "226",
+            "text": "NO",
+            "value": "NO",
+            "topLeft": {
+                "x": 186,
+                "y": 1168
+            },
+            "bottomRight": {
+                "x": 204,
+                "y": 1178
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "227",
+            "text": "STATEMENT",
+            "value": "STATEMENT",
+            "topLeft": {
+                "x": 209,
+                "y": 1168
+            },
+            "bottomRight": {
+                "x": 284,
+                "y": 1178
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "228",
+            "text": "WILL",
+            "value": "WILL",
+            "topLeft": {
+                "x": 288,
+                "y": 1168
+            },
+            "bottomRight": {
+                "x": 317,
+                "y": 1178
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "229",
+            "text": "BE",
+            "value": "BE",
+            "topLeft": {
+                "x": 322,
+                "y": 1168
+            },
+            "bottomRight": {
+                "x": 337,
+                "y": 1178
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "230",
+            "text": "SENT.",
+            "value": "SENT.",
+            "topLeft": {
+                "x": 342,
+                "y": 1168
+            },
+            "bottomRight": {
+                "x": 377,
+                "y": 1178
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "231",
+            "text": "PAYMENT",
+            "value": "PAYMENT",
+            "topLeft": {
+                "x": 383,
+                "y": 1168
+            },
+            "bottomRight": {
+                "x": 443,
+                "y": 1178
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "232",
+            "text": "TERMS",
+            "value": "TERMS",
+            "topLeft": {
+                "x": 447,
+                "y": 1168
+            },
+            "bottomRight": {
+                "x": 490,
+                "y": 1178
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "233",
+            "text": "Net",
+            "value": "Net",
+            "topLeft": {
+                "x": 495,
+                "y": 1168
+            },
+            "bottomRight": {
+                "x": 514,
+                "y": 1178
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "234",
+            "text": "30",
+            "value": "30",
+            "topLeft": {
+                "x": 517,
+                "y": 1168
+            },
+            "bottomRight": {
+                "x": 530,
+                "y": 1178
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "235",
+            "text": "days",
+            "value": "days",
+            "topLeft": {
+                "x": 534,
+                "y": 1168
+            },
+            "bottomRight": {
+                "x": 560,
+                "y": 1180
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "236",
+            "text": "IN",
+            "value": "IN",
+            "topLeft": {
+                "x": 569,
+                "y": 1168
+            },
+            "bottomRight": {
+                "x": 579,
+                "y": 1178
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "237",
+            "text": "U.S.",
+            "value": "U.S.",
+            "topLeft": {
+                "x": 585,
+                "y": 1168
+            },
+            "bottomRight": {
+                "x": 607,
+                "y": 1178
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "238",
+            "text": "DOLLARS.",
+            "value": "DOLLARS.",
+            "topLeft": {
+                "x": 613,
+                "y": 1168
+            },
+            "bottomRight": {
+                "x": 673,
+                "y": 1178
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "239",
+            "text": "AMOUNT",
+            "value": "AMOUNT",
+            "topLeft": {
+                "x": 793,
+                "y": 1169
+            },
+            "bottomRight": {
+                "x": 878,
+                "y": 1183
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "240",
+            "text": "DUE",
+            "value": "DUE",
+            "topLeft": {
+                "x": 882,
+                "y": 1169
+            },
+            "bottomRight": {
+                "x": 922,
+                "y": 1183
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "241",
+            "text": "$453.73",
+            "value": "453.73",
+            "topLeft": {
+                "x": 1039,
+                "y": 1162
+            },
+            "bottomRight": {
+                "x": 1115,
+                "y": 1180
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "242",
+            "text": "PLEASE",
+            "value": "PLEASE",
+            "topLeft": {
+                "x": 307,
+                "y": 1233
+            },
+            "bottomRight": {
+                "x": 380,
+                "y": 1248
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "243",
+            "text": "DETACH",
+            "value": "DETACH",
+            "topLeft": {
+                "x": 387,
+                "y": 1233
+            },
+            "bottomRight": {
+                "x": 464,
+                "y": 1248
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "244",
+            "text": "THIS",
+            "value": "THIS",
+            "topLeft": {
+                "x": 471,
+                "y": 1233
+            },
+            "bottomRight": {
+                "x": 513,
+                "y": 1248
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "245",
+            "text": "PORTION",
+            "value": "PORTION",
+            "topLeft": {
+                "x": 520,
+                "y": 1233
+            },
+            "bottomRight": {
+                "x": 603,
+                "y": 1248
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "246",
+            "text": "AND",
+            "value": "AND",
+            "topLeft": {
+                "x": 610,
+                "y": 1233
+            },
+            "bottomRight": {
+                "x": 650,
+                "y": 1247
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "247",
+            "text": "RETURN",
+            "value": "RETURN",
+            "topLeft": {
+                "x": 658,
+                "y": 1233
+            },
+            "bottomRight": {
+                "x": 734,
+                "y": 1248
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "248",
+            "text": "WITH",
+            "value": "WITH",
+            "topLeft": {
+                "x": 741,
+                "y": 1233
+            },
+            "bottomRight": {
+                "x": 787,
+                "y": 1247
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "249",
+            "text": "YOUR",
+            "value": "YOUR",
+            "topLeft": {
+                "x": 795,
+                "y": 1233
+            },
+            "bottomRight": {
+                "x": 848,
+                "y": 1248
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "250",
+            "text": "PAYMENT",
+            "value": "PAYMENT",
+            "topLeft": {
+                "x": 855,
+                "y": 1233
+            },
+            "bottomRight": {
+                "x": 946,
+                "y": 1247
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "251",
+            "text": "BILL",
+            "value": "BILL",
+            "topLeft": {
+                "x": 67,
+                "y": 1314
+            },
+            "bottomRight": {
+                "x": 100,
+                "y": 1327
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "252",
+            "text": "TO:",
+            "value": "TO:",
+            "topLeft": {
+                "x": 105,
+                "y": 1314
+            },
+            "bottomRight": {
+                "x": 132,
+                "y": 1327
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "253",
+            "text": "REMIT",
+            "value": "REMIT",
+            "topLeft": {
+                "x": 663,
+                "y": 1314
+            },
+            "bottomRight": {
+                "x": 713,
+                "y": 1327
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "254",
+            "text": "TO:",
+            "value": "TO:",
+            "topLeft": {
+                "x": 719,
+                "y": 1314
+            },
+            "bottomRight": {
+                "x": 745,
+                "y": 1327
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "255",
+            "text": "GRAINGER",
+            "value": "GRAINGER",
+            "topLeft": {
+                "x": 662,
+                "y": 1335
+            },
+            "bottomRight": {
+                "x": 750,
+                "y": 1348
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "256",
+            "text": "HUMACYTE",
+            "value": "HUMACYTE",
+            "topLeft": {
+                "x": 67,
+                "y": 1356
+            },
+            "bottomRight": {
+                "x": 159,
+                "y": 1369
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "257",
+            "text": "DEPT.",
+            "value": "DEPT.",
+            "topLeft": {
+                "x": 663,
+                "y": 1356
+            },
+            "bottomRight": {
+                "x": 710,
+                "y": 1368
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "258",
+            "text": "882172984",
+            "value": "882172984",
+            "topLeft": {
+                "x": 716,
+                "y": 1356
+            },
+            "bottomRight": {
+                "x": 799,
+                "y": 1369
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "259",
+            "text": "2525",
+            "value": "2525",
+            "topLeft": {
+                "x": 66,
+                "y": 1371
+            },
+            "bottomRight": {
+                "x": 102,
+                "y": 1384
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "260",
+            "text": "E",
+            "value": "E",
+            "topLeft": {
+                "x": 109,
+                "y": 1371
+            },
+            "bottomRight": {
+                "x": 118,
+                "y": 1383
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "261",
+            "text": "NC",
+            "value": "NC",
+            "topLeft": {
+                "x": 125,
+                "y": 1371
+            },
+            "bottomRight": {
+                "x": 147,
+                "y": 1384
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "262",
+            "text": "HIGHWAY",
+            "value": "HIGHWAY",
+            "topLeft": {
+                "x": 154,
+                "y": 1371
+            },
+            "bottomRight": {
+                "x": 233,
+                "y": 1384
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "263",
+            "text": "54",
+            "value": "54",
+            "topLeft": {
+                "x": 238,
+                "y": 1371
+            },
+            "bottomRight": {
+                "x": 256,
+                "y": 1384
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "264",
+            "text": "PALATINE,",
+            "value": "PALATINE,",
+            "topLeft": {
+                "x": 663,
+                "y": 1371
+            },
+            "bottomRight": {
+                "x": 746,
+                "y": 1386
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "265",
+            "text": "IL",
+            "value": "IL",
+            "topLeft": {
+                "x": 754,
+                "y": 1371
+            },
+            "bottomRight": {
+                "x": 766,
+                "y": 1383
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "266",
+            "text": "60038-0001",
+            "value": "60038-0001",
+            "topLeft": {
+                "x": 771,
+                "y": 1371
+            },
+            "bottomRight": {
+                "x": 857,
+                "y": 1384
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "267",
+            "text": "DURHAM",
+            "value": "DURHAM",
+            "topLeft": {
+                "x": 67,
+                "y": 1386
+            },
+            "bottomRight": {
+                "x": 138,
+                "y": 1399
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "268",
+            "text": "NC",
+            "value": "NC",
+            "topLeft": {
+                "x": 146,
+                "y": 1386
+            },
+            "bottomRight": {
+                "x": 168,
+                "y": 1399
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "269",
+            "text": "27713-2582",
+            "value": "27713-2582",
+            "topLeft": {
+                "x": 179,
+                "y": 1386
+            },
+            "bottomRight": {
+                "x": 267,
+                "y": 1399
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "270",
+            "text": "UNITED",
+            "value": "UNITED",
+            "topLeft": {
+                "x": 67,
+                "y": 1401
+            },
+            "bottomRight": {
+                "x": 127,
+                "y": 1414
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "271",
+            "text": "STATES",
+            "value": "STATES",
+            "topLeft": {
+                "x": 134,
+                "y": 1401
+            },
+            "bottomRight": {
+                "x": 198,
+                "y": 1414
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "272",
+            "text": "OF",
+            "value": "OF",
+            "topLeft": {
+                "x": 204,
+                "y": 1401
+            },
+            "bottomRight": {
+                "x": 226,
+                "y": 1414
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "273",
+            "text": "AMERICA",
+            "value": "AMERICA",
+            "topLeft": {
+                "x": 232,
+                "y": 1401
+            },
+            "bottomRight": {
+                "x": 308,
+                "y": 1414
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "274",
+            "text": "882172984918668906410000453731000316610000000100000019062350",
+            "value": "882172984918668906410000453731000316610000000100000019062350",
+            "topLeft": {
+                "x": 310,
+                "y": 1516
+            },
+            "bottomRight": {
+                "x": 1213,
+                "y": 1533
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "275",
+            "text": "X",
+            "value": "X",
+            "topLeft": {
+                "x": 66,
+                "y": 1573
+            },
+            "bottomRight": {
+                "x": 79,
+                "y": 1589
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "276",
+            "text": "ACCOUNT",
+            "value": "ACCOUNT",
+            "topLeft": {
+                "x": 271,
+                "y": 1575
+            },
+            "bottomRight": {
+                "x": 364,
+                "y": 1589
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "277",
+            "text": "NUMBER",
+            "value": "NUMBER",
+            "topLeft": {
+                "x": 371,
+                "y": 1575
+            },
+            "bottomRight": {
+                "x": 451,
+                "y": 1589
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "278",
+            "text": "DATE",
+            "value": "DATE",
+            "topLeft": {
+                "x": 540,
+                "y": 1575
+            },
+            "bottomRight": {
+                "x": 587,
+                "y": 1589
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "279",
+            "text": "INVOICE",
+            "value": "INVOICE",
+            "topLeft": {
+                "x": 715,
+                "y": 1575
+            },
+            "bottomRight": {
+                "x": 790,
+                "y": 1589
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "280",
+            "text": "NUMBER",
+            "value": "NUMBER",
+            "topLeft": {
+                "x": 797,
+                "y": 1575
+            },
+            "bottomRight": {
+                "x": 877,
+                "y": 1589
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "281",
+            "text": "AMOUNT",
+            "value": "AMOUNT",
+            "topLeft": {
+                "x": 987,
+                "y": 1573
+            },
+            "bottomRight": {
+                "x": 1079,
+                "y": 1589
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "282",
+            "text": "DUE",
+            "value": "DUE",
+            "topLeft": {
+                "x": 1086,
+                "y": 1573
+            },
+            "bottomRight": {
+                "x": 1128,
+                "y": 1589
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "283",
+            "text": "882172984",
+            "value": "882172984",
+            "topLeft": {
+                "x": 314,
+                "y": 1602
+            },
+            "bottomRight": {
+                "x": 407,
+                "y": 1616
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "284",
+            "text": "05/24/2019",
+            "value": "05/24/2019",
+            "topLeft": {
+                "x": 517,
+                "y": 1602
+            },
+            "bottomRight": {
+                "x": 609,
+                "y": 1616
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "285",
+            "text": "9186689064",
+            "value": "9186689064",
+            "topLeft": {
+                "x": 744,
+                "y": 1602
+            },
+            "bottomRight": {
+                "x": 847,
+                "y": 1616
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "286",
+            "text": "$453.73",
+            "value": "453.73",
+            "topLeft": {
+                "x": 1110,
+                "y": 1600
+            },
+            "bottomRight": {
+                "x": 1185,
+                "y": 1618
+            },
+            "assigned": true,
+            "selected": false
+        },
+        {
+            "id": "287",
+            "text": "FOR",
+            "value": "FOR",
+            "topLeft": {
+                "x": 364,
+                "y": 1639
+            },
+            "bottomRight": {
+                "x": 389,
+                "y": 1649
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "288",
+            "text": "COMMENTS",
+            "value": "COMMENTS",
+            "topLeft": {
+                "x": 394,
+                "y": 1639
+            },
+            "bottomRight": {
+                "x": 466,
+                "y": 1649
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "289",
+            "text": "OR",
+            "value": "OR",
+            "topLeft": {
+                "x": 471,
+                "y": 1639
+            },
+            "bottomRight": {
+                "x": 488,
+                "y": 1649
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "290",
+            "text": "CHANGE",
+            "value": "CHANGE",
+            "topLeft": {
+                "x": 493,
+                "y": 1639
+            },
+            "bottomRight": {
+                "x": 547,
+                "y": 1649
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "291",
+            "text": "OF",
+            "value": "OF",
+            "topLeft": {
+                "x": 551,
+                "y": 1639
+            },
+            "bottomRight": {
+                "x": 568,
+                "y": 1649
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "292",
+            "text": "ADDRESS,",
+            "value": "ADDRESS,",
+            "topLeft": {
+                "x": 572,
+                "y": 1639
+            },
+            "bottomRight": {
+                "x": 636,
+                "y": 1651
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "293",
+            "text": "ENTER",
+            "value": "ENTER",
+            "topLeft": {
+                "x": 641,
+                "y": 1639
+            },
+            "bottomRight": {
+                "x": 683,
+                "y": 1648
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "294",
+            "text": "INFORMATION",
+            "value": "INFORMATION",
+            "topLeft": {
+                "x": 688,
+                "y": 1639
+            },
+            "bottomRight": {
+                "x": 775,
+                "y": 1649
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "295",
+            "text": "ON",
+            "value": "ON",
+            "topLeft": {
+                "x": 780,
+                "y": 1639
+            },
+            "bottomRight": {
+                "x": 797,
+                "y": 1649
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "296",
+            "text": "REVERSE",
+            "value": "REVERSE",
+            "topLeft": {
+                "x": 803,
+                "y": 1639
+            },
+            "bottomRight": {
+                "x": 861,
+                "y": 1649
+            },
+            "assigned": false,
+            "selected": false
+        },
+        {
+            "id": "297",
+            "text": "SIDE",
+            "value": "SIDE",
+            "topLeft": {
+                "x": 865,
+                "y": 1639
+            },
+            "bottomRight": {
+                "x": 894,
+                "y": 1649
+            },
+            "assigned": false,
+            "selected": false
+        }
+    ]
+}

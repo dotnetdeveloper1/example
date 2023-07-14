@@ -1,0 +1,268 @@
+﻿{
+  "plainDocumentText": "Invoice Data Annotation Test Document Text",
+  "documentLayoutItems": [
+    {
+      "id": "1",
+      "pageNumber": "1",
+      "text": "8086497761",
+      "topLeft": {
+        "x": 569,
+        "y": 90
+      },
+      "bottomRight": {
+        "x": 645,
+        "y": 105
+      }
+    },
+    {
+      "id": "2",
+      "pageNumber": "2",
+      "text": "8086497761",
+      "topLeft": {
+        "x": 569,
+        "y": 888
+      },
+      "bottomRight": {
+        "x": 645,
+        "y": 903
+      }
+    },
+    {
+      "id": "3",
+      "pageNumber": "3",
+      "text": "8086497761",
+      "topLeft": {
+        "x": 568,
+        "y": 1290
+      },
+      "bottomRight": {
+        "x": 645,
+        "y": 1305
+      }
+    },
+    {
+      "id": "4",
+      "pageNumber": "4",
+      "text": "06/05/2019",
+      "topLeft": {
+        "x": 490,
+        "y": 90
+      },
+      "bottomRight": {
+        "x": 561,
+        "y": 105
+      }
+    },
+    {
+      "id": "5",
+      "pageNumber": "5",
+      "text": "06/05/2019",
+      "topLeft": {
+        "x": 490,
+        "y": 888
+      },
+      "bottomRight": {
+        "x": 561,
+        "y": 903
+      }
+    },
+    {
+      "id": "6",
+      "pageNumber": "6",
+      "text": "06/05/2019",
+      "topLeft": {
+        "x": 490,
+        "y": 1290
+      },
+      "bottomRight": {
+        "x": 561,
+        "y": 1305
+      }
+    },
+    {
+      "id": "7",
+      "pageNumber": "7",
+      "text": "56-2445503",
+      "topLeft": {
+        "x": 815,
+        "y": 437
+      },
+      "bottomRight": {
+        "x": 891,
+        "y": 452
+      }
+    },
+    {
+      "id": "8",
+      "pageNumber": "8",
+      "text": "56-2445503",
+      "topLeft": {
+        "x": 815,
+        "y": 1555
+      },
+      "bottomRight": {
+        "x": 891,
+        "y": 1570
+      }
+    },
+    {
+      "id": "9",
+      "pageNumber": "9",
+      "text": "cmd_na@vwr.com",
+      "topLeft": {
+        "x": 278,
+        "y": 326
+      },
+      "bottomRight": {
+        "x": 411,
+        "y": 341
+      }
+    },
+    {
+      "id": "10",
+      "pageNumber": "10",
+      "text": "vwr.com",
+      "topLeft": {
+        "x": 652,
+        "y": 354
+      },
+      "bottomRight": {
+        "x": 731,
+        "y": 369
+      }
+    },
+    {
+      "id": "11",
+      "pageNumber": "11",
+      "text": "vwr.com",
+      "topLeft": {
+        "x": 243,
+        "y": 2325
+      },
+      "bottomRight": {
+        "x": 349,
+        "y": 2340
+      }
+    },
+    {
+      "id": "12",
+      "pageNumber": "12",
+      "text": "475.69",
+      "topLeft": {
+        "x": 838,
+        "y": 169
+      },
+      "bottomRight": {
+        "x": 884,
+        "y": 184
+      }
+    },
+    {
+      "id": "13",
+      "pageNumber": "13",
+      "text": "475.69",
+      "topLeft": {
+        "x": 838,
+        "y": 967
+      },
+      "bottomRight": {
+        "x": 884,
+        "y": 982
+      }
+    },
+    {
+      "id": "14",
+      "pageNumber": "14",
+      "text": "37366",
+      "topLeft": {
+        "x": 658,
+        "y": 89
+      },
+      "bottomRight": {
+        "x": 701,
+        "y": 104
+      }
+    },
+    {
+      "id": "15",
+      "pageNumber": "15",
+      "text": "37366",
+      "topLeft": {
+        "x": 659,
+        "y": 888
+      },
+      "bottomRight": {
+        "x": 702,
+        "y": 903
+      }
+    }
+  ],
+  "invoiceAnnotations": [
+    {
+      "fieldType": "invoiceNumber",
+      "fieldValue": "8086497761",
+      "userCreated": false,
+      "documentLayoutItemIds": [ "1", "2", "3" ]
+    },
+    {
+      "fieldType": "invoiceDate",
+      "fieldValue": "06/05/2019",
+      "userCreated": false,
+      "documentLayoutItemIds": [ "4", "5", "6" ]
+    },
+    {
+      "fieldType": "taxNumber",
+      "fieldValue": "56-2445503",
+      "userCreated": false,
+      "documentLayoutItemIds": [ "8" ]
+    },
+    {
+      "fieldType": "vendorEmail",
+      "fieldValue": "cmd_na@vwr.com",
+      "userCreated": false,
+      "documentLayoutItemIds": [ "9" ]
+    },
+    {
+      "fieldType": "vendorWebsite",
+      "fieldValue": "www.vwr.com",
+      "userCreated": false,
+      "documentLayoutItemIds": [ "10", "11" ]
+    },
+    {
+      "fieldType": "total",
+      "fieldValue": "475.69",
+      "userCreated": false,
+      "documentLayoutItemIds": [ "12", "13" ]
+    },
+    {
+      "fieldType": "poNumber",
+      "fieldValue": "37366",
+      "userCreated": false,
+      "documentLayoutItemIds": [ "14", "15" ]
+    }
+  ],
+  "invoiceLineAnnotations": [
+    {
+      "orderNumber": 1,
+      "lineItemAnnotations": [
+        {
+          "fieldType": "invoiceNumber",
+          "fieldValue": "8086497111",
+          "userCreated": false,
+          "documentLayoutItemIds": [ "1", "2", "3" ]
+        }
+      ]
+    },
+    {
+      "orderNumber": 2,
+      "lineItemAnnotations": [
+        {
+          "fieldType": "invoiceNumber",
+          "fieldValue": "8086497222",
+          "userCreated": false,
+          "documentLayoutItemIds": [ "4", "5", "6" ]
+        }
+      ]
+    }
+  ] 
+}

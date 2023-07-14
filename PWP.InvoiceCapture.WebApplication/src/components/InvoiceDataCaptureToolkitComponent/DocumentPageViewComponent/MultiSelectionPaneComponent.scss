@@ -1,0 +1,12 @@
+@import "../../../styles/globals.scss";
+
+.MultiSelectionPaneComponent {
+    @extend .position-absolute, .h-100, .w-100;
+    top: 0;
+    left: 0;
+
+    &__selection-box {
+        @extend .position-absolute, .border, .border-primary;
+        background-color: rgba(map-get($theme-colors, "primary"), $alpha: 0.1);
+    }
+}

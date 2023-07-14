@@ -1,0 +1,66 @@
+@import "../../../styles/globals.scss";
+
+@mixin can-be-in-focus() {
+    &-focus-in {
+        @extend .border, .border-primary, .shadow;
+
+        border-radius: $border-radius / 2;
+        background-color: rgba(map-get($theme-colors, "primary"), $alpha: 0.2);
+        opacity: 1;
+    }
+
+    &-focus-out {
+        @content;
+        // disable focus-out style for layout items
+        // opacity: 0.5;
+    }
+
+    @content;
+}
+
+.DocumentLayoutItemComponent {
+    @extend .position-absolute, .foreground-element;
+
+    border-radius: $border-radius / 2;
+    animation: all 1.5s ease-in;
+
+    &--assigned {
+        @include can-be-in-focus {
+            @extend .border, .border-success;
+
+            border-radius: $border-radius / 2;
+            background-color: rgba(map-get($theme-colors, "success"), $alpha: 0.2);
+        }
+    }
+
+    &--enabled {
+        @include can-be-in-focus {
+            @extend .border, .border-danger;
+
+            border-radius: $border-radius / 2;
+            background-color: rgba(map-get($theme-colors, "danger"), $alpha: 0.2);
+        }
+    }
+
+    &--selected {
+        @include can-be-in-focus {
+            @extend .border, .border-primary;
+
+            border-radius: $border-radius / 2;
+            background-color: rgba(map-get($theme-colors, "primary"), $alpha: 0.2);
+        }
+    }
+
+    &--disabled {
+        background-color: transparent;
+    }
+
+    &:not(&--disabled):focus,
+    &:not(&--disabled):hover,
+    &:not(&--disabled):active {
+        @extend .border, .border-primary, .shadow;
+
+        border-radius: $border-radius / 2;
+        background-color: rgba(map-get($theme-colors, "primary"), $alpha: 0.2);
+    }
+}

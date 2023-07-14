@@ -1,0 +1,96 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "nt0InstanceCount": {
+      "value": 3
+    },
+    "nt1InstanceCount": {
+      "value": 1
+    },
+    "nt2InstanceCount": {
+      "value": 1
+    },
+    "dnsNamePrefix": {
+      "value": "invoicecapture-production"
+    },
+    "adminUsername": {
+      "value": "<REPLACE_WITH_ADMIN_USER_NAME>"
+    },
+    "adminPassword": {
+      "value": "<REPLACE_WITH_ADMIN_USER_PASSWORD>"
+    },
+    "clientCertsCNs": {
+      "value": []
+    },
+    "certificateStoreValue": {
+      "value": "My"
+    },
+    "sourceVaultValue": {
+      "value": "GEN-KEYVAULT-RESOURCE-ID"
+    },
+    "certificateUrlValue": {
+      "value": "GEN-SF-CERT-URL"
+    },
+    "certificateThumbprint": {
+      "value": "GEN-SF-CERT-THUMBPRINT"
+    },
+    "clientCertificateThumbprint": {
+      "value": "GEN-SF-CLIENT-CERT-THUMBPRINT"
+    },
+    "diskType": {
+      "value": "Standard_LRS"
+    },
+    "supportLogStorageAccountType": {
+      "value": "Standard_LRS"
+    },
+    "applicationDiagnosticsStorageAccountType": {
+      "value": "Standard_LRS"
+    },
+    "durabilityLevel": {
+      "value": "Bronze"
+    },
+    "reliabilityLevel": {
+      "value": "Bronze"
+    },
+    "webAppCDNEndpointName": {
+      "value": "invcap-endpoint-production"
+    },
+    "webAppCDNStorageAccountName": {
+      "value": "invcapwebappproduction"
+    },
+    "webAppCDNStorageAccountStaticContentContainerName": {
+      "value": "cdnstaticcontent"
+    },
+    "sqlServerName": {
+      "value": "invcapsqlsrvproduction"
+    },
+    "sqlServerAdministratorPassword": {
+      "value": "<REPLACE_WITH_SQL_ADMIN_USER_NAME>"
+    },
+    "sqlServerAdministratorLogin": {
+      "value": "<REPLACE_WITH_SQL_ADMIN_USER_PASSWORD>"
+    },
+    "cognitiveServicesFormRecognizerCustomSubDomainName": {
+      "value": "pwp-invoice-capture-form-recognizer-production"
+    },
+    "applicationGatewayPublicIPDnsName": {
+      "value": "invoicecapture-applicationgateway-production"
+    },
+    "applicationGatewayAutoscaleMaxCapacity": {
+      "value": 3
+    },
+    "vmssAutoScaleMaximumInstanceCount": {
+      "value": 5
+    },
+    "sqlServerElasticPoolEdition": {
+      "value": "Standard"
+    },
+    "sqlServerElasticPoolDtu": {
+      "value": 50
+    },
+    "sqlServerDatabaseDtuMax": {
+      "value": 50
+    }
+  }
+}

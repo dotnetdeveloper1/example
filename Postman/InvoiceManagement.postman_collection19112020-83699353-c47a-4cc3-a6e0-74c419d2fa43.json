@@ -1,0 +1,597 @@
+{
+	"info": {
+		"_postman_id": "4a03166b-460b-4ceb-9453-2eba5c882a8c",
+		"name": "InvoiceManagement Copy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Invoices",
+			"item": [
+				{
+					"name": "GetInovoiceList",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE1OTY4MDEyMTAsImV4cCI6MTYwNzE2OTIxMCwiaXNzIjoiaHR0cDovL2VrYXJhcGV0YXU6MTAwODIiLCJhdWQiOiJJbnZvaWNlTWFuYWdlbWVudCIsImNsaWVudF9pZCI6IndlYkFwcGxpY2F0aW9uIiwic3ViIjoiRGVmYXVsdCIsImF1dGhfdGltZSI6MTU5NjgwMTIxMCwiaWRwIjoibG9jYWwiLCJUZW5hbnRJZCI6IkRlZmF1bHQiLCJqdGkiOiJCRTYwNThBNjk0RTdBNjQ5ODc4OEU2NzM0RjNGMzcwNCIsImlhdCI6MTU5NjgwMTIxMCwic2NvcGUiOlsiSW52b2ljZU1hbmFnZW1lbnQiXSwiYW1yIjpbInBhc3N3b3JkIl19.Dowk9ktOa0Cims8Y3VxEHGUQ2O8zJoApIhk29Q1unk20DlfuyuZLZlD1Yh3XGxTmdRO3uP2hceFyveIqwLOxNQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/invoices",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"invoices"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetInvoiceByIdAsync",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE1OTY4MDEyMTAsImV4cCI6MTYwNzE2OTIxMCwiaXNzIjoiaHR0cDovL2VrYXJhcGV0YXU6MTAwODIiLCJhdWQiOiJJbnZvaWNlTWFuYWdlbWVudCIsImNsaWVudF9pZCI6IndlYkFwcGxpY2F0aW9uIiwic3ViIjoiRGVmYXVsdCIsImF1dGhfdGltZSI6MTU5NjgwMTIxMCwiaWRwIjoibG9jYWwiLCJUZW5hbnRJZCI6IkRlZmF1bHQiLCJqdGkiOiJCRTYwNThBNjk0RTdBNjQ5ODc4OEU2NzM0RjNGMzcwNCIsImlhdCI6MTU5NjgwMTIxMCwic2NvcGUiOlsiSW52b2ljZU1hbmFnZW1lbnQiXSwiYW1yIjpbInBhc3N3b3JkIl19.Dowk9ktOa0Cims8Y3VxEHGUQ2O8zJoApIhk29Q1unk20DlfuyuZLZlD1Yh3XGxTmdRO3uP2hceFyveIqwLOxNQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/invoices/1",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"invoices",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetInvoiceByDocumentIdAsync",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE1OTY4MDEyMTAsImV4cCI6MTYwNzE2OTIxMCwiaXNzIjoiaHR0cDovL2VrYXJhcGV0YXU6MTAwODIiLCJhdWQiOiJJbnZvaWNlTWFuYWdlbWVudCIsImNsaWVudF9pZCI6IndlYkFwcGxpY2F0aW9uIiwic3ViIjoiRGVmYXVsdCIsImF1dGhfdGltZSI6MTU5NjgwMTIxMCwiaWRwIjoibG9jYWwiLCJUZW5hbnRJZCI6IkRlZmF1bHQiLCJqdGkiOiJCRTYwNThBNjk0RTdBNjQ5ODc4OEU2NzM0RjNGMzcwNCIsImlhdCI6MTU5NjgwMTIxMCwic2NvcGUiOlsiSW52b2ljZU1hbmFnZW1lbnQiXSwiYW1yIjpbInBhc3N3b3JkIl19.Dowk9ktOa0Cims8Y3VxEHGUQ2O8zJoApIhk29Q1unk20DlfuyuZLZlD1Yh3XGxTmdRO3uP2hceFyveIqwLOxNQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/invoices/documents/0f1fc27c-ec75-4b07-805c-04d626c61774.pdf",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"invoices",
+								"documents",
+								"0f1fc27c-ec75-4b07-805c-04d626c61774.pdf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetInvoice",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE1OTY4MDEyMTAsImV4cCI6MTYwNzE2OTIxMCwiaXNzIjoiaHR0cDovL2VrYXJhcGV0YXU6MTAwODIiLCJhdWQiOiJJbnZvaWNlTWFuYWdlbWVudCIsImNsaWVudF9pZCI6IndlYkFwcGxpY2F0aW9uIiwic3ViIjoiRGVmYXVsdCIsImF1dGhfdGltZSI6MTU5NjgwMTIxMCwiaWRwIjoibG9jYWwiLCJUZW5hbnRJZCI6IkRlZmF1bHQiLCJqdGkiOiJCRTYwNThBNjk0RTdBNjQ5ODc4OEU2NzM0RjNGMzcwNCIsImlhdCI6MTU5NjgwMTIxMCwic2NvcGUiOlsiSW52b2ljZU1hbmFnZW1lbnQiXSwiYW1yIjpbInBhc3N3b3JkIl19.Dowk9ktOa0Cims8Y3VxEHGUQ2O8zJoApIhk29Q1unk20DlfuyuZLZlD1Yh3XGxTmdRO3uP2hceFyveIqwLOxNQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/invoices/69",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"invoices",
+								"69"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetTemporaryLink",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE1OTY4MDEyMTAsImV4cCI6MTYwNzE2OTIxMCwiaXNzIjoiaHR0cDovL2VrYXJhcGV0YXU6MTAwODIiLCJhdWQiOiJJbnZvaWNlTWFuYWdlbWVudCIsImNsaWVudF9pZCI6IndlYkFwcGxpY2F0aW9uIiwic3ViIjoiRGVmYXVsdCIsImF1dGhfdGltZSI6MTU5NjgwMTIxMCwiaWRwIjoibG9jYWwiLCJUZW5hbnRJZCI6IkRlZmF1bHQiLCJqdGkiOiJCRTYwNThBNjk0RTdBNjQ5ODc4OEU2NzM0RjNGMzcwNCIsImlhdCI6MTU5NjgwMTIxMCwic2NvcGUiOlsiSW52b2ljZU1hbmFnZW1lbnQiXSwiYW1yIjpbInBhc3N3b3JkIl19.Dowk9ktOa0Cims8Y3VxEHGUQ2O8zJoApIhk29Q1unk20DlfuyuZLZlD1Yh3XGxTmdRO3uP2hceFyveIqwLOxNQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/invoices/67/document",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"invoices",
+								"67",
+								"document"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetActiveInoviceList",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE1OTY4MDEyMTAsImV4cCI6MTYwNzE2OTIxMCwiaXNzIjoiaHR0cDovL2VrYXJhcGV0YXU6MTAwODIiLCJhdWQiOiJJbnZvaWNlTWFuYWdlbWVudCIsImNsaWVudF9pZCI6IndlYkFwcGxpY2F0aW9uIiwic3ViIjoiRGVmYXVsdCIsImF1dGhfdGltZSI6MTU5NjgwMTIxMCwiaWRwIjoibG9jYWwiLCJUZW5hbnRJZCI6IkRlZmF1bHQiLCJqdGkiOiJCRTYwNThBNjk0RTdBNjQ5ODc4OEU2NzM0RjNGMzcwNCIsImlhdCI6MTU5NjgwMTIxMCwic2NvcGUiOlsiSW52b2ljZU1hbmFnZW1lbnQiXSwiYW1yIjpbInBhc3N3b3JkIl19.Dowk9ktOa0Cims8Y3VxEHGUQ2O8zJoApIhk29Q1unk20DlfuyuZLZlD1Yh3XGxTmdRO3uP2hceFyveIqwLOxNQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/invoices/active",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"invoices",
+								"active"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Archive",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE1OTY4MDEyMTAsImV4cCI6MTYwNzE2OTIxMCwiaXNzIjoiaHR0cDovL2VrYXJhcGV0YXU6MTAwODIiLCJhdWQiOiJJbnZvaWNlTWFuYWdlbWVudCIsImNsaWVudF9pZCI6IndlYkFwcGxpY2F0aW9uIiwic3ViIjoiRGVmYXVsdCIsImF1dGhfdGltZSI6MTU5NjgwMTIxMCwiaWRwIjoibG9jYWwiLCJUZW5hbnRJZCI6IkRlZmF1bHQiLCJqdGkiOiJCRTYwNThBNjk0RTdBNjQ5ODc4OEU2NzM0RjNGMzcwNCIsImlhdCI6MTU5NjgwMTIxMCwic2NvcGUiOlsiSW52b2ljZU1hbmFnZW1lbnQiXSwiYW1yIjpbInBhc3N3b3JkIl19.Dowk9ktOa0Cims8Y3VxEHGUQ2O8zJoApIhk29Q1unk20DlfuyuZLZlD1Yh3XGxTmdRO3uP2hceFyveIqwLOxNQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/invoices/2/archive",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"invoices",
+								"2",
+								"archive"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Redo",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE1OTY4MDEyMTAsImV4cCI6MTYwNzE2OTIxMCwiaXNzIjoiaHR0cDovL2VrYXJhcGV0YXU6MTAwODIiLCJhdWQiOiJJbnZvaWNlTWFuYWdlbWVudCIsImNsaWVudF9pZCI6IndlYkFwcGxpY2F0aW9uIiwic3ViIjoiRGVmYXVsdCIsImF1dGhfdGltZSI6MTU5NjgwMTIxMCwiaWRwIjoibG9jYWwiLCJUZW5hbnRJZCI6IkRlZmF1bHQiLCJqdGkiOiJCRTYwNThBNjk0RTdBNjQ5ODc4OEU2NzM0RjNGMzcwNCIsImlhdCI6MTU5NjgwMTIxMCwic2NvcGUiOlsiSW52b2ljZU1hbmFnZW1lbnQiXSwiYW1yIjpbInBhc3N3b3JkIl19.Dowk9ktOa0Cims8Y3VxEHGUQ2O8zJoApIhk29Q1unk20DlfuyuZLZlD1Yh3XGxTmdRO3uP2hceFyveIqwLOxNQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/invoices/157/redo",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"invoices",
+								"157",
+								"redo"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Pages",
+			"item": [
+				{
+					"name": "GetPagesByInvoiceID",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE1OTY4MDEyMTAsImV4cCI6MTYwNzE2OTIxMCwiaXNzIjoiaHR0cDovL2VrYXJhcGV0YXU6MTAwODIiLCJhdWQiOiJJbnZvaWNlTWFuYWdlbWVudCIsImNsaWVudF9pZCI6IndlYkFwcGxpY2F0aW9uIiwic3ViIjoiRGVmYXVsdCIsImF1dGhfdGltZSI6MTU5NjgwMTIxMCwiaWRwIjoibG9jYWwiLCJUZW5hbnRJZCI6IkRlZmF1bHQiLCJqdGkiOiJCRTYwNThBNjk0RTdBNjQ5ODc4OEU2NzM0RjNGMzcwNCIsImlhdCI6MTU5NjgwMTIxMCwic2NvcGUiOlsiSW52b2ljZU1hbmFnZW1lbnQiXSwiYW1yIjpbInBhc3N3b3JkIl19.Dowk9ktOa0Cims8Y3VxEHGUQ2O8zJoApIhk29Q1unk20DlfuyuZLZlD1Yh3XGxTmdRO3uP2hceFyveIqwLOxNQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/pages/invoices/69",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"pages",
+								"invoices",
+								"69"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetTemporaryImageLink",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE1OTY4MDEyMTAsImV4cCI6MTYwNzE2OTIxMCwiaXNzIjoiaHR0cDovL2VrYXJhcGV0YXU6MTAwODIiLCJhdWQiOiJJbnZvaWNlTWFuYWdlbWVudCIsImNsaWVudF9pZCI6IndlYkFwcGxpY2F0aW9uIiwic3ViIjoiRGVmYXVsdCIsImF1dGhfdGltZSI6MTU5NjgwMTIxMCwiaWRwIjoibG9jYWwiLCJUZW5hbnRJZCI6IkRlZmF1bHQiLCJqdGkiOiJCRTYwNThBNjk0RTdBNjQ5ODc4OEU2NzM0RjNGMzcwNCIsImlhdCI6MTU5NjgwMTIxMCwic2NvcGUiOlsiSW52b2ljZU1hbmFnZW1lbnQiXSwiYW1yIjpbInBhc3N3b3JkIl19.Dowk9ktOa0Cims8Y3VxEHGUQ2O8zJoApIhk29Q1unk20DlfuyuZLZlD1Yh3XGxTmdRO3uP2hceFyveIqwLOxNQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/pages/1/imageLink",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"pages",
+								"1",
+								"imageLink"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "ProcessingResults",
+			"item": [
+				{
+					"name": "GetById",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE1OTY4MDEyMTAsImV4cCI6MTYwNzE2OTIxMCwiaXNzIjoiaHR0cDovL2VrYXJhcGV0YXU6MTAwODIiLCJhdWQiOiJJbnZvaWNlTWFuYWdlbWVudCIsImNsaWVudF9pZCI6IndlYkFwcGxpY2F0aW9uIiwic3ViIjoiRGVmYXVsdCIsImF1dGhfdGltZSI6MTU5NjgwMTIxMCwiaWRwIjoibG9jYWwiLCJUZW5hbnRJZCI6IkRlZmF1bHQiLCJqdGkiOiJCRTYwNThBNjk0RTdBNjQ5ODc4OEU2NzM0RjNGMzcwNCIsImlhdCI6MTU5NjgwMTIxMCwic2NvcGUiOlsiSW52b2ljZU1hbmFnZW1lbnQiXSwiYW1yIjpbInBhc3N3b3JkIl19.Dowk9ktOa0Cims8Y3VxEHGUQ2O8zJoApIhk29Q1unk20DlfuyuZLZlD1Yh3XGxTmdRO3uP2hceFyveIqwLOxNQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/processingresults/1/",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"processingresults",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetByInvoiceId",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE1OTY4MDEyMTAsImV4cCI6MTYwNzE2OTIxMCwiaXNzIjoiaHR0cDovL2VrYXJhcGV0YXU6MTAwODIiLCJhdWQiOiJJbnZvaWNlTWFuYWdlbWVudCIsImNsaWVudF9pZCI6IndlYkFwcGxpY2F0aW9uIiwic3ViIjoiRGVmYXVsdCIsImF1dGhfdGltZSI6MTU5NjgwMTIxMCwiaWRwIjoibG9jYWwiLCJUZW5hbnRJZCI6IkRlZmF1bHQiLCJqdGkiOiJCRTYwNThBNjk0RTdBNjQ5ODc4OEU2NzM0RjNGMzcwNCIsImlhdCI6MTU5NjgwMTIxMCwic2NvcGUiOlsiSW52b2ljZU1hbmFnZW1lbnQiXSwiYW1yIjpbInBhc3N3b3JkIl19.Dowk9ktOa0Cims8Y3VxEHGUQ2O8zJoApIhk29Q1unk20DlfuyuZLZlD1Yh3XGxTmdRO3uP2hceFyveIqwLOxNQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/processingresults/invoices/69/",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"processingresults",
+								"invoices",
+								"69",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetLatestByInvoiceId",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE1OTY4MDEyMTAsImV4cCI6MTYwNzE2OTIxMCwiaXNzIjoiaHR0cDovL2VrYXJhcGV0YXU6MTAwODIiLCJhdWQiOiJJbnZvaWNlTWFuYWdlbWVudCIsImNsaWVudF9pZCI6IndlYkFwcGxpY2F0aW9uIiwic3ViIjoiRGVmYXVsdCIsImF1dGhfdGltZSI6MTU5NjgwMTIxMCwiaWRwIjoibG9jYWwiLCJUZW5hbnRJZCI6IkRlZmF1bHQiLCJqdGkiOiJCRTYwNThBNjk0RTdBNjQ5ODc4OEU2NzM0RjNGMzcwNCIsImlhdCI6MTU5NjgwMTIxMCwic2NvcGUiOlsiSW52b2ljZU1hbmFnZW1lbnQiXSwiYW1yIjpbInBhc3N3b3JkIl19.Dowk9ktOa0Cims8Y3VxEHGUQ2O8zJoApIhk29Q1unk20DlfuyuZLZlD1Yh3XGxTmdRO3uP2hceFyveIqwLOxNQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://invoicecapture-applicationgateway-dev.eastus.cloudapp.azure.com/processingresults/invoices/69/latest",
+							"protocol": "https",
+							"host": [
+								"invoicecapture-applicationgateway-dev",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"path": [
+								"processingresults",
+								"invoices",
+								"69",
+								"latest"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

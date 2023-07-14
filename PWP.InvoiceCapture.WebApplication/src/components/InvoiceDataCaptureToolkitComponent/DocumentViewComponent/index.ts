@@ -1,0 +1,1 @@
+export { DocumentViewComponent } from "./DocumentViewComponent";
